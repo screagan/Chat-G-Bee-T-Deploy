@@ -1,103 +1,103 @@
-﻿"database_id"
-scientificName
-family
-subfamily
-genus
-subgenus
-subspecies
-species
-specificEpithet
-infraspecificEpithet
-acceptedNameUsage
-taxonRank
-scientificNameAuthorship
-identificationQualifier
-higherClassification
-identificationReferences
-typeStatus
--previousIdentifications
-verbatimIdentification
-identifiedBy
-dateIdentified
+﻿database_id +
+scientificName +
+family +
+subfamily +
+genus +
+subgenus *
+subspecies +
+species +
+specificEpithet +
+infraspecificEpithet *
+acceptedNameUsage +
+taxonRank +
+scientificNameAuthorship +
+identificationQualifier + 
+higherClassification +
+identificationReferences +
+typeStatus + 
+-previousIdentifications *
+verbatimIdentification + 
+identifiedBy +
+dateIdentified + 
 decimalLatitude
 decimalLongitude
--verbatimLatitude
--verbatimLongitude
--verbatimElevation
-stateProvince
-country
-continent
-locality
-island
-county
-municipality
--level0Gid
--level0Name
--level1Gid
--level1Name
--license
--issue
-eventDate
-eventTime
--startDayOfYear
--endDayOfYear
-day
-month
-year
-basisOfRecord
--type
--occurrenceStatus
--recordNumber
--recordedBy
--eventID
-samplingProtocol
--samplingEffort
--individualCount
--organismQuantity
--coordinatePrecision
--coordinateUncertaintyInMeters
--spatiallyValid
-catalogNumber
--gbifID
--datasetID
-institutionCode
--datasetName
--otherCatalogNumbers
--occurrenceID
--taxonKey
--coreid
--recordId
--collectionID
--associatedSequences
-verbatimScientificName
-verbatimEventDate
-associatedTaxa
-associatedOrganisms
-fieldNotes
-sex
--rights
--rightsHolder
--accessRights
-associatedReferences
-bibliographicCitation
-references
--informationWithheld
--isDuplicateOf
--hasCoordinate
--hasGeospatialIssues
--assertions
--occurrenceYear
--id
--duplicateStatus
--associatedOccurrences
--locationRemarks
--dataSource
--Location
--verbatim_scientificName
--idContinuity
--countryCO
--country_suggested
--countryCode
--coordinates_transposed
--iso_a3_eh
--countryMatch
+-verbatimLatitude *
+-verbatimLongitude *
+-verbatimElevation *
+stateProvince +
+country +
+continent +
+locality +
+island + 
+county +
+municipality +
+-level0Gid *
+-level0Name *
+-level1Gid *
+-level1Name *
+-license *
+-issue *
+eventDate +
+eventTime +
+-startDayOfYear *
+-endDayOfYear *
+day +
+month +
+year +
+basisOfRecord +
+-type *
+-occurrenceStatus *
+-recordNumber *
+-recordedBy *
+-eventID*
+samplingProtocol +
+-samplingEffort *
+-individualCount *
+-organismQuantity *
+-coordinatePrecision *
+-coordinateUncertaintyInMeters *
+-spatiallyValid *
+catalogNumber +
+-gbifID *
+-datasetID *
+institutionCode +
+-datasetName *
+-otherCatalogNumbers *
+-occurrenceID *
+-taxonKey *
+-coreid *
+-recordId *
+-collectionID *
+-associatedSequences *
+verbatimScientificName +
+verbatimEventDate +
+associatedTaxa +
+associatedOrganisms +
+fieldNotes +
+sex + 
+-rights *
+-rightsholder *
+-accessRights *
+associatedReferences +
+bibliographicCitation +
+references +
+-informationWithheld *
+-isDuplicateOf *
+-hasCoordinate *
+-hasGeospatialIssues *
+-assertions *
+-occurrenceYear *
+-id *
+-duplicateStatus *
+-associatedOccurrences *
+-locationRemarks *
+-dataSource *
+-Location *
+-verbatim_scientificName *
+-idContinuity *
+-countryCO *
+-country_suggested *
+-countryCode *
+-coordinates_transposed *
+-iso_a3_eh *
+-countryMatch *
