@@ -1,0 +1,1 @@
+This folder will contain the scripts for actually interacting with the chatbot. This includes getting chat history, sending messages, etc. Most of the work/maintenence will be in here.
