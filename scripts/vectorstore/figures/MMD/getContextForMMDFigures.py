@@ -1,5 +1,5 @@
 
-from scripts.vectorstore.createAndStoreEmbeddings.figures.getFiguresFromAWS import get_figures_from_source
+from figures.getFiguresFromAWS import get_figures_from_source
 import re
 import pandas as pd
 
@@ -92,9 +92,9 @@ def get_context_for_MMD_figure_descriptions(main_text, keys_text, context_size=1
     df_context['Figure'] = df_context['Figure']
     df_context = df_context.sort_values(by='Figure')
 
-
+    
     #Now, create DF with figure numbers, image keys and image urls from s3 bucket (TODO: Unhardcode this)
-    df_images = get_figures_from_source(bucket_name = 'ccbeer-tester-bucket', source_name = 'MMD-Figures/')
+    df_images = get_figures_from_source(bucket_name = 'ccber-tester-bucket', source_name = 'MMD-Figures/')
 
     #Now, merge the dataframes to match object urls with their corresponding context
     df_combined = pd.merge(df_images, df_context, on='Figure', how='inner')

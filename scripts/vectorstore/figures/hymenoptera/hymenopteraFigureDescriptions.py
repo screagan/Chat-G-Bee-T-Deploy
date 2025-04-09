@@ -1,5 +1,5 @@
 from openai import OpenAI
-from vectorstore.createAndStoreEmbeddings.figures.getFiguresFromSource import get_figures_from_source
+from figures.getFiguresFromAWS import get_figures_from_source
 from dotenv import load_dotenv
 import os
 

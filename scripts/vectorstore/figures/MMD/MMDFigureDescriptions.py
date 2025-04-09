@@ -1,25 +1,25 @@
 from openai import OpenAI
-from scripts.vectorstore.text.extractTextFromPDF import extract_text_from_pdf
-from scripts.vectorstore.figures.MMD.standardizeFigRefsFromText import standardize_figures
-from scripts.vectorstore.figures.MMD.getContextForMMDFigures import get_context_for_MMD_figure_descriptions
+from text.extractTextFromPDF import extract_text_from_pdf
+from figures.MMD.standardizeFigRefsFromText import standardize_figures
+from figures.MMD.getContextForMMDFigures import get_context_for_MMD_figure_descriptions
 from dotenv import load_dotenv
 import os
 
 def generate_descriptions_of_MMD_figures():
 
-    #Now actually use it
+    bucket_name = "ccber-tester-bucket"
     object_key_1 = "MMD-Main-Text.pdf"
-    main_text = extract_text_from_pdf(object_key_1)
+    main_text = extract_text_from_pdf(object_key_1, bucket_name)
     main_text = standardize_figures(main_text)
 
     object_key_2 =  "MMD-Keys.pdf"
-    keys_text = extract_text_from_pdf(object_key_2)
+    keys_text = extract_text_from_pdf(object_key_2, bucket_name)
     keys_text = standardize_figures(keys_text)
 
     context_df = get_context_for_MMD_figure_descriptions(main_text, keys_text)
 
     load_dotenv()
-    openai_api_key = os.getEnv("OPENAI_API_KEY")
+    openai_api_key = os.getenv("OPENAI_API_KEY")
 
     client = OpenAI(api_key=openai_api_key)
     context_df['Generated Description'] = context_df.apply(lambda row: generate_figure_description(client, row['Figure'], row['Context']), axis=1)
