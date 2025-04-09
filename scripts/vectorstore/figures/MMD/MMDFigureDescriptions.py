@@ -1,5 +1,5 @@
 from openai import OpenAI
-from scripts.vectorstore.extractTextFromPDF import extract_text_from_pdf
+from scripts.vectorstore.text.extractTextFromPDF import extract_text_from_pdf
 from scripts.vectorstore.figures.MMD.standardizeFigRefsFromText import standardize_figures
 from scripts.vectorstore.figures.MMD.getContextForMMDFigures import get_context_for_MMD_figure_descriptions
 from dotenv import load_dotenv
