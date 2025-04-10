@@ -33,7 +33,7 @@ def extract_text_from_pdf(object_key, bucket_name) -> str:
 
     extracted_text = "\n".join(extracted_text).strip()
     # To write text to text file, which we probably want to do later:
-    # obj_key_without_file_type = object_key[:-4]
-    # with open(f"{obj_key_without_file_type}_extracted_text.txt", "w", encoding="utf-8") as f:
-    #   f.write(extracted_text)
+    obj_key_without_file_type = object_key[:-4]
+    with open(f"{obj_key_without_file_type}_extracted_text.txt", "w", encoding="utf-8") as f:
+       f.write(extracted_text)
     return extracted_text

@@ -1,32 +1,32 @@
 from openai import OpenAI
-from text.extractTextFromPDF import extract_text_from_pdf
-from figures.MMD.standardizeFigRefsFromText import standardize_figures
 from figures.MMD.getContextForMMDFigures import get_context_for_MMD_figure_descriptions
 from dotenv import load_dotenv
 import os
 
 def generate_descriptions_of_MMD_figures():
 
-    bucket_name = "ccber-tester-bucket"
-    object_key_1 = "MMD-Main-Text.pdf"
-    main_text = extract_text_from_pdf(object_key_1, bucket_name)
-    main_text = standardize_figures(main_text)
+    # Read in MMD text files, already standardized references to figures (see standardizeFigRefsFromText.py in data folder)
+    with open("data/MMD-Main-Text-With-Standardized-Fig-Refs.txt", "r", encoding="utf-8") as f:
+     main_text = f.read()
 
-    object_key_2 =  "MMD-Keys.pdf"
-    keys_text = extract_text_from_pdf(object_key_2, bucket_name)
-    keys_text = standardize_figures(keys_text)
+    with open("data/MMD-Keys-With-Standardized-Fig-Refs.txt", "r", encoding="utf-8") as f:
+     keys_text = f.read()
 
+    # This function gathers all references to figures in the text, and returns a dataframe with the figure number, the context of the figure, and the s3 key for the figure
+    # The context is the text surrounding the figure reference, and the s3 key is the location of the figure in our s3 bucket
     context_df = get_context_for_MMD_figure_descriptions(main_text, keys_text)
 
     load_dotenv()
     openai_api_key = os.getenv("OPENAI_API_KEY")
-
     client = OpenAI(api_key=openai_api_key)
+
+    # Generate descriptions for each figure using the function below, add them to dataframe
     context_df['Generated Description'] = context_df.apply(lambda row: generate_figure_description(client, row['Figure'], row['Context']), axis=1)
     return context_df
 
 
-#Function to take in OpenAI client, figure number, and figure context, and generate a description
+#Function to takes in context (figure references) of a figure and creates a description.
+#We will embed these descriptions rather than embedding the image themselves.
 def generate_figure_description(client, figure_num, context):
     """
     Calls OpenAI's API to generate a figure description optimized for embedding retrieval.

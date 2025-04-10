@@ -36,7 +36,7 @@ def standardize_figures(text):
 
     # Save to a file for manual editing. Pass in object_key as param to this function if you need it.
     # obj_key_without_file_type = object_key[:-4]
-    # with open(f"{obj_key_without_file_type}_standardized_text.txt", "w", encoding="utf-8") as f:
-    #   f.write(text)
+    with open(f"MMD-Keys-Text_standardized_text.txt", "w", encoding="utf-8") as f:
+       f.write(text)
 
     return standardized_text
