@@ -18,13 +18,24 @@ def get_figures_from_source(bucket_name, source_name): # e.g. source_name = 'MMD
                     aws_secret_access_key=aws_secret_access_key)
 
   s3_objects = s3.list_objects_v2(Bucket=bucket_name, Prefix=source_name)
-
+  
   # Prepare to get metadata
   figure_numbers = []
   image_keys = []
   image_urls = []
+  
+  # Check if the bucket is empty
+  if 'Contents' not in s3_objects:
+    print(f"No objects found in bucket '{bucket_name}' with prefix '{source_name}'")
+    data = {
+      'Figure': figure_numbers,
+      'Image Key': image_keys,
+      'Image URL': image_urls
+    }
+    return pd.DataFrame(data)
+  
   for obj in s3_objects['Contents']:
-
+    print(obj["Key"])
     file_type = obj["Key"][-3:]
     img_key = obj["Key"]
 
@@ -45,6 +56,6 @@ def get_figures_from_source(bucket_name, source_name): # e.g. source_name = 'MMD
       'Image Key': image_keys,
       'Image URL': image_urls
   }
-
-  return pd.DataFrame(data)
-
+  
+  df = pd.DataFrame(data)
+  return df

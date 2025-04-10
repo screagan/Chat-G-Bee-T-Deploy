@@ -26,7 +26,7 @@ def extract_text_from_pdf(object_key, bucket_name) -> str:
 
     # Extract text using Tesseract OCR
     extracted_text = []
-    for page_num, image in enumerate(images):  # Adjust page range if needed
+    for page_num, image in enumerate(images):  # Adjust page range here if needed
         text = pytesseract.image_to_string(image, config='--psm 6')  # Use PSM mode 6 (assumes structured text)
         extracted_text.append(text)
         print(f"Extracted text from page {page_num} of {object_key}")
