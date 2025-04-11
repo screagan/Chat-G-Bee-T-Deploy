@@ -1,7 +1,7 @@
 import pandas as pd
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-def chunk_text_to_dataframe(text, source):
+def chunk_text_to_dataframe(text, source_name):
     # Initialize the text chunker
     custom_text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=400,
@@ -16,10 +16,15 @@ def chunk_text_to_dataframe(text, source):
     data = []
     for idx, chunk in enumerate(chunks[:200]):
         data.append({
-            "chunk_id": f"{source}_CHUNK_{idx}",
-            "chunk_text": chunk.page_content,
-            "source": f"{source}"
+            'Source': source_name,
+            'Type': 'Text',
+            'Text Content': chunk.page_content,
+            'Figure Number': 'NA',
+            'Image Key': 'NA',
+            'Image URL': 'NA',
+            'Image Description': 'NA',
         })
+
 
     # Create and return DataFrame
     return pd.DataFrame(data)

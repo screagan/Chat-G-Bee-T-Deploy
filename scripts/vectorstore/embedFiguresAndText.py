@@ -7,8 +7,9 @@ from text.chunkText import chunk_text_to_dataframe
 with open("data/MMD-Main-Text-Original.txt", "r", encoding="utf-8") as f:
      mmd_main_text = f.read()
 
-mmd_text_chunks_df = chunk_text_to_dataframe(text=mmd_main_text, source="MMD")
-print(mmd_text_chunks_df.head(10))
+mmd_text_chunks_df = chunk_text_to_dataframe(text=mmd_main_text, source_name="MMD")
+mmd_text_chunks_df.to_csv("data/mmd_text_chunks.csv", index=False)
+print(list(mmd_text_chunks_df.columns))
 
 # Second: Get text chunks from main text of Hymenoptera once we have it, put them into DF ready to be embedded
 # with open("data/Hymenoptera-Main-Text-Original.txt", "r", encoding="utf-8") as f:
@@ -19,9 +20,11 @@ print(mmd_text_chunks_df.head(10))
 
 # Third: Generate descriptions of MMD Figures, put them into DF ready to be embedded
 mmd_figs_df = generate_descriptions_of_MMD_figures()
-print(mmd_figs_df.head(10))
+mmd_figs_df.to_csv("data/mmd_figs.csv", index=False)
+print(list(mmd_figs_df.columns))
 
 # Fourth: Generate descriptions of Hymenoptera Figures, put them into DF ready to be embedded
 hymenoptera_figs_df = generate_descriptions_of_hymenoptera_figures()
-print(hymenoptera_figs_df.head(10))
+hymenoptera_figs_df.to_csv("data/hymenoptera_figs.csv", index=False)
+print(list(hymenoptera_figs_df.columns))
 

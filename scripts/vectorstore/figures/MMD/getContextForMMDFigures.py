@@ -42,7 +42,7 @@ def get_context_for_MMD_figure_descriptions(main_text, keys_text, context_size=1
 
         # Extract just the number, to feed to DF. TODO: Change by using Apply function maybe, like do this line below later to all at once. Think through tho
         figure = int(re.search(r'\d+', figure_number).group())
-        data.append({"Figure": figure, "Context": context})
+        data.append({"Figure Number": figure, "Context": context})
 
         # Update last_index to enforce skip
         last_index = end + skip_forward
@@ -76,7 +76,7 @@ def get_context_for_MMD_figure_descriptions(main_text, keys_text, context_size=1
 
         context = keys_text[stop_index:end]
 
-        data.append({"Figure": figure, "Context": context})
+        data.append({"Figure Number": figure, "Context": context})
 
         # Update last index to enforce skip
         last_keys_text_index = end + skip_forward
@@ -86,19 +86,19 @@ def get_context_for_MMD_figure_descriptions(main_text, keys_text, context_size=1
     df_context = pd.DataFrame(data)
 
     # Group by 'Figure Number' and concatenate contexts
-    df_context = df_context.groupby('Figure', as_index=False).agg({'Context': ' -- NEXT CONTEXT -- '.join})
+    df_context = df_context.groupby('Figure Number', as_index=False).agg({'Context': ' -- NEXT CONTEXT -- '.join})
 
     # Sort by extracted numeric figure, we do this again later so we dont have to now, but it's nicer on the eys
-    df_context['Figure'] = df_context['Figure']
-    df_context = df_context.sort_values(by='Figure')
+    # df_context['Figure'] = df_context['Figure']
+    df_context = df_context.sort_values(by='Figure Number')
 
     
     #Now, create DF with figure numbers, image keys and image urls from s3 bucket (TODO: Unhardcode this)
     df_images = get_figures_from_source(bucket_name = 'ccber-tester-bucket', source_name = 'MMD-Figures/')
 
     #Now, merge the dataframes to match object urls with their corresponding context
-    df_combined = pd.merge(df_images, df_context, on='Figure', how='inner')
-    df_combined = df_combined.sort_values(by='Figure')
+    df_combined = pd.merge(df_images, df_context, on='Figure Number', how='inner')
+    df_combined = df_combined.sort_values(by='Figure Number')
 
     return df_combined
 

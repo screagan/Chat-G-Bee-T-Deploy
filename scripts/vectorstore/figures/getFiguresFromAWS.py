@@ -26,13 +26,8 @@ def get_figures_from_source(bucket_name, source_name): # e.g. source_name = 'MMD
   
   # Check if the bucket is empty
   if 'Contents' not in s3_objects:
-    print(f"No objects found in bucket '{bucket_name}' with prefix '{source_name}'")
-    data = {
-      'Figure': figure_numbers,
-      'Image Key': image_keys,
-      'Image URL': image_urls
-    }
-    return pd.DataFrame(data)
+    print(f"No objects found in bucket '{bucket_name}' with prefix '{source_name}', please check your s3 bucket and make sure folder exists.")
+    return 
   
   for obj in s3_objects['Contents']:
     print(obj["Key"])
@@ -52,9 +47,12 @@ def get_figures_from_source(bucket_name, source_name): # e.g. source_name = 'MMD
       continue
 
   data = {
-      'Figure': figure_numbers,
+      'Source': source_name,
+      'Type': 'Image',
+      'Text Content': 'NA',
+      'Figure Number': figure_numbers,
       'Image Key': image_keys,
-      'Image URL': image_urls
+      'Image URL': image_urls,
   }
   
   df = pd.DataFrame(data)
