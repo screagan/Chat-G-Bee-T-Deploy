@@ -15,7 +15,7 @@ QDRANT_URL = "https://9c0688d2-2dbd-4087-a682-937bff353293.us-west-1-0.aws.cloud
 QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")         # Store your API key in .env file
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")         # Store your OpenAI key in .env file
 COLLECTION_NAME = "tester_ccber"             # Choose your collection name
-BATCH_SIZE = 100                                     # Batch size for uploads
+BATCH_SIZE = 10                                     # Batch size for uploads
 
 # Initialize clients
 qdrant_client = QdrantClient(
@@ -121,21 +121,21 @@ if __name__ == "__main__":
     # Example: df = pd.read_csv('your_data.csv')
     
     # For testing, let's create a small sample dataframe:
-    df = pd.read_csv('data/combined_data.csv')  # Replace with your actual file path
+#     df = pd.read_csv('data/combined_data.csv')  # Replace with your actual file path
     
-    # Upload data to Qdrant
-    upload_to_qdrant(df)
+#     # Upload data to Qdrant
+#     upload_to_qdrant(df)
     
-    # Verify the upload
-    verify_upload()
+#     # Verify the upload
+#     verify_upload()
     
     # Test simple search
-    test_query = "example search query"  # Replace with an actual test query
+    test_query = "what part of the bee is the occipital sulcus?"  # Replace with an actual test query
     test_embedding = embeddings.embed_query(test_query)
     search_results = qdrant_client.search(
         collection_name=COLLECTION_NAME,
         query_vector=test_embedding,
-        limit=3
+        limit=5
     )
     
     print("\nTest search results:")
