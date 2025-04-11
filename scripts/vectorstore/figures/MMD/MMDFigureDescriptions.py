@@ -21,7 +21,7 @@ def generate_descriptions_of_MMD_figures():
     client = OpenAI(api_key=openai_api_key)
 
     # Generate descriptions for each figure using the function below, add them to dataframe
-    context_df['Description'] = context_df.apply(lambda row: generate_figure_description(client, row['Figure Number'], row['Context']), axis=1)
+    context_df['Image Description'] = context_df.apply(lambda row: generate_figure_description(client, row['Figure Number'], row['Context']), axis=1)
     
     # Remove the 'Context' column from the DataFrame
     descriptions_df = context_df.drop(columns=['Context'])
