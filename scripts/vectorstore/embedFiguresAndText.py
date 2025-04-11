@@ -121,7 +121,7 @@ if __name__ == "__main__":
     # Example: df = pd.read_csv('your_data.csv')
     
     # For testing, let's create a small sample dataframe:
-#     df = pd.read_csv('data/combined_data.csv')  # Replace with your actual file path
+#     df = pd.read_csv('data/dataframesForEmbeddings/combined_data.csv')  # Replace with your actual file path
     
 #     # Upload data to Qdrant
 #     upload_to_qdrant(df)
