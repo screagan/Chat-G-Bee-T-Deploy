@@ -1,15 +1,13 @@
 
 import textwrap
 from openai import OpenAI
-from retrieveData import retrieve_relevant_data
-import os
-from dotenv import load_dotenv
 import requests
+import os
 from PIL import Image
 from io import BytesIO
 import time
 
-def generate_answer_with_images(client, query, retrieval_results):
+def generate_answer_with_images(query, retrieval_results):
     """
     Generates an answer using OpenAI API based on retrieved embeddings from Qdrant.
     Mentions figures passively instead of listing them separately.
@@ -74,6 +72,8 @@ def generate_answer_with_images(client, query, retrieval_results):
     - If specific figures are mentioned in the text, reference them properly.
     """
 
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
     # Call OpenAI API  
     response = client.chat.completions.create(
         model="gpt-4-turbo",
@@ -96,11 +96,3 @@ def display_images_pil(image_urls):
         except Exception as e:
             print(f"Could not display image from {url}: {e}")
 
-if __name__ == "__main__":
-    load_dotenv()
-    # Example Usage
-    question = "Show me a diagram of a bug's head"
-    retrieval_results = retrieve_relevant_data(question)
-    answer = generate_answer_with_images(OpenAI(api_key=os.getenv("OPENAI_API_KEY")), question, retrieval_results)
-
-    print(answer)  # Displays the OpenAI-generated response

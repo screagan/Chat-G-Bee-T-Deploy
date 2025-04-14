@@ -1,7 +1,7 @@
 import pandas as pd
 from qdrant_client import QdrantClient
 from qdrant_client.http import models as rest
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 from tqdm.auto import tqdm
 import uuid
 import os

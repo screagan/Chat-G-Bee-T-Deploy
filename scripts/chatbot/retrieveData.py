@@ -1,6 +1,6 @@
 
 from qdrant_client import QdrantClient
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_openai import OpenAIEmbeddings
 import os
 from dotenv import load_dotenv
 
@@ -41,7 +41,5 @@ def retrieve_relevant_data(query):
             print(f"- Description: {result.payload.get('image_description')[:100]}...")
         print(f"- Similarity score: {result.score}")
         print()
-    print(f"All results: {search_results}")
-    return search_results
 
-retrieve_relevant_data("What are mandible pairs?")
+    return search_results
