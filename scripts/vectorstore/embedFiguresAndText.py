@@ -117,35 +117,12 @@ def verify_upload():
 
 # Main execution
 if __name__ == "__main__":
-    # Load your dataframe - replace with your actual dataframe loading code
-    # Example: df = pd.read_csv('your_data.csv')
+    # Load dataframe with all of our embedding data
+    df = pd.read_csv('data/dataframesForEmbeddings/combined_data.csv')  
     
-    # For testing, let's create a small sample dataframe:
-#     df = pd.read_csv('data/dataframesForEmbeddings/combined_data.csv')  # Replace with your actual file path
+    # Upload data to Qdrant
+    upload_to_qdrant(df)
     
-#     # Upload data to Qdrant
-#     upload_to_qdrant(df)
+    # Verify the upload
+    verify_upload()
     
-#     # Verify the upload
-#     verify_upload()
-    
-    # Test simple search
-    test_query = "what part of the bee is the occipital sulcus?"  # Replace with an actual test query
-    test_embedding = embeddings.embed_query(test_query)
-    search_results = qdrant_client.search(
-        collection_name=COLLECTION_NAME,
-        query_vector=test_embedding,
-        limit=5
-    )
-    
-    print("\nTest search results:")
-    for i, result in enumerate(search_results):
-        print(f"Result {i+1}:")
-        content_type = result.payload.get("content_type")
-        if content_type == "text_chunk":
-            print(f"- Text chunk: {result.payload.get('text_content')[:100]}...")
-        else:
-            print(f"- Image: Figure {result.payload.get('figure_number')}")
-            print(f"- Description: {result.payload.get('image_description')[:100]}...")
-        print(f"- Similarity score: {result.score}")
-        print()
