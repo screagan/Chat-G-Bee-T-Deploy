@@ -1,29 +1,13 @@
 
-from qdrant_client import QdrantClient
-from langchain_openai import OpenAIEmbeddings
-import os
-from dotenv import load_dotenv
-
-# Load environment variables (for API keys)
-load_dotenv()
-
-QDRANT_URL = os.getenv("QDRANT_URL")
-QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")         
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")        
-COLLECTION_NAME = "tester_ccber"             # Choose your collection name
-BATCH_SIZE = 10                                     # Batch size for uploads
-
-# Initialize clients
-qdrant_client = QdrantClient(
-    url=QDRANT_URL,
-    api_key=QDRANT_API_KEY
-)
-
-# Initialize OpenAI embeddings
-embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
+from scripts.utils.client_provider import ClientProvider
 
 def retrieve_relevant_data(query):
 
+    qdrant_client = ClientProvider.get_qdrant_client()
+    embeddings = ClientProvider.get_embeddings()
+    COLLECTION_NAME = "tester_ccber"    
+
+    # Create collection if it doesn't exist
     test_embedding = embeddings.embed_query(query)
     search_results = qdrant_client.search(
         collection_name=COLLECTION_NAME,

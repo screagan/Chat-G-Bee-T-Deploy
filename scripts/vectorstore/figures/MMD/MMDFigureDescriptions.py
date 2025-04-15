@@ -1,7 +1,5 @@
-from openai import OpenAI
 from figures.MMD.getContextForMMDFigures import get_context_for_MMD_figure_descriptions
-from dotenv import load_dotenv
-import os
+from scripts.utils.client_provider import ClientProvider
 
 def generate_descriptions_of_MMD_figures():
 
@@ -16,12 +14,10 @@ def generate_descriptions_of_MMD_figures():
     # The context is the text surrounding the figure reference, and the s3 key is the location of the figure in our s3 bucket
     context_df = get_context_for_MMD_figure_descriptions(main_text, keys_text)
 
-    load_dotenv()
-    openai_api_key = os.getenv("OPENAI_API_KEY")
-    client = OpenAI(api_key=openai_api_key)
+    openai_client = ClientProvider.get_openai_client()
 
     # Generate descriptions for each figure using the function below, add them to dataframe
-    context_df['Image Description'] = context_df.apply(lambda row: generate_figure_description(client, row['Figure Number'], row['Context']), axis=1)
+    context_df['Image Description'] = context_df.apply(lambda row: generate_figure_description(openai_client, row['Figure Number'], row['Context']), axis=1)
     
     # Remove the 'Context' column from the DataFrame
     descriptions_df = context_df.drop(columns=['Context'])

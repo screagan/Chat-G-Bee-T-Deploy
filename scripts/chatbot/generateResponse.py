@@ -1,11 +1,10 @@
 
 import textwrap
-from openai import OpenAI
 import requests
-import os
 from PIL import Image
 from io import BytesIO
 import time
+from  scripts.utils.client_provider import ClientProvider
 
 def generate_answer_with_images(query, retrieval_results):
     """
@@ -72,8 +71,7 @@ def generate_answer_with_images(query, retrieval_results):
     - If specific figures are mentioned in the text, reference them properly.
     """
 
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
+    client = ClientProvider.get_openai_client()
     # Call OpenAI API  
     response = client.chat.completions.create(
         model="gpt-4-turbo",

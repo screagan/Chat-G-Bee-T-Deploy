@@ -1,21 +1,13 @@
 import boto3
 import pdf2image
 import pytesseract
-from dotenv import load_dotenv
-import os
+from scripts.utils.client_provider import ClientProvider
 
 # Gets PDF from AWS s3 Bucket and extracts text, returning a string
 
 def extract_text_from_pdf(object_key, bucket_name) -> str:
     # Load environment variables from the .env file
-    load_dotenv()
-    aws_access_key_id= os.getenv("AWS_ACCESS_KEY_ID")
-    aws_secret_access_key = os.getenv("AWS_SECRET_ACCESS_KEY")
-
-    # Create AWS s3 client
-    s3 = boto3.client('s3',
-                    aws_access_key_id=aws_access_key_id,
-                    aws_secret_access_key=aws_secret_access_key)
+    s3 = ClientProvider.get_s3_client()
 
     # Download the PDF file into memory
     response = s3.get_object(Bucket=bucket_name, Key=object_key)

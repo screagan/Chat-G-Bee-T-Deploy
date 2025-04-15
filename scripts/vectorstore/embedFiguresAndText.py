@@ -1,30 +1,14 @@
 import pandas as pd
-from qdrant_client import QdrantClient
 from qdrant_client.http import models as rest
-from langchain_openai import OpenAIEmbeddings
 from tqdm.auto import tqdm
 import uuid
-import os
-from dotenv import load_dotenv
+from scripts.utils.client_provider import ClientProvider    
 
-# Load environment variables (for API keys)
-load_dotenv()
-
-# Configuration
-QDRANT_URL = "https://9c0688d2-2dbd-4087-a682-937bff353293.us-west-1-0.aws.cloud.qdrant.io:6333"  # Replace with your Qdrant Cloud URL
-QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")         # Store your API key in .env file
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")         # Store your OpenAI key in .env file
 COLLECTION_NAME = "tester_ccber"             # Choose your collection name
 BATCH_SIZE = 10                                     # Batch size for uploads
 
-# Initialize clients
-qdrant_client = QdrantClient(
-    url=QDRANT_URL,
-    api_key=QDRANT_API_KEY
-)
-
-# Initialize OpenAI embeddings
-embeddings = OpenAIEmbeddings(api_key=OPENAI_API_KEY)
+qdrant_client = ClientProvider.get_qdrant_client()
+embeddings = ClientProvider.get_embeddings()
 
 def create_collection_if_not_exists(collection_name, vector_size=1536):
     """Create collection if it doesn't exist"""

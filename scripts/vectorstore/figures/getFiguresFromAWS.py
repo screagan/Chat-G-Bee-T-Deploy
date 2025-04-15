@@ -1,21 +1,11 @@
-import boto3
 import re
 import pandas as pd
-from dotenv import load_dotenv
-import os
-
+from scripts.utils.client_provider import ClientProvider
 # Takes in a bucket name and source name, outputs a dataframe containing the figures, their s3 keys and their urls.
 
 def get_figures_from_source(bucket_name, source_name): # e.g. source_name = 'MMD-Figures/'. Should correspond to folder in s3 bucket.
-  # Load environment variables from the .env file
-  load_dotenv()
-  aws_access_key_id= os.getenv("AWS_ACCESS_KEY_ID")
-  aws_secret_access_key = os.getenv("AWS_SECRET_ACCESS_KEY")
 
-  # Create AWS s3 client
-  s3 = boto3.client('s3',
-                    aws_access_key_id=aws_access_key_id,
-                    aws_secret_access_key=aws_secret_access_key)
+  s3 = ClientProvider.get_s3_client()
 
   s3_objects = s3.list_objects_v2(Bucket=bucket_name, Prefix=source_name)
   

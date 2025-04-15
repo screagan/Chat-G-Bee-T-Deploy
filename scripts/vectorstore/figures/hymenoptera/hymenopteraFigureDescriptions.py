@@ -1,8 +1,7 @@
-from openai import OpenAI
+from scripts.utils.client_provider import ClientProvider
 from ..getFiguresFromAWS import get_figures_from_source
 from dotenv import load_dotenv
 import os
-
 
 # We need to generate captions for our figures in the hymenoptera data source.
 # This works well for figures which have a caption within view of the figure.
@@ -11,9 +10,8 @@ def generate_descriptions_of_hymenoptera_figures():
 
     #get openai api key and create client
     load_dotenv()
-    openai_api_key = os.getenv("API_KEY")
-    openai_client = OpenAI(api_key=openai_api_key)
-    bucket_name = os.getenv("AWS_BUCKET_NAME")
+    openai_client = ClientProvider.get_openai_client()
+    bucket_name = os.getenv("BUCKET_NAME")
     #Get dataframe containing figures from hymenoptera
     figures_df = get_figures_from_source(bucket_name=bucket_name, source_name='Hymenoptera-Figures/') 
     
