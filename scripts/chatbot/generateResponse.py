@@ -49,12 +49,12 @@ def generate_answer_with_images(query, retrieval_results):
     # Display images (choose one of these options)
     if images_to_render:
         # Option 1: Show images using PIL (for local display)
-        display_images_pil(images_to_render)
+        # display_images_pil(images_to_render)
         
         # Option 2: Just print the image URLs for reference
-        # print("Image URLs for reference:")
-        # for url, fig_num in images_to_render:
-        #     print(f"Figure {fig_num}: {url}")
+        print("Image URLs for reference:")
+        for url, fig_num in images_to_render:
+            print(f"Figure {fig_num}: {url}")
 
     # Construct OpenAI Prompt
     prompt = f"""
@@ -80,7 +80,7 @@ def generate_answer_with_images(query, retrieval_results):
         temperature=0.3
     )
 
-    return textwrap.fill(response.choices[0].message.content, width=80)
+    return images_to_render, textwrap.fill(response.choices[0].message.content, width=80)
 
 def display_images_pil(image_urls):
     """Display images using PIL"""
