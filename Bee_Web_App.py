@@ -30,6 +30,5 @@ with st.form("my_form"):
             st.write("Answer: ", answer)
             if images:
                 for image in images:
-                    st.write("These are the images: ", image[0])
                     st.image(image[0], caption="Figure Number: " + str(image[1]))
                     
