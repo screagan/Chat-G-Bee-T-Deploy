@@ -6,18 +6,18 @@ from io import BytesIO
 import time
 from  scripts.utils.client_provider import ClientProvider
 
-def generate_answer_with_images(query, retrieval_results):
+def generate_answer_with_images_with_history(query, retrieval_results, history):
     """
-    Generates an answer using OpenAI API based on retrieved embeddings from Qdrant.
-    Mentions figures passively instead of listing them separately.
+    Generates an answer using OpenAI API based on retrieved embeddings from Qdrant,
+    considering conversation history.
 
     Args:
-        client (OpenAI): The OpenAI client.
         query (str): The user's question.
         retrieval_results (list): The output of the Qdrant query (list of ScoredPoint objects).
+        history (list): Previous conversation messages.
 
     Returns:
-        str: The generated answer from OpenAI.
+        tuple: (images_to_render, generated_answer)
     """
 
     # Extract text and figures into a cohesive context
@@ -29,7 +29,6 @@ def generate_answer_with_images(query, retrieval_results):
         content_type = payload.get("content_type")
         
         if content_type == "image_description":
-            # Handle image descriptions
             figure_number = payload.get("figure_number")
             description = payload.get("image_description")
             image_url = payload.get("image_url")
@@ -41,26 +40,32 @@ def generate_answer_with_images(query, retrieval_results):
                 images_to_render.append((image_url, figure_number))
                 
         elif content_type == "text_chunk":
-            # Handle text chunks
             text_content = payload.get("text_content")
             if text_content:
                 contexts.append(text_content)
 
-    # Display images (choose one of these options)
+    # Display images for reference
     if images_to_render:
-        # Option 1: Show images using PIL (for local display)
-        # display_images_pil(images_to_render)
-        
-        # Option 2: Just print the image URLs for reference
         print("Image URLs for reference:")
         for url, fig_num in images_to_render:
             print(f"Figure {fig_num}: {url}")
 
+    # Format conversation history for the prompt
+    conversation_context = ""
+    if history:
+        conversation_context = "Previous conversation:\n"
+        for msg in history:
+            role = "User" if msg["role"] == "user" else "Assistant"
+            # Only include the text content, not image references
+            conversation_context += f"{role}: {msg['content']}\n"
+
     # Construct OpenAI Prompt
     prompt = f"""
-    You are a scientific assistant helping to answer questions using retrieved figure descriptions and text.
+    You are a scientific assistant helping to answer questions about bees using retrieved figure descriptions and text.
 
-    **User Question:** {query}
+    {conversation_context}
+
+    **Current User Question:** {query}
 
     **Relevant Information:** {' '.join(contexts) if contexts else 'No relevant information found.'}
 
@@ -68,15 +73,20 @@ def generate_answer_with_images(query, retrieval_results):
     - Answer the question directly in a clear and concise manner.
     - If figures are available, reference them naturally within the response (e.g., "as shown in Figure 3").
     - Do not list figures separately; integrate them passively in the explanation.
+    - Consider the previous conversation for context when crafting your response.
+    - Maintain a coherent conversation flow by referring to previously discussed topics if relevant.
     - If specific figures are mentioned in the text, reference them properly.
     """
 
     client = ClientProvider.get_openai_client()
-    # Call OpenAI API  
+    
+    # Call OpenAI API with conversation history context
     response = client.chat.completions.create(
         model="gpt-4-turbo",
-        messages=[{"role": "system", "content": "You are an expert assistant that analyzes images and text to answer scientific questions."},
-                  {"role": "user", "content": prompt}],
+        messages=[
+            {"role": "system", "content": "You are an expert assistant that analyzes images and text to answer scientific questions about bees. Maintain context from the ongoing conversation."},
+            {"role": "user", "content": prompt}
+        ],
         temperature=0.3
     )
 
