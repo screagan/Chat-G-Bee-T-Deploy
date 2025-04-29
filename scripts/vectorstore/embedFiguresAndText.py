@@ -2,9 +2,10 @@ import pandas as pd
 from qdrant_client.http import models as rest
 from tqdm.auto import tqdm
 import uuid
-from scripts.utils.client_provider import ClientProvider    
 
-COLLECTION_NAME = "tester_ccber"             # Choose your collection name
+from utils.client_provider import ClientProvider  
+
+COLLECTION_NAME = "tester_ccber_2"             # Choose your collection name
 BATCH_SIZE = 10                                     # Batch size for uploads
 
 qdrant_client = ClientProvider.get_qdrant_client()
@@ -65,6 +66,7 @@ def upload_to_qdrant(df):
             # Create metadata payload
             payload = {
                 "source": row['Source'] if pd.notna(row['Source']) else '',
+                "page_number": int(row['Page Number']) if pd.notna(row['Page Number']) else None,
                 "type": row['Type'] if pd.notna(row['Type']) else '',
                 "content_type": content_type,
                 "text_content": row['Text Content'] if pd.notna(row['Text Content']) else '',
