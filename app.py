@@ -10,7 +10,7 @@ if 'messages' not in st.session_state:
     st.session_state.messages = []
 
 # Display existing chat messages
-st.title("ChatG-🐝: Your Bee Knowledge Assistant")
+st.title("ChatG🐝T: Your Bee Knowledge Assistant")
 
 # Display chat history
 for message in st.session_state.messages:
