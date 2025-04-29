@@ -1,13 +1,13 @@
-from figures.MMD.getContextForMMDFigures import get_context_for_MMD_figure_descriptions
-from scripts.utils.client_provider import ClientProvider
+from vectorstore.figures.MMD.getContextForMMDFigures import get_context_for_MMD_figure_descriptions
+from utils.client_provider import ClientProvider
 
 def generate_descriptions_of_MMD_figures():
 
     # Read in MMD text files, already standardized references to figures (see standardizeFigRefsFromText.py in data folder)
-    with open("data/MMD-Main-Text-With-Standardized-Fig-Refs.txt", "r", encoding="utf-8") as f:
+    with open("data/texts/MMD-Main-Text-With-Standardized-Fig-Refs.txt", "r", encoding="utf-8") as f:
      main_text = f.read()
 
-    with open("data/MMD-Keys-With-Standardized-Fig-Refs.txt", "r", encoding="utf-8") as f:
+    with open("data/texts/MMD-Keys-With-Standardized-Fig-Refs.txt", "r", encoding="utf-8") as f:
      keys_text = f.read()
 
     # This function gathers all references to figures in the text, and returns a dataframe with the figure number, the context of the figure, and the s3 key for the figure

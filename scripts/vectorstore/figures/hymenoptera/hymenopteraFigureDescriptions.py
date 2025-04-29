@@ -1,4 +1,11 @@
-from scripts.utils.client_provider import ClientProvider
+import sys
+import os
+
+# Add the parent directory to the path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))))
+
+# Now import the client_provider
+from utils.client_provider import ClientProvider
 from ..getFiguresFromAWS import get_figures_from_source
 from dotenv import load_dotenv
 import os
@@ -11,7 +18,7 @@ def generate_descriptions_of_hymenoptera_figures():
     #get openai api key and create client
     load_dotenv()
     openai_client = ClientProvider.get_openai_client()
-    bucket_name = os.getenv("BUCKET_NAME")
+    bucket_name = os.getenv("AWS_BUCKET_NAME")
     #Get dataframe containing figures from hymenoptera
     figures_df = get_figures_from_source(bucket_name=bucket_name, source_name='Hymenoptera-Figures/') 
     
@@ -44,7 +51,7 @@ def generate_descriptions_of_hymenoptera_figures():
     #Add captions to list
         descriptions.append(description)
     # Add captions to dataframe
-    figures_df["Description"] = descriptions
+    figures_df["Image Description"] = descriptions
 
     # Return dataframe containing the figure number, image key, image url, and figure description
     return figures_df
