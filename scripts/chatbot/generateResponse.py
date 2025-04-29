@@ -81,16 +81,17 @@ def generate_answer_with_images_with_history(query, retrieval_results, history):
     client = ClientProvider.get_openai_client()
     
     # Call OpenAI API with conversation history context
-    response = client.chat.completions.create(
+    stream = client.chat.completions.create(
         model="gpt-4-turbo",
         messages=[
             {"role": "system", "content": "You are an expert assistant that analyzes images and text to answer scientific questions about bees. Maintain context from the ongoing conversation."},
             {"role": "user", "content": prompt}
         ],
-        temperature=0.3
+        temperature=0.3,
+        stream=True
     )
 
-    return images_to_render, textwrap.fill(response.choices[0].message.content, width=80)
+    return images_to_render, stream #textwrap.fill(response.choices[0].message.content, width=80)
 
 def display_images_pil(image_urls):
     """Display images using PIL"""

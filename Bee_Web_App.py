@@ -30,8 +30,8 @@ def generate_response(input_text, history):
     retrieval_results = retrieve_relevant_data(input_text)
     
     # Generate answer considering history
-    images, answer = generate_answer_with_images_with_history(input_text, retrieval_results, formatted_history)
-    return images, answer
+    images, answer_stream = generate_answer_with_images_with_history(input_text, retrieval_results, formatted_history)
+    return images, answer_stream
 
 # User input area
 user_input = st.chat_input("What would you like to know about the bees today?")
@@ -47,12 +47,23 @@ if user_input:
     # Generate and display assistant response
     with st.chat_message("assistant"):
         with st.spinner("Generating response..."):
-            images, answer = generate_response(user_input, st.session_state.messages)
-            st.write(answer)
+            images, answer_stream = generate_response(user_input, st.session_state.messages)
+            # Initialize an empty container for the message
+            response_placeholder = st.empty()
+
+            # Stream the response word by word
+            full_response = ""
+            
+            for chunk in answer_stream:
+                if chunk.choices and chunk.choices[0].delta and chunk.choices[0].delta.content:
+                    full_response += chunk.choices[0].delta.content
+                    response_placeholder.markdown(full_response)
+                
+            # Display images (after text)    
             if images:
                 for image in images:
                     st.image(image[0], caption=f"Figure Number: {image[1]}")
     
     # Add assistant response to chat history
-    st.session_state.messages.append({"role": "assistant", "content": answer, "images": images})
+    st.session_state.messages.append({"role": "assistant", "content": full_response, "images": images})
                     
