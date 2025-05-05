@@ -37,6 +37,36 @@ def  remove_before_after(text, b_str = None, a_str = None):
         t = t[: a_index + len(a_str)]
     
     return t
+
+def trim_string(input_str, start_str, end_str):
+    # Normalize the input, start, and end strings to handle any extra spaces
+    start_str = re.sub(r'\s+', ' ', start_str.strip())  # Remove extra spaces in start_str
+    end_str = re.sub(r'\s+', ' ', end_str.strip())      # Remove extra spaces in end_str
+
+    # Create regex pattern for the start and end, allowing missing spaces
+    start_pattern = re.escape(start_str).replace(" ", r"\s*")
+    end_pattern = re.escape(end_str).replace(" ", r"\s*")
+
+    # Find the starting index (start_str) with optional spaces around it
+    start_index = re.search(r'\s*' + start_pattern + r'\s*', input_str)
+    
+    # If no start string match is found, return the original string up to the first part of the end pattern (if any)
+    if not start_index:
+        return input_str.strip()
+
+    start_index = start_index.start()
+
+    # Find the ending index (end_str) with optional spaces around it
+    end_index = re.search(r'\s*' + end_pattern + r'\s*', input_str[start_index:])
+    
+    # If no end string match is found, return from start_str to the end of the original string
+    if not end_index:
+        return input_str[start_index:].strip()
+
+    end_index = start_index + end_index.end()  # Adjust end_index relative to the original string
+
+    # Return the substring between the start and end, trimming any surrounding spaces
+    return input_str[start_index:end_index].strip()
     
 
 def extract_keys(text):
