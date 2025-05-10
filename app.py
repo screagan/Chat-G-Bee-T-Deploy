@@ -77,14 +77,36 @@ if user_input:
             with st.expander("Sources of Information"):
                 st.write("This response is based on the following sources:")
                 for i, source in enumerate(sources_info):
-                    st.markdown(f"""
-                    **Source {i+1}:**
-                    - Document: {source['source']}
-                    - Page: {source['page_number']}
-                    - Type: {source['content_type']}
-                    {f"- Figure: {source['figure_number']}" if source['figure_number'] != 'N/A' else ''}
-                    - Relevance score: {source['score']:.2f}
-                    """)
+                    # Format author if available (assuming it might be in the source field or added later)
+                    author = source.get('author', 'Unknown Author')
+                    
+                    # Format title from source field
+                    title = source['source']
+                    
+                    # Format publication details
+                    pub_details = []
+                    if 'publisher' in source:
+                        pub_details.append(source['publisher'])
+                    
+                    # Add page information
+                    page_info = f"p. {source['page_number']}" if source['page_number'] != 'N/A' else ''
+                    
+                    # Format figure information if available
+                    figure_info = f", fig. {source['figure_number']}" if source['figure_number'] != 'N/A' and source['figure_number'] else ''
+                    
+                    # Format the year (assuming you might have this in your data)
+                    year = source.get('year', '')
+                    if year:
+                        year = f", {year}"
+                        
+                    # Put it all together in MLA format
+                    mla_citation = f'**Source {i+1}:** {author}. "{title}"{year}. '
+                    if pub_details:
+                        mla_citation += f"{', '.join(pub_details)}. "
+                    if page_info or figure_info:
+                        mla_citation += f"{page_info}{figure_info}. "
+                    
+                    st.markdown(mla_citation)
                 
             # Display images (after text)    
             if images:
