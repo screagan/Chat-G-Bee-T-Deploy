@@ -27,7 +27,7 @@ def get_figures_from_source(bucket_name, source_name): # e.g. source_name = 'MMD
 
     if file_type == 'png' or file_type == 'jpg' or file_type == 'peg': #Make sure object is an image
       figure_number = int(re.search(r'img_(\d+)', img_key).group(1))
-      match = re.search(r'page_(\d+)_img', img_key)
+      match = re.search(r'(?:page_|pg_)(\d+)_img', img_key)
       if match:
         page_numbers.append(int(match.group(1)))
       else:
