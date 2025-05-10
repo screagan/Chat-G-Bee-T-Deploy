@@ -6,35 +6,32 @@ from text.extractTextFromPDF import extract_text_from_pdf
 import pandas as pd
 
 if __name__ == "__main__":
-    # # Example Usage
-    # question = input("Ask me a question: ")
-    # retrieval_results = retrieve_relevant_data(question)
-    # answer = generate_answer_with_images(question, retrieval_results)
-
-    # print(answer)  # Displays the OpenAI-generated response
 
     # import pandas as pd
 # First: Get text chunks and page numbers from main text of MMD, put them into DF ready to be embedded
     mmd_extracted_texts = extract_text_from_pdf(object_key='MMD-Main-Text.pdf', bucket_name='ccber-tester-bucket')
     mmd_text_chunks_df = chunk_text_to_dataframe(extracted_texts=mmd_extracted_texts, source_name="MMD")
-    mmd_text_chunks_df.to_csv("data/dataframesForEmbeddings/mmd_text_chunks.csv", index=False)
-# Second: Get text chunks and page numbers from Hymenoptera, put them into DF ready to be embedded
-# hymenoptera_extracted_texts = extract_text_from_pdf(object_key='Hymenoptera-Text', bucket_name='ccber-tester-bucket')
-# hymenoptera_text_chunks_df = chunk_text_to_dataframe(extracted_texts=mmd_extracted_texts, source_name="Hymenoptera")
+    mmd_text_chunks_df.to_csv("data/dataframesForEmbeddings/mmd_text_chunks.csv", index=False) #Save to csv to check out chunks. Optional.
+    print("Made text chunks for MMD")
 
-#Optional, save the DataFrames to a CSV file
-# mmd_text_chunks_df.to_csv("data/mmd_text_chunks.csv", index=False)
-# print(list(mmd_text_chunks_df.columns))
+# Second: Get text chunks and page numbers from HOTW, put them into DF ready to be embedded #TODO: Maybe edit which pages of HOTW text I upload
+    hymenoptera_extracted_texts = extract_text_from_pdf(object_key='Hymenoptera_of_the_work.pdf', bucket_name='ccber-tester-bucket')
+    hymenoptera_text_chunks_df = chunk_text_to_dataframe(extracted_texts=hymenoptera_extracted_texts, source_name="Hymenoptera of the World")
+    hymenoptera_text_chunks_df.to_csv("data/dataframesForEmbeddings/hymenoptera_text_chunks.csv", index=False)
+    print("Made text chunks for HOTW")
 
-# mmd_text_chunks_df.to_csv("data/mmd_text_chunks.csv", index=False)
-# print(list(mmd_text_chunks_df.columns))
+# Third: Get text chunks and page numbers from BOTW, put them into DF ready to be embedded #TODO: MAybe edit which pages of HOTW text I upload
+    # hymenoptera_extracted_texts = extract_text_from_pdf(object_key='Hymenoptera_of_the_work.pdf', bucket_name='ccber-tester-bucket')
+    # hymenoptera_text_chunks_df = chunk_text_to_dataframe(extracted_texts=hymenoptera_extracted_texts, source_name="Hymenoptera of the World")
+    # hymenoptera_text_chunks_df.to_csv("data/dataframesForEmbeddings/hymenoptera_text_chunks.csv", index=False)
+    # print("Made text chunks for BOTW")
 
-# Third: Generate descriptions of MMD Figures, put them into DF ready to be embedded
+# Fourth: Generate descriptions of MMD Figures, put them into DF ready to be embedded
     mmd_figs_df = generate_descriptions_of_MMD_figures()
     mmd_figs_df.to_csv("data/dataframesForEmbeddings/mmd_figs.csv", index=False)
     print(list(mmd_figs_df.columns))
 
-# Fourth: Generate descriptions of Hymenoptera Figures, put them into DF ready to be embedded
+# Fifth: Generate descriptions of Hymenoptera Figures, put them into DF ready to be embedded
     hymenoptera_figs_df = generate_descriptions_of_hymenoptera_figures()
     hymenoptera_figs_df.to_csv("data/dataframesForEmbeddings/hymenoptera_figs.csv", index=False)
     print(list(hymenoptera_figs_df.columns))
