@@ -2,12 +2,10 @@ from figures.hymenoptera.hymenopteraFigureDescriptions import generate_descripti
 from figures.MMD.MMDFigureDescriptions import generate_descriptions_of_MMD_figures
 from text.chunkText import chunk_text_to_dataframe
 from text.extractTextFromPDF import extract_text_from_pdf   
-
 import pandas as pd
 
 if __name__ == "__main__":
 
-    # import pandas as pd
 # Get text chunks and page numbers from main text of MMD, put them into DF ready to be embedded
     mmd_extracted_texts = extract_text_from_pdf(object_key='MMD-Main-Text.pdf', bucket_name='ccber-tester-bucket')
     mmd_text_chunks_df = chunk_text_to_dataframe(extracted_texts=mmd_extracted_texts, source_name="MMD")
@@ -20,7 +18,7 @@ if __name__ == "__main__":
     print(list(mmd_figs_df.columns))
 
 # Get text chunks and page numbers from HOTW, put them into DF ready to be embedded #TODO: Maybe edit which pages of HOTW text I upload
-    hymenoptera_extracted_texts = extract_text_from_pdf(object_key='Hymenoptera_of_the_work.pdf', bucket_name='ccber-tester-bucket')
+    hymenoptera_extracted_texts = extract_text_from_pdf(object_key='Hymenoptera_of_the_World.pdf', bucket_name='ccber-tester-bucket')
     hymenoptera_text_chunks_df = chunk_text_to_dataframe(extracted_texts=hymenoptera_extracted_texts, source_name="Hymenoptera of the World")
     hymenoptera_text_chunks_df.to_csv("data/dataframesForEmbeddings/hymenoptera_text_chunks.csv", index=False)
     print("Made text chunks for HOTW")
@@ -37,7 +35,7 @@ if __name__ == "__main__":
     # botw_text_chunks_df.to_csv("data/dataframesForEmbeddings/botw_text_chunks.csv", index=False)
     # print("Made text chunks for BOTW")
 
-# Generate descriptions of Hymenoptera Figures, put them into DF ready to be embedded 
+# Generate descriptions of BOTW Figures, put them into DF ready to be embedded 
     # botw_figs_df = TODO: Make this function actually work to make figure descriptions for BOTW
     # botw_figs_df.to_csv("data/dataframesForEmbeddings/botw_figs.csv", index=False)
     # print(list(botw_figs_df.columns))

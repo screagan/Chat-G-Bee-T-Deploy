@@ -20,7 +20,7 @@ def generate_descriptions_of_hymenoptera_figures():
     openai_client = ClientProvider.get_openai_client()
     bucket_name = os.getenv("AWS_BUCKET_NAME")
     #Get dataframe containing figures from hymenoptera
-    figures_df = get_figures_from_source(bucket_name=bucket_name, source_name='Hymenoptera-Figures/') 
+    figures_df = get_figures_from_source(bucket_name=bucket_name, source_name='HOTW-Figures/') 
     
     descriptions = []
     for url in figures_df["Image URL"]:
@@ -49,6 +49,7 @@ def generate_descriptions_of_hymenoptera_figures():
     #Error if necessary
             description = f"Error: {str(e)}"
     #Add captions to list
+        print("Created description for image:", url)
         descriptions.append(description)
     # Add captions to dataframe
     figures_df["Image Description"] = descriptions
