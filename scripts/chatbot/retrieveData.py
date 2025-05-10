@@ -1,11 +1,12 @@
 
 from scripts.utils.client_provider import ClientProvider
+import os
 
 def retrieve_relevant_data(query):
 
     qdrant_client = ClientProvider.get_qdrant_client()
     embeddings = ClientProvider.get_embeddings()
-    COLLECTION_NAME = "tester_ccber_2"    
+    COLLECTION_NAME = os.getenv("QDRANT_COLLECTION_NAME")
 
     # Create collection if it doesn't exist
     test_embedding = embeddings.embed_query(query)

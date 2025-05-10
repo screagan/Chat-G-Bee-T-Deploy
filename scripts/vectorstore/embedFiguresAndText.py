@@ -2,10 +2,10 @@ import pandas as pd
 from qdrant_client.http import models as rest
 from tqdm.auto import tqdm
 import uuid
-
+import os
 from utils.client_provider import ClientProvider  
 
-COLLECTION_NAME = "tester_ccber_2"             # Choose your collection name
+COLLECTION_NAME = os.getenv("QDRANT_COLLECTION_NAME")           # Choose your collection name
 BATCH_SIZE = 10                                     # Batch size for uploads
 
 qdrant_client = ClientProvider.get_qdrant_client()
