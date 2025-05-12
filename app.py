@@ -108,10 +108,6 @@ if user_input:
                     # Add period at the end if needed
                     if not apa_citation.endswith('.'):
                         apa_citation += '.'
-                        
-                    # Add relevance score if present
-                    if 'score' in source:
-                        apa_citation += f" Relevance score: {source['score']:.2f}"
                     
                     st.markdown(apa_citation)
                 
