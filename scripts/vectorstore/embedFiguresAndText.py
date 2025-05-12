@@ -3,7 +3,7 @@ from qdrant_client.http import models as rest
 from tqdm.auto import tqdm
 import uuid
 import os
-from utils.client_provider import ClientProvider  
+from ..utils.client_provider import ClientProvider  
 
 COLLECTION_NAME = os.getenv("QDRANT_COLLECTION_NAME")           # Choose your collection name
 BATCH_SIZE = 10                                     # Batch size for uploads
@@ -65,7 +65,10 @@ def upload_to_qdrant(df):
             
             # Create metadata payload
             payload = {
-                "source": row['Source'] if pd.notna(row['Source']) else '',
+                "title": row['Title'] if pd.notna(row['Title']) else '',
+                "year": row['Year'] if pd.notna(row['Year']) else '',
+                "author": row['Author'] if pd.notna(row['Author']) else '',
+                "publisher": row['Publisher'] if pd.notna(row['Publisher']) else '',
                 "page_number": int(row['Page Number']) if pd.notna(row['Page Number']) else None,
                 "type": row['Type'] if pd.notna(row['Type']) else '',
                 "content_type": content_type,

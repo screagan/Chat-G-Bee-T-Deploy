@@ -19,6 +19,7 @@ def retrieve_relevant_data(query):
     for i, result in enumerate(search_results):
         print(f"Result {i+1}:")
         content_type = result.payload.get("content_type")
+        print(f"- Author: {result.payload.get('author')[:100]}...")
         if content_type == "text_chunk":
             print(f"- Text chunk: {result.payload.get('text_content')[:100]}...")
         else:

@@ -1,7 +1,7 @@
 import pandas as pd
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-def chunk_text_to_dataframe(extracted_texts, source_name):
+def chunk_text_to_dataframe(extracted_texts, source_title, source_year, source_author, source_publisher):
     # Initialize the text splitter
     custom_text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=400,
@@ -22,7 +22,10 @@ def chunk_text_to_dataframe(extracted_texts, source_name):
             # Add chunks to data with page number
             for chunk in chunks:
                 data.append({
-                    'Source': source_name,
+                    'Title': source_title,
+                    'Year': source_year,
+                    'Author': source_author,
+                    'Publisher': source_publisher,
                     'Page Number': page_num,  # Store the page number
                     'Type': 'Text',
                     'Text Content': chunk.page_content,
