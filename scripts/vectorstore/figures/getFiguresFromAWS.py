@@ -3,11 +3,11 @@ import pandas as pd
 from utils.client_provider import ClientProvider
 # Takes in a bucket name and source name, outputs a dataframe containing the figures, their s3 keys and their urls.
 
-def get_figures_from_source(bucket_name, source_name): # e.g. source_name = 'MMD-Figures/'. Should correspond to folder in s3 bucket.
+def get_figures_from_source(bucket_name, aws_folder, source_title, source_year, source_author, source_publisher): # e.g. aws_folder = 'MMD-Figures/'. Should correspond to folder in s3 bucket where images are held
 
   s3 = ClientProvider.get_s3_client()
 
-  s3_objects = s3.list_objects_v2(Bucket=bucket_name, Prefix=source_name)
+  s3_objects = s3.list_objects_v2(Bucket=bucket_name, Prefix=aws_folder)
   
   # Prepare to get metadata
   figure_numbers = []
@@ -17,7 +17,7 @@ def get_figures_from_source(bucket_name, source_name): # e.g. source_name = 'MMD
   
   # Check if the bucket is empty
   if 'Contents' not in s3_objects:
-    print(f"No objects found in bucket '{bucket_name}' with prefix '{source_name}', please check your s3 bucket and make sure folder exists.")
+    print(f"No objects found in bucket '{bucket_name}' with prefix '{aws_folder}', please check your s3 bucket and make sure folder exists.")
     return 
   
   for obj in s3_objects['Contents']:
@@ -43,7 +43,10 @@ def get_figures_from_source(bucket_name, source_name): # e.g. source_name = 'MMD
       continue
 
   data = {
-      'Source': source_name,
+      'Title': source_title,
+      'Year': source_year,
+      'Author': source_author,
+      'Publisher': source_publisher,
       'Page Number': page_numbers,
       'Type': 'Image',
       'Text Content': 'NA',

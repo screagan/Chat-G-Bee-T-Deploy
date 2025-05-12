@@ -20,7 +20,7 @@ def generate_descriptions_of_hymenoptera_figures():
     openai_client = ClientProvider.get_openai_client()
     bucket_name = os.getenv("AWS_BUCKET_NAME")
     #Get dataframe containing figures from hymenoptera
-    figures_df = get_figures_from_source(bucket_name=bucket_name, source_name='HOTW-Figures/') 
+    figures_df = get_figures_from_source(bucket_name=bucket_name, aws_folder='HOTW-Figures/', source_title="Hymenoptera of the World", source_year='1993', source_author='John I Huber', source_publisher='HOTWPublisher') 
     
     descriptions = []
     for url in figures_df["Image URL"]:

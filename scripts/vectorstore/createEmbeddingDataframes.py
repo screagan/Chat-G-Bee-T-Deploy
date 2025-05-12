@@ -13,9 +13,9 @@ if __name__ == "__main__":
     print("Made text chunks for MMD")
 
 # Generate descriptions of MMD Figures, put them into DF ready to be embedded
-    # mmd_figs_df = generate_descriptions_of_MMD_figures()
-    # mmd_figs_df.to_csv("data/dataframesForEmbeddings/mmd_figs.csv", index=False)
-    # print(list(mmd_figs_df.columns))
+    mmd_figs_df = generate_descriptions_of_MMD_figures()
+    mmd_figs_df.to_csv("data/dataframesForEmbeddings/mmd_figs.csv", index=False)
+    print(list(mmd_figs_df.columns))
 
 # Get text chunks and page numbers from HOTW, put them into DF ready to be embedded #TODO: Maybe edit which pages of HOTW text I upload
     hymenoptera_extracted_texts = extract_text_from_pdf(object_key='Hymenoptera_of_the_World.pdf', bucket_name='ccber-tester-bucket')
@@ -24,9 +24,9 @@ if __name__ == "__main__":
     print("Made text chunks for HOTW")
 
 # Generate descriptions of Hymenoptera Figures, put them into DF ready to be embedded
-    # hymenoptera_figs_df = generate_descriptions_of_hymenoptera_figures()
-    # hymenoptera_figs_df.to_csv("data/dataframesForEmbeddings/hymenoptera_figs.csv", index=False)
-    # print(list(hymenoptera_figs_df.columns))
+    hymenoptera_figs_df = generate_descriptions_of_hymenoptera_figures()
+    hymenoptera_figs_df.to_csv("data/dataframesForEmbeddings/hymenoptera_figs.csv", index=False)
+    print(list(hymenoptera_figs_df.columns))
 
 # Get text chunks and page numbers from BOTW, put them into DF ready to be embedded 
 # TODO: Talk to project managers / Daniel and see how we should get this text.
@@ -41,7 +41,7 @@ if __name__ == "__main__":
     # print(list(botw_figs_df.columns))
 
 # Combine all DataFrames into a single DataFrame
-    combined_df = pd.concat([mmd_text_chunks_df, hymenoptera_text_chunks_df], ignore_index=True)
+    combined_df = pd.concat([mmd_text_chunks_df, mmd_figs_df, hymenoptera_text_chunks_df, hymenoptera_figs_df], ignore_index=True)
 
 # Save the combined DataFrame to a single CSV file
     combined_df.to_csv("data/dataframesForEmbeddings/combined_data.csv", index=False)

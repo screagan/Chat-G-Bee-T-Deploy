@@ -94,7 +94,7 @@ def get_context_for_MMD_figure_descriptions(main_text, keys_text, context_size=1
 
     
     #Now, create DF with figure numbers, image keys and image urls from s3 bucket (TODO: Unhardcode this)
-    df_images = get_figures_from_source(bucket_name = 'ccber-tester-bucket', source_name = 'MMD-Figures/')
+    df_images = get_figures_from_source(bucket_name = 'ccber-tester-bucket', aws_folder = 'MMD-Figures/', source_title='MMD', source_year='2022', source_author='Danforth, Bryan, et al.', source_publisher='MMDPublisher')
 
     #Now, merge the dataframes to match object urls with their corresponding context
     df_combined = pd.merge(df_images, df_context, on='Figure Number', how='inner')
