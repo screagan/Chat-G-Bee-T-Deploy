@@ -120,14 +120,14 @@ def clean_df(df, section_num, term = False):
         match = re.match(r'^(.*)\s+\(Sec\.\s*(\d+)\)$', df.loc[i, 'left_target'])
         if match:
             df.loc[i, 'left_target_info'] = match.group(1)
-            df.loc[i, 'left_target'] = f'sec{match.group(2)}'
+            df.loc[i, 'left_target'] = f'sec{match.group(2)}-1'
         else:
             df.loc[i, 'left_target_info'] = None
 
         match = re.match(r'^(.*)\s+\(Sec\.\s*(\d+)\)$', df.loc[i, 'right_target'])
         if match:
             df.loc[i, 'right_target_info'] = match.group(1)
-            df.loc[i, 'right_target'] = f'sec{match.group(2)}'
+            df.loc[i, 'right_target'] = f'sec{match.group(2)}-1'
         else:
             df.loc[i, 'right_target_info'] = None
 
@@ -137,15 +137,14 @@ def clean_df(df, section_num, term = False):
 
     return df
 
-def create_terminal_points(df, term = False):
+def create_terminal_points(df):
     terminal_points = pd.DataFrame(columns = ['id', 'description', 'parent'])
     for i in range(len(df)):
         if df.loc[i, 'left_target_info'] is not None:
             info = {
                 'id' : df.loc[i, 'left_target'], 
                 'description': df.loc[i, 'left_target_info'],
-                'parent' : df.loc[i, 'id'],
-                'final_node' : True if term is True else False
+                'parent' : df.loc[i, 'id']
             }
 
             terminal_points = pd.concat([terminal_points, pd.DataFrame(info, index = [0])])
@@ -154,13 +153,10 @@ def create_terminal_points(df, term = False):
             info = {
                 'id' : df.loc[i, 'right_target'], 
                 'description': df.loc[i, 'right_target_info'],
-                'parent' : df.loc[i, 'id'],
-                'final_node' : True if term is True else False
+                'parent' : df.loc[i, 'id']
             }
 
             terminal_points = pd.concat([terminal_points, pd.DataFrame(info, index = [0])]).reset_index(drop = True)
-
-    
 
     return terminal_points
 
