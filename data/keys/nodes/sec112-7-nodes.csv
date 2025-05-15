@@ -1,0 +1,4 @@
+﻿id,left_text,left_target,right_text,right_target,left_target_info,right_target_info,parent
+sec112-7-1,Forewing with three submarginal cells (holarctic),E. (Synhalonia),Forewing with two submarginal cells (palearctic),sec112-7-2,E. (Synhalonia),,
+sec112-7-2,Males,sec112-7-3,Females,sec112-7-6,,,sec112-7-1
+sec112-7-3,"Gonostylus, as seen in lateral view, straight or gently arcuate",E. (Hetereucera),,,E. (Hetereucera),,sec112-7-2

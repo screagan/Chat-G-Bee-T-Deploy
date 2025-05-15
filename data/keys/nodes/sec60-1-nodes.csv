@@ -1,0 +1,4 @@
+﻿id,left_text,left_target,right_text,right_target,left_target_info,right_target_info,parent
+sec60-1-1,"Maxillary palpus present, six-segmented; male gonostylus partly differentiated from gonocoxite and hairy (Fig. 60-3a)",sec60-1-2,"Maxillary palpus absent; male gonostylus not recognizable, the apex of gonoforceps hairless (Fig. 60-3d)",Oxaea,,Oxaea,
+sec60-1-2,Mandible simple apically; clypeus and mandible of male without pale maculations,sec60-1-3,Mandible with preapical tooth on inner margin; clypeus and mandible of male with pale maculations (South America),Notoxaea,,Notoxaea,sec60-1-1
+sec60-1-3,"S8 of male with apex convex, not emarginate (Fig. 603b); T6 of male and T5 of female without conspicuous lateral tufts of long white hairs (North America)",Protoxaea,S8 of male with median apical emargination (Fig. 603g); T6 of male and T5 of female each with lateral tuft of long white hairs (North America),Mesoxaea,Protoxaea,Mesoxaea,sec60-1-2

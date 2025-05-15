@@ -1,0 +1,4 @@
+﻿id,left_text,left_target,right_text,right_target,left_target_info,right_target_info,parent
+sec82-24-1,"All tagmata with abundant yellow or cream-colored markings, including median tergal bands on metasoma",T . (Heteranthidium),"Integument without yellow or cream-colored markings except usually on face of male and, in Legnanthidium, on apical metasomal tergal margins",sec82-24-2,T . (Heteranthidium),,
+sec82-24-2,Arolia absent,T . (Ulanthidium),Arolia present,sec82-24-3,T . (Ulanthidium),,sec82-24-1
+sec82-24-3,Second recurrent vein joining second submarginal cell basal to second submarginal crossvein; mandible of female four-toothed,T . (Legnanthidium),Second recurrent vein distal to second submarginal crossvein; mandible of female three-toothed,T . (Trachusomimus),T . (Legnanthidium),T . (Trachusomimus),sec82-24-2

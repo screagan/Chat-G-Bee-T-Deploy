@@ -39,33 +39,26 @@ def  remove_before_after(text, b_str = None, a_str = None):
     return t
 
 def trim_string(input_str, start_str, end_str):
-    # Normalize the input, start, and end strings to handle any extra spaces
-    start_str = re.sub(r'\s+', ' ', start_str.strip())  # Remove extra spaces in start_str
-    end_str = re.sub(r'\s+', ' ', end_str.strip())      # Remove extra spaces in end_str
+    start_str = re.sub(r'\s+', ' ', start_str.strip())  
+    end_str = re.sub(r'\s+', ' ', end_str.strip())      
 
-    # Create regex pattern for the start and end, allowing missing spaces
     start_pattern = re.escape(start_str).replace(" ", r"\s*")
     end_pattern = re.escape(end_str).replace(" ", r"\s*")
 
-    # Find the starting index (start_str) with optional spaces around it
     start_index = re.search(r'\s*' + start_pattern + r'\s*', input_str)
     
-    # If no start string match is found, return the original string up to the first part of the end pattern (if any)
     if not start_index:
         return input_str.strip()
 
     start_index = start_index.start()
 
-    # Find the ending index (end_str) with optional spaces around it
     end_index = re.search(r'\s*' + end_pattern + r'\s*', input_str[start_index:])
     
-    # If no end string match is found, return from start_str to the end of the original string
     if not end_index:
         return input_str[start_index:].strip()
 
-    end_index = start_index + end_index.end()  # Adjust end_index relative to the original string
+    end_index = start_index + end_index.end()
 
-    # Return the substring between the start and end, trimming any surrounding spaces
     return input_str[start_index:end_index].strip()
     
 
@@ -90,7 +83,50 @@ def extract_keys(text):
 
     return df
 
-def clean_df(df, section_num, term = False):
+def clean_df(df, section_num):
+    for i in range(len(df)):
+        if df.loc[i, 'sub_id'] != '':
+            df.loc[i-1, ['right_text', 'right_target']] = df.loc[i, ['right_text', 'right_target']]
+
+    df = df[df['sub_id'] == ''].drop(columns = 'sub_id').reset_index(drop = True)
+
+    for i in range(len(df)):
+        if '(' in df.loc[i, 'id']:
+            df.loc[i, 'parent'] = section_num + '-' + re.findall(r'\(([^)]*)\)', df.loc[i, 'id'])[0]
+
+        if df.loc[i, 'id'] != '':
+            df.loc[i, 'id'] = section_num + '-' + df.loc[i, 'id'][0]
+
+        df.loc[i, 'left_text'] = re.sub(r'\.{2,}$', '.', df.loc[i, 'left_text']).replace('\n', ' ').replace('\r', '').replace('- ', '').replace('  ', ' ').replace(' .', '.')
+        df.loc[i, 'left_target'] = re.sub(r'^[\s\.]+', '', df.loc[i, 'left_target']).replace('\n', ' ').replace('\r', '').strip()
+        if df.loc[i, 'left_target'].isnumeric():
+            df.loc[i, 'left_target'] = section_num + '-' + df.loc[i, 'left_target']
+        df.loc[i, 'left_target_info'] = df.loc[i, 'left_target']
+
+        df.loc[i, 'right_text'] = re.sub(r'\.{2,}$', '.', df.loc[i, 'right_text']).replace('\n', ' ').replace('\r', '').replace('- ', '').replace('  ', ' ').replace(' .', '.')
+        df.loc[i, 'right_target'] = re.sub(r'^[\s\.]+', '', df.loc[i, 'right_target']).replace('\n', ' ').replace('\r', '').strip()
+        if df.loc[i, 'right_target'].isnumeric():
+            df.loc[i, 'right_target'] = section_num + '-' + df.loc[i, 'right_target'] 
+        df.loc[i, 'right_target_info'] = df.loc[i, 'right_target']
+        
+        match = re.match(r'^(.*)\s+\(Sec\.\s*(\d+)\)$', df.loc[i, 'left_target'])
+
+        if match:
+            df.loc[i, 'left_target_info'] = match.group(1)
+            df.loc[i, 'left_target'] = f'sec{match.group(2)}-1'
+        else:
+            df.loc[i, 'left_target_info'] = None
+
+        match = re.match(r'^(.*)\s+\(Sec\.\s*(\d+)\)$', df.loc[i, 'right_target'])
+        if match:
+            df.loc[i, 'right_target_info'] = match.group(1)
+            df.loc[i, 'right_target'] = f'sec{match.group(2)}-1'
+        else:
+            df.loc[i, 'right_target_info'] = None
+
+    return df
+
+def clean_df_mod(df, section_num):
 
     for i in range(len(df)):
         if df.loc[i, 'sub_id'] != '':
@@ -105,35 +141,27 @@ def clean_df(df, section_num, term = False):
         if df.loc[i, 'id'] != '':
             df.loc[i, 'id'] = section_num + '-' + df.loc[i, 'id'][0]
 
-        df.loc[i, 'left_text'] = re.sub(r'\.{2,}$', '.', df.loc[i, 'left_text']).replace('\n', ' ').replace('- ', '').replace('  ', ' ').replace(' .', '.')
-        df.loc[i, 'left_target'] = re.sub(r'^[\s\.]+', '', df.loc[i, 'left_target']).replace('\n', ' ').strip()
+        df.loc[i, 'left_text'] = re.sub(r'\.{2,}$', '.', df.loc[i, 'left_text']).replace('\n', ' ').replace('\r', '').replace('- ', '').replace('  ', ' ').replace(' .', '.')
+        df.loc[i, 'left_target'] = re.sub(r'^[\s\.]+', '', df.loc[i, 'left_target']).replace('\n', ' ').replace('\r', '').strip()
         if df.loc[i, 'left_target'].isnumeric():
             df.loc[i, 'left_target'] = section_num + '-' + df.loc[i, 'left_target']
         df.loc[i, 'left_target_info'] = df.loc[i, 'left_target']
 
-        df.loc[i, 'right_text'] = re.sub(r'\.{2,}$', '.', df.loc[i, 'right_text']).replace('\n', ' ').replace('- ', '').replace('  ', ' ').replace(' .', '.')
-        df.loc[i, 'right_target'] = re.sub(r'^[\s\.]+', '', df.loc[i, 'right_target']).replace('\n', ' ').strip()
+        df.loc[i, 'right_text'] = re.sub(r'\.{2,}$', '.', df.loc[i, 'right_text']).replace('\n', ' ').replace('\r', '').replace('- ', '').replace('  ', ' ').replace(' .', '.')
+        df.loc[i, 'right_target'] = re.sub(r'^[\s\.]+', '', df.loc[i, 'right_target']).replace('\n', ' ').replace('\r', '').strip()
         if df.loc[i, 'right_target'].isnumeric():
             df.loc[i, 'right_target'] = section_num + '-' + df.loc[i, 'right_target'] 
         df.loc[i, 'right_target_info'] = df.loc[i, 'right_target']
-        
-        match = re.match(r'^(.*)\s+\(Sec\.\s*(\d+)\)$', df.loc[i, 'left_target'])
-        if match:
-            df.loc[i, 'left_target_info'] = match.group(1)
-            df.loc[i, 'left_target'] = f'sec{match.group(2)}-1'
+
+        if bool(re.search(r'\d', df.loc[i, 'left_target'])) == False:
+            df.loc[i, 'left_target_info'] = df.loc[i, 'left_target']
         else:
             df.loc[i, 'left_target_info'] = None
-
-        match = re.match(r'^(.*)\s+\(Sec\.\s*(\d+)\)$', df.loc[i, 'right_target'])
-        if match:
-            df.loc[i, 'right_target_info'] = match.group(1)
-            df.loc[i, 'right_target'] = f'sec{match.group(2)}-1'
+        
+        if bool(re.search(r'\d', df.loc[i, 'right_target'])) == False:
+            df.loc[i, 'right_target_info'] = df.loc[i, 'right_target']
         else:
             df.loc[i, 'right_target_info'] = None
-
-        if term == True:
-            df.loc[i, 'left_target_info'] = df.loc[i, 'left_target']
-            df.loc[i, 'right_target_info'] = df.loc[i, 'right_target']
 
     return df
 

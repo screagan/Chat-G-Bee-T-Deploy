@@ -1,0 +1,2056 @@
+﻿id,description,parent,tree_id
+sec75-1,Megachilidae,sec33-1-2,sec33-1
+sec85-1,Apidae,sec33-1-2,sec33-1
+sec49-1,Andreninae and Panurginae (Andrenidae),sec33-1-5,sec33-1
+sec68-1,Melittidae,sec33-1-5,sec33-1
+sec60-1,Oxaeinae (Andrenidae),sec33-1-6,sec33-1
+sec61-1,Halictidae,sec33-1-6,sec33-1
+sec36-1,Stenotritidae,sec33-1-7,sec33-1
+sec37-1,Colletidae,sec33-1-7,sec33-1
+sec46-1,Xeromelissinae (Colletidae),sec35-1-2,sec35-1
+sec75-1,Megachilidae,sec35-1-3,sec35-1
+sec50-1,Alocandreninae (Andrenidae),sec35-1-6,sec35-1
+sec52-1,Panurginae (Andrenidae),sec35-1-6,sec35-1
+sec51-1,Andreninae (Andrenidae),sec35-1-7,sec35-1
+sec77-1,Pararhophitini (Megachilidae),sec35-1-8,sec35-1
+sec62-1,Rophitinae (Halictidae),sec35-1-9,sec35-1
+sec36-1,Stenotritidae,sec35-1-1,sec35-1
+sec85-1,Apidae,sec35-1-1,sec35-1
+sec68-1,Melittidae,sec35-1-1,sec35-1
+sec51-1,Andreninae (Andrenidae),sec35-1-1,sec35-1
+sec60-1,13 13(12). Stigma absent (Fig. 60-2a); two subantennal sutures below each antenna (as in Fig. 51-1a) (Western Hemi- sphere) .......................... Oxaeinae (Andrenidae),sec35-1-1,sec35-1
+sec42-1,Diphaglossinae (Colletidae),sec35-1-1,sec35-1
+sec63-1,Nomiinae (Halictidae),sec35-1-1,sec35-1
+sec39-1,Colletinae (Colletidae),sec35-1-1,sec35-1
+sec65-1,Halictinae (Halictidae),sec35-1-1,sec35-1
+sec64-1,Nomioidinae (Halictidae),sec35-1-1,sec35-1
+sec65-1,"Cleptoparasites in Halictinae, both tribes  (Halictidae)",sec35-1-1,sec35-1
+sec47-1,Hylaeinae (Colletidae),sec35-1-2,sec35-1
+sec48-1,Euryglossinae (Colletidae),sec35-1-2,sec35-1
+sec91-1,Nomadinae (Apidae),sec35-1-2,sec35-1
+sec79-1,"Cleptoparasites in Megachilinae, all tribes  (Megachilidae)",sec35-1-2,sec35-1
+sec90-1,Social parasites within Allodapini (Apidae),sec35-1-2,sec35-1
+sec102-1,Cleptoparasites and social parasites within Apinae  (Apidae),sec35-1-2,sec35-1
+Ctenocolletes,Ctenocolletes,sec36-1-1,sec36-1
+Stenotritus,Stenotritus,sec36-1-1,sec36-1
+sec42-1,Diphaglossinae,sec37-1-2,sec37-1
+sec38-1,Colletinae,sec37-1-2,sec37-1
+sec46-1,Xeromelissinae,sec37-1-3,sec37-1
+sec47-1,Hylaeinae,sec37-1-4,sec37-1
+sec48-1,Euryglossinae,sec37-1-4,sec37-1
+sec41-1,Scraptrini,sec38-1-2,sec38-1
+sec39-1,Paracolletini,sec38-1-2,sec38-1
+Eulonchopria,Eulonchopria,sec39-1-1,sec39-1
+Lonchorhyncha,Lonchorhyncha,sec39-1-2,sec39-1
+Niltonia,Niltonia,sec39-1-3,sec39-1
+Lonchopria,Lonchopria,sec39-1-4,sec39-1
+Brachyglossula,Brachyglossula,sec39-1-5,sec39-1
+Leioproctus (in part),Leioproctus (in part),sec39-1-5,sec39-1
+Callomelitta,Callomelitta,sec39-2-1,sec39-2
+Paracolletes,Paracolletes,sec39-2-3,sec39-2
+Trichocolletes,Trichocolletes,sec39-2-3,sec39-2
+Neopasiphae,Neopasiphae,sec39-2-4,sec39-2
+Phenacolletes,Phenacolletes,sec39-2-5,sec39-2
+Glossurocolletes,Glossurocolletes,sec39-2-6,sec39-2
+Hesperocolletes,Hesperocolletes,sec39-2-7,sec39-2
+Chrysocolletes,Chrysocolletes,sec39-2-8,sec39-2
+Leioproctus,Leioproctus,sec39-2-8,sec39-2
+E. (Ethalonchopria),E. (Ethalonchopria),sec39-3-1,sec39-3
+E. (Eulonchopria s. str.),E. (Eulonchopria s. str.),sec39-3-1,sec39-3
+L. (Nomiocolletes),L. (Nomiocolletes),sec39-4-1,sec39-4
+L. (Halictanthrena),L. (Halictanthrena),sec39-4-3,sec39-4
+L. (Reedapis),L. (Reedapis),sec39-4-5,sec39-4
+L. (Cephalocolletes),L. (Cephalocolletes),sec39-4-5,sec39-4
+L. (T orocolletes),L. (T orocolletes),sec39-4-6,sec39-4
+L. (Holmbergeria),L. (Holmbergeria),sec39-4-8,sec39-4
+L. (Leioproctus s. str.),L. (Leioproctus s. str.),sec39-4-9,sec39-4
+L. (Chilicolletes),L. (Chilicolletes),sec39-4-1,sec39-4
+L. (Sarocolletes) (in part),L. (Sarocolletes) (in part),sec39-4-1,sec39-4
+L. (Actenosigynes),L. (Actenosigynes),sec39-4-1,sec39-4
+L. (Chilicolletes),L. (Chilicolletes),sec39-4-1,sec39-4
+L. (Sarocolletes) (in part),L. (Sarocolletes) (in part),sec39-4-1,sec39-4
+L. (Hoplocolletes),L. (Hoplocolletes),sec39-4-1,sec39-4
+L. (Protodiscelis),L. (Protodiscelis),sec39-4-1,sec39-4
+L. (T etraglossula),L. (T etraglossula),sec39-4-1,sec39-4
+L. (Glossopasiphae),L. (Glossopasiphae),sec39-4-1,sec39-4
+L. (Pygopasiphae),L. (Pygopasiphae),sec39-4-1,sec39-4
+L. (Sarocolletes) (in part),L. (Sarocolletes) (in part),sec39-4-2,sec39-4
+L. (Perditomorpha)(in part),L. (Perditomorpha)(in part),sec39-4-2,sec39-4
+L. (Kylopasiphae),L. (Kylopasiphae),sec39-4-2,sec39-4
+L. (Spinolapis),L. (Spinolapis),sec39-4-2,sec39-4
+L. (Perditomorpha)(in part),L. (Perditomorpha)(in part),sec39-4-2,sec39-4
+L. (Kylopasiphae),L. (Kylopasiphae),sec39-4-2,sec39-4
+L. (Spinolapis),L. (Spinolapis),sec39-4-2,sec39-4
+L. (Sarocolletes) (in part),L. (Sarocolletes) (in part),sec39-4-2,sec39-4
+L. (Perditomorpha),L. (Perditomorpha),sec39-4-2,sec39-4
+L. (Albinapis),L. (Albinapis),sec39-4-2,sec39-4
+L. (Baeocolletes),L. (Baeocolletes),sec39-4-2,sec39-4
+L. (Andrenopsis),L. (Andrenopsis),sec39-4-3,sec39-4
+L. (Colletellus),L. (Colletellus),sec39-4-4,sec39-4
+L. (Filiglossa),L. (Filiglossa),sec39-4-5,sec39-4
+L. (Euryglossidia),L. (Euryglossidia),sec39-4-5,sec39-4
+L. (Urocolletes),L. (Urocolletes),sec39-4-6,sec39-4
+L. (Excolletes),L. (Excolletes),sec39-4-7,sec39-4
+L. (Cladocerapis),L. (Cladocerapis),sec39-4-8,sec39-4
+L. (Colletopsis),L. (Colletopsis),sec39-4-9,sec39-4
+L. (Nesocolletes),L. (Nesocolletes),sec39-4-1,sec39-4
+L. (Lamprocolletes),L. (Lamprocolletes),sec39-4-2,sec39-4
+L. (Ceratocolletes),L. (Ceratocolletes),sec39-4-2,sec39-4
+L. (Goniocolletes) (in part),L. (Goniocolletes) (in part),sec39-4-2,sec39-4
+L. (Leioproctuss. str.),L. (Leioproctuss. str.),sec39-4-2,sec39-4
+L. (Ctenosibyne),L. (Ctenosibyne),sec39-5-2,sec39-5
+L. (Lonchopria s. str.),L. (Lonchopria s. str.),sec39-5-2,sec39-5
+L. (Porterapis),L. (Porterapis),sec39-5-3,sec39-5
+L. (Lonchoprella),L. (Lonchoprella),sec39-5-4,sec39-5
+L. (Biglossa),L. (Biglossa),sec39-5-4,sec39-5
+P . (Anthoglossa),P . (Anthoglossa),sec39-6-1,sec39-6
+P . (Paracolletes s. str.),P . (Paracolletes s. str.),sec39-6-1,sec39-6
+T . (Trichocolletes s. str.),T . (Trichocolletes s. str.),sec39-7-1,sec39-7
+T . (Callocolletes),T . (Callocolletes),sec39-7-1,sec39-7
+Colletes,Colletes,sec40-1-1,sec40-1
+Mourecotelles,Mourecotelles,sec40-1-1,sec40-1
+M. (Hemicotelles),M. (Hemicotelles),sec40-2-1,sec40-2
+M. (Xanthocotelles),M. (Xanthocotelles),sec40-2-2,sec40-2
+M. (Mourecotelles s. str.),M. (Mourecotelles s. str.),sec40-2-2,sec40-2
+sec43-1,Caupolicanini,sec42-1-1,sec42-1
+sec44-1,Diphaglossini,sec42-1-2,sec42-1
+sec45-1,Dissoglottini,sec42-1-2,sec42-1
+Ptiloglossa,Ptiloglossa,sec43-1-1,sec43-1
+Crawfordapis,Crawfordapis,sec43-1-2,sec43-1
+Caupolicana,Caupolicana,sec43-1-2,sec43-1
+Ptiloglossa,Ptiloglossa,sec43-2-1,sec43-2
+Crawfordapis,Crawfordapis,sec43-2-2,sec43-2
+C. (Zikanapis),C. (Zikanapis),sec43-2-2,sec43-2
+C. (Alayoapis),C. (Alayoapis),sec43-2-3,sec43-2
+C. (Caupolicana s. str.),C. (Caupolicana s. str.),sec43-2-3,sec43-2
+Diphaglossa,Diphaglossa,sec44-1-1,sec44-1
+Cadegualina,Cadegualina,sec44-1-2,sec44-1
+Cadeguala,Cadeguala,sec44-1-2,sec44-1
+Ptiloglossidia,Ptiloglossidia,sec45-1-1,sec45-1
+Mydrosomella,Mydrosomella,sec45-1-2,sec45-1
+Mydrosoma,Mydrosoma,sec45-1-2,sec45-1
+Geodiscelis,Geodiscelis,sec46-1-2,sec46-1
+Xenochilicola,Xenochilicola,sec46-1-3,sec46-1
+Chilicola,Chilicola,sec46-1-3,sec46-1
+Chilimelissa,Chilimelissa,sec46-1-4,sec46-1
+Xeromelissa,Xeromelissa,sec46-1-4,sec46-1
+C. (Chilicola s. str.),C. (Chilicola s. str.),sec46-2-2,sec46-2
+C. (Chilioediscelis),C. (Chilioediscelis),sec46-2-2,sec46-2
+C. (Hylaeosoma),C. (Hylaeosoma),sec46-2-3,sec46-2
+C. (Prosopoides),C. (Prosopoides),sec46-2-5,sec46-2
+C. (Pseudiscelis),C. (Pseudiscelis),sec46-2-5,sec46-2
+C. (Oroediscelis),C. (Oroediscelis),sec46-2-6,sec46-2
+C. (Oediscelis),C. (Oediscelis),sec46-2-7,sec46-2
+C. (Anoediscelis),C. (Anoediscelis),sec46-2-7,sec46-2
+Hyleoides,Hyleoides,sec47-1-1,sec47-1
+Pharohylaeus,Pharohylaeus,sec47-1-2,sec47-1
+Xenorhiza,Xenorhiza,sec47-1-5,sec47-1
+Calloprosopis,Calloprosopis,sec47-1-6,sec47-1
+Hylaeus,Hylaeus,sec47-1-6,sec47-1
+Hemirhiza,Hemirhiza,sec47-1-8,sec47-1
+Amphylaeus,Amphylaeus,sec47-1-8,sec47-1
+Meroglossa,Meroglossa,sec47-1-9,sec47-1
+Palaeorhiza,Palaeorhiza,sec47-1-9,sec47-1
+Xenorhiza,Xenorhiza,sec47-1-1,sec47-1
+Palaeorhiza,Palaeorhiza,sec47-1-1,sec47-1
+Hylaeus (in part),Hylaeus (in part),sec47-1-1,sec47-1
+Hemirhiza,Hemirhiza,sec47-1-1,sec47-1
+Calloprosopis,Calloprosopis,sec47-1-1,sec47-1
+(in part),(in part),sec47-1-1,sec47-1
+A. (Amphylaeus s. str.),A. (Amphylaeus s. str.),sec47-2-1,sec47-2
+A. (Agogenohylaeus),A. (Agogenohylaeus),sec47-2-1,sec47-2
+H. (Analastoroides),H. (Analastoroides),sec47-3-4,sec47-3
+H. (Euprosopellus),H. (Euprosopellus),sec47-3-4,sec47-3
+H. (Xenohylaeus),H. (Xenohylaeus),sec47-3-5,sec47-3
+H. (Euprosopis),H. (Euprosopis),sec47-3-7,sec47-3
+H. (Euprosopoides),H. (Euprosopoides),sec47-3-8,sec47-3
+H. (Laccohylaeus),H. (Laccohylaeus),sec47-3-8,sec47-3
+H. (Hylaeorhiza),H. (Hylaeorhiza),sec47-3-9,sec47-3
+H. (Prosopisteroides),H. (Prosopisteroides),sec47-3-1,sec47-3
+H. (Sphaerhylaeus),H. (Sphaerhylaeus),sec47-3-1,sec47-3
+H. (Gnathoprosopis),H. (Gnathoprosopis),sec47-3-1,sec47-3
+H. (Gnathoprosopoides),H. (Gnathoprosopoides),sec47-3-1,sec47-3
+H. (Meghylaeus),H. (Meghylaeus),sec47-3-1,sec47-3
+H. (Macrohylaeus),H. (Macrohylaeus),sec47-3-1,sec47-3
+H. (Rhodohylaeus),H. (Rhodohylaeus),sec47-3-1,sec47-3
+H. (Pseudhylaeus),H. (Pseudhylaeus),sec47-3-1,sec47-3
+H. (Hylaeteron),H. (Hylaeteron),sec47-3-1,sec47-3
+H. (Planihylaeus),H. (Planihylaeus),sec47-3-1,sec47-3
+H. (Edriohylaeus),H. (Edriohylaeus),sec47-3-2,sec47-3
+H. (Prosopisteron),H. (Prosopisteron),sec47-3-2,sec47-3
+H. (Gongyloprosopis),H. (Gongyloprosopis),sec47-4-1,sec47-4
+H. (Spatulariella),H. (Spatulariella),sec47-4-3,sec47-4
+H. (Hylaeopsis),H. (Hylaeopsis),sec47-4-4,sec47-4
+H. (Hylaeana),H. (Hylaeana),sec47-4-4,sec47-4
+H. (Cephalylaeus),H. (Cephalylaeus),sec47-4-5,sec47-4
+H. (Prosopella),H. (Prosopella),sec47-4-6,sec47-4
+H. (Hylaeus s. str.),H. (Hylaeus s. str.),sec47-4-7,sec47-4
+H. (Metziella),H. (Metziella),sec47-4-8,sec47-4
+H. (Cephylaeus),H. (Cephylaeus),sec47-4-9,sec47-4
+H. (Prosopis),H. (Prosopis),sec47-4-1,sec47-4
+H. (Paraprosopis),H. (Paraprosopis),sec47-4-1,sec47-4
+H. (Spatulariella),H. (Spatulariella),sec47-5-2,sec47-5
+H. (Hylaeana),H. (Hylaeana),sec47-5-3,sec47-5
+H. (Hylaeopsis),H. (Hylaeopsis),sec47-5-3,sec47-5
+H. (Gongyloprosopis),H. (Gongyloprosopis),sec47-5-5,sec47-5
+H. (Prosopella),H. (Prosopella),sec47-5-5,sec47-5
+H. (Metziella),H. (Metziella),sec47-5-7,sec47-5
+H. (Cephalylaeus),H. (Cephalylaeus),sec47-5-7,sec47-5
+H. (Paraprosopis)(in part),H. (Paraprosopis)(in part),sec47-5-9,sec47-5
+H. (Paraprosopis)(in part),H. (Paraprosopis)(in part),sec47-5-1,sec47-5
+H. (Prosopis),H. (Prosopis),sec47-5-1,sec47-5
+H. (Abrupta),H. (Abrupta),sec47-6-1,sec47-6
+H. (Prosopis),H. (Prosopis),sec47-6-2,sec47-6
+H. (Abrupta),H. (Abrupta),sec47-7-2,sec47-7
+H. (Mehelyana),H. (Mehelyana),sec47-7-3,sec47-7
+H. (Dentigera) (brevicornis group),H. (Dentigera) (brevicornis group),sec47-7-4,sec47-7
+H. (Lambdopsis) (in part),H. (Lambdopsis) (in part),sec47-7-4,sec47-7
+H. (Dentigera) (brachycephalus group  and Hylaeus rubicola Saunders),H. (Dentigera) (brachycephalus group  and Hylaeus rubicola Saunders),sec47-7-5,sec47-7
+H. (Spatulariella),H. (Spatulariella),sec47-7-6,sec47-7
+H. (Koptogaster),H. (Koptogaster),sec47-7-7,sec47-7
+H. (Paraprosopis),H. (Paraprosopis),sec47-7-8,sec47-7
+H. (Prosopis),H. (Prosopis),sec47-7-1,sec47-7
+H. (Hylaeus s. str.),H. (Hylaeus s. str.),sec47-7-1,sec47-7
+"H. (Lambdopsis) (in part, East Asian species)","H. (Lambdopsis) (in part, East Asian species)",sec47-7-1,sec47-7
+H. (Prosopisteron),H. (Prosopisteron),sec47-8-1,sec47-8
+H. (Nothylaeus),H. (Nothylaeus),sec47-8-2,sec47-8
+H. (Metylaeus),H. (Metylaeus),sec47-8-3,sec47-8
+H. (Alfkenylaeus),H. (Alfkenylaeus),sec47-8-4,sec47-8
+P . (Michenerapis),P . (Michenerapis),sec47-9-1,sec47-9
+P . (Eusphecogastra),P . (Eusphecogastra),sec47-9-3,sec47-9
+P . (Ceratorhiza),P . (Ceratorhiza),sec47-9-3,sec47-9
+P . (Gressittapis),P . (Gressittapis),sec47-9-5,sec47-9
+P . (Heterorhiza),P . (Heterorhiza),sec47-9-6,sec47-9
+P . (Paraheterorhiza),P . (Paraheterorhiza),sec47-9-6,sec47-9
+P . (Noonadania),P . (Noonadania),sec47-9-7,sec47-9
+Pachyprosopis,Pachyprosopis,sec48-1-2,sec48-1
+Euryglossula,Euryglossula,sec48-1-3,sec48-1
+Euryglossina,Euryglossina,sec48-1-3,sec48-1
+Brachyhesma,Brachyhesma,sec48-1-4,sec48-1
+Hyphesma,Hyphesma,sec48-1-5,sec48-1
+Heterohesma,Heterohesma,sec48-1-6,sec48-1
+Dasyhesma,Dasyhesma,sec48-1-7,sec48-1
+Sericogaster,Sericogaster,sec48-1-8,sec48-1
+Stenohesma,Stenohesma,sec48-1-9,sec48-1
+Melittosmithia,Melittosmithia,sec48-1-1,sec48-1
+Euryglossa,Euryglossa,sec48-1-1,sec48-1
+Callohesma,Callohesma,sec48-1-1,sec48-1
+Tumidihesma,Tumidihesma,sec48-1-1,sec48-1
+B. (Brachyhesma s. str.),B. (Brachyhesma s. str.),sec48-2-2,sec48-2
+B. (Microhesma),B. (Microhesma),sec48-2-2,sec48-2
+E. (Parahesma),E. (Parahesma),sec48-3-1,sec48-3
+E. (Euhesma s. str.),E. (Euhesma s. str.),sec48-3-1,sec48-3
+E. (Microdontura),E. (Microdontura),sec48-4-1,sec48-4
+E. (Quasihesma),E. (Quasihesma),sec48-4-3,sec48-4
+E. (Euryglossella),E. (Euryglossella),sec48-4-3,sec48-4
+E. (Euryglossina s. str.),E. (Euryglossina s. str.),sec48-4-4,sec48-4
+E. (Pachyprosopina),E. (Pachyprosopina),sec48-4-4,sec48-4
+P . (Pachyprosopis s. str.),P . (Pachyprosopis s. str.),sec48-5-1,sec48-5
+X. (Argohesma),X. (Argohesma),sec48-6-1,sec48-6
+X. (Xenohesma),X. (Xenohesma),sec48-6-2,sec48-6
+X. (Chaetohesma),X. (Chaetohesma),sec48-6-3,sec48-6
+X. (Xanthesma s. str.),X. (Xanthesma s. str.),sec48-6-3,sec48-6
+sec60-1,Oxaeinae,sec49-1-1,sec49-1
+sec51-1,Andreninae,sec49-1-2,sec49-1
+sec50-1,Alocandreninae,sec49-1-3,sec49-1
+sec52-1,Panurginae,sec49-1-3,sec49-1
+Ancylandrena,Ancylandrena,sec51-1-2,sec51-1
+Andrena,Andrena,sec51-1-3,sec51-1
+Megandrena,Megandrena,sec51-2-1,sec51-2
+Andrena,Andrena,sec51-2-2,sec51-2
+Euherbstia,Euherbstia,sec51-2-3,sec51-2
+Orphana,Orphana,sec51-2-4,sec51-2
+Ancylandrena,Ancylandrena,sec51-2-4,sec51-2
+A. (Plastandrena),A. (Plastandrena),sec51-3-2,sec51-3
+A. (Aporandrena),A. (Aporandrena),sec51-3-3,sec51-3
+A. (Charitandrena),A. (Charitandrena),sec51-3-3,sec51-3
+A. (Euandrena)(in part),A. (Euandrena)(in part),sec51-3-4,sec51-3
+A. (Leucandrena) (in part),A. (Leucandrena) (in part),sec51-3-5,sec51-3
+A. (Oligandrena),A. (Oligandrena),sec51-3-6,sec51-3
+A. (Callandrena) (in part),A. (Callandrena) (in part),sec51-3-8,sec51-3
+A. (Iomelissa),A. (Iomelissa),sec51-3-9,sec51-3
+A. (Erandrena),A. (Erandrena),sec51-3-9,sec51-3
+A. (Scrapteropsis),A. (Scrapteropsis),sec51-3-1,sec51-3
+A. (Trachandrena),A. (Trachandrena),sec51-3-1,sec51-3
+A. (Tylandrena),A. (Tylandrena),sec51-3-1,sec51-3
+A. (Diandrena) (in part),A. (Diandrena) (in part),sec51-3-1,sec51-3
+A. (Parandrena),A. (Parandrena),sec51-3-1,sec51-3
+A. (Hesperandrena)(in part),A. (Hesperandrena)(in part),sec51-3-1,sec51-3
+A. (Celetandrena),A. (Celetandrena),sec51-3-1,sec51-3
+A. (Ptilandrena) (in part),A. (Ptilandrena) (in part),sec51-3-1,sec51-3
+A. (Archiandrena)(in part),A. (Archiandrena)(in part),sec51-3-2,sec51-3
+A. (Ptilandrena) (in part),A. (Ptilandrena) (in part),sec51-3-2,sec51-3
+A. (Belandrena) (in part),A. (Belandrena) (in part),sec51-3-2,sec51-3
+A. (Scoliandrena),A. (Scoliandrena),sec51-3-2,sec51-3
+A. (Derandrena)(in part),A. (Derandrena)(in part),sec51-3-2,sec51-3
+A. (Oxyandrena),A. (Oxyandrena),sec51-3-2,sec51-3
+A. (Geissandrena),A. (Geissandrena),sec51-3-2,sec51-3
+A. (Dactylandrena) (in part),A. (Dactylandrena) (in part),sec51-3-2,sec51-3
+A. (Conandrena),A. (Conandrena),sec51-3-2,sec51-3
+A. (Cnemidandrena),A. (Cnemidandrena),sec51-3-2,sec51-3
+A. (Larandrena),A. (Larandrena),sec51-3-2,sec51-3
+A. (Xiphandrena),A. (Xiphandrena),sec51-3-3,sec51-3
+A. (Rhaphandrena),A. (Rhaphandrena),sec51-3-3,sec51-3
+A. (Nemandrena)(in part),A. (Nemandrena)(in part),sec51-3-3,sec51-3
+A. (Gonandrena),A. (Gonandrena),sec51-3-3,sec51-3
+A. (Leucandrena) (in part),A. (Leucandrena) (in part),sec51-3-3,sec51-3
+A. (Onagrandrena)(in part),A. (Onagrandrena)(in part),sec51-3-3,sec51-3
+A. (Dactylandrena) (in part),A. (Dactylandrena) (in part),sec51-3-3,sec51-3
+A. (Andrena s. str.)(in part),A. (Andrena s. str.)(in part),sec51-3-3,sec51-3
+A. (Andrena s. str.)(in part),A. (Andrena s. str.)(in part),sec51-3-3,sec51-3
+A. (Notandrena),A. (Notandrena),sec51-3-3,sec51-3
+A. (Anchandrena),A. (Anchandrena),sec51-3-4,sec51-3
+A. (Belandrena) (in part),A. (Belandrena) (in part),sec51-3-4,sec51-3
+A. (Andrena s. str.)(in part),A. (Andrena s. str.)(in part),sec51-3-4,sec51-3
+A. (Holandrena),A. (Holandrena),sec51-3-4,sec51-3
+A. (Diandrena) (in part),A. (Diandrena) (in part),sec51-3-4,sec51-3
+A. (Pelicandrena),A. (Pelicandrena),sec51-3-4,sec51-3
+A. (Nemandrena)(in part),A. (Nemandrena)(in part),sec51-3-4,sec51-3
+A. (Dasyandrena),A. (Dasyandrena),sec51-3-4,sec51-3
+A. (Hesperandrena)(in part),A. (Hesperandrena)(in part),sec51-3-4,sec51-3
+A. (Augandrena),A. (Augandrena),sec51-3-5,sec51-3
+A. (Rhacandrena) (in part),A. (Rhacandrena) (in part),sec51-3-5,sec51-3
+A. (Callandrena) (in part),A. (Callandrena) (in part),sec51-3-5,sec51-3
+A. (Simandrena) (in part),A. (Simandrena) (in part),sec51-3-5,sec51-3
+A. (Genyandrena)(in part),A. (Genyandrena)(in part),sec51-3-5,sec51-3
+A. (Euandrena)(in part),A. (Euandrena)(in part),sec51-3-5,sec51-3
+A. (Cremnandrena),A. (Cremnandrena),sec51-3-5,sec51-3
+A. (Derandrena)(in part),A. (Derandrena)(in part),sec51-3-5,sec51-3
+A. (Micrandrena),A. (Micrandrena),sec51-3-5,sec51-3
+A. (Genyandrena)(in part),A. (Genyandrena)(in part),sec51-3-6,sec51-3
+A. (Scaphandrena) (in part),A. (Scaphandrena) (in part),sec51-3-6,sec51-3
+A. (Simandrena) (in part),A. (Simandrena) (in part),sec51-3-6,sec51-3
+A. (Scaphandrena) (in part),A. (Scaphandrena) (in part),sec51-3-6,sec51-3
+A. (Onagrandrena)(in part),A. (Onagrandrena)(in part),sec51-3-6,sec51-3
+A. (Belandrena) (in part),A. (Belandrena) (in part),sec51-3-6,sec51-3
+A. (Rhacandrena) (in part),A. (Rhacandrena) (in part),sec51-3-6,sec51-3
+A. (Euandrena)(in part),A. (Euandrena)(in part),sec51-3-6,sec51-3
+A. (Rhacandrena) (in part),A. (Rhacandrena) (in part),sec51-3-7,sec51-3
+A. (Psammandrena),A. (Psammandrena),sec51-3-7,sec51-3
+A. (Euandrena)(in part),A. (Euandrena)(in part),sec51-3-7,sec51-3
+A. (Thysandrena),A. (Thysandrena),sec51-3-7,sec51-3
+A. (Scaphandrena) (in part),A. (Scaphandrena) (in part),sec51-3-7,sec51-3
+A. (Melandrena),A. (Melandrena),sec51-3-7,sec51-3
+A. (Pelicandrena),A. (Pelicandrena),sec51-4-2,sec51-4
+A. (Diandrena),A. (Diandrena),sec51-4-3,sec51-4
+A. (Callandrena) (in part),A. (Callandrena) (in part),sec51-4-4,sec51-4
+A. (Onagrandrena)(in part),A. (Onagrandrena)(in part),sec51-4-5,sec51-4
+A. (Parandrena),A. (Parandrena),sec51-4-5,sec51-4
+A. (Dactylandrena),A. (Dactylandrena),sec51-4-6,sec51-4
+A. (Genyandrena),A. (Genyandrena),sec51-4-2,sec51-4
+A. (Xiphandrena),A. (Xiphandrena),sec51-4-2,sec51-4
+A. (Oligandrena),A. (Oligandrena),sec51-4-2,sec51-4
+A. (Archiandrena),A. (Archiandrena),sec51-4-2,sec51-4
+A. (Belandrena) (in part),A. (Belandrena) (in part),sec51-4-3,sec51-4
+A. (Geissandrena),A. (Geissandrena),sec51-4-3,sec51-4
+A. (Notandrena),A. (Notandrena),sec51-4-3,sec51-4
+A. (Larandrena),A. (Larandrena),sec51-4-3,sec51-4
+A. (Derandrena)(in part),A. (Derandrena)(in part),sec51-4-3,sec51-4
+A. (Anchandrena),A. (Anchandrena),sec51-4-3,sec51-4
+A. (Holandrena) (in part),A. (Holandrena) (in part),sec51-4-3,sec51-4
+A. (Tylandrena),A. (Tylandrena),sec51-4-3,sec51-4
+A. (Gonandrena) (in part),A. (Gonandrena) (in part),sec51-4-3,sec51-4
+A. (Leucandrena) (in part),A. (Leucandrena) (in part),sec51-4-3,sec51-4
+A. (Andrena s. str.)(in part),A. (Andrena s. str.)(in part),sec51-4-3,sec51-4
+A. (Holandrena) (in part),A. (Holandrena) (in part),sec51-4-4,sec51-4
+A. (Rhaphandrena),A. (Rhaphandrena),sec51-4-4,sec51-4
+A. (Cnemidandrena),A. (Cnemidandrena),sec51-4-4,sec51-4
+A. (Andrena s. str.)(in part),A. (Andrena s. str.)(in part),sec51-4-4,sec51-4
+A. (Ptilandrena) (in part),A. (Ptilandrena) (in part),sec51-4-4,sec51-4
+A. (Scoliandrena),A. (Scoliandrena),sec51-4-4,sec51-4
+A. (Augandrena),A. (Augandrena),sec51-4-4,sec51-4
+A. (Callandrena) (in part),A. (Callandrena) (in part),sec51-4-4,sec51-4
+A. (Simandrena) (in part),A. (Simandrena) (in part),sec51-4-4,sec51-4
+A. (Micrandrena),A. (Micrandrena),sec51-4-4,sec51-4
+A. (Plastandrena) (in part),A. (Plastandrena) (in part),sec51-4-5,sec51-4
+A. (Trachandrena),A. (Trachandrena),sec51-4-5,sec51-4
+A. (Scrapteropsis),A. (Scrapteropsis),sec51-4-5,sec51-4
+A. (T aeniandrena),A. (T aeniandrena),sec51-4-5,sec51-4
+A. (Scaphandrena) (in part),A. (Scaphandrena) (in part),sec51-4-5,sec51-4
+A. (Melandrena) (in part),A. (Melandrena) (in part),sec51-4-5,sec51-4
+A. (Onagrandrena)(in part),A. (Onagrandrena)(in part),sec51-4-5,sec51-4
+A. (Scaphandrena) (in part),A. (Scaphandrena) (in part),sec51-4-5,sec51-4
+A. (Dasyandrena) (in part),A. (Dasyandrena) (in part),sec51-4-5,sec51-4
+A. (Psammandrena),A. (Psammandrena),sec51-4-5,sec51-4
+A. (Scaphandrena) (in part),A. (Scaphandrena) (in part),sec51-4-6,sec51-4
+A. (Rhacandrena),A. (Rhacandrena),sec51-4-6,sec51-4
+A. (Simandrena) (in part),A. (Simandrena) (in part),sec51-4-6,sec51-4
+A. (Euandrena)(in part),A. (Euandrena)(in part),sec51-4-6,sec51-4
+A. (Euandrena)(in part),A. (Euandrena)(in part),sec51-4-6,sec51-4
+A. (Dasyandrena) (in part),A. (Dasyandrena) (in part),sec51-4-6,sec51-4
+A. (Oxyandrena),A. (Oxyandrena),sec51-4-6,sec51-4
+A. (Thysandrena) (in part),A. (Thysandrena) (in part),sec51-4-6,sec51-4
+A. (Leucandrena) (in part),A. (Leucandrena) (in part),sec51-4-6,sec51-4
+A. (Melandrena) (in part),A. (Melandrena) (in part),sec51-4-6,sec51-4
+A. (Orandrena),A. (Orandrena),sec51-5-3,sec51-5
+A. (Cryptandrena) (in part),A. (Cryptandrena) (in part),sec51-5-3,sec51-5
+A. (Avandrena)(in part),A. (Avandrena)(in part),sec51-5-4,sec51-5
+A. (Rufandrena),A. (Rufandrena),sec51-5-5,sec51-5
+A. (Chlorandrena),A. (Chlorandrena),sec51-5-6,sec51-5
+A. (Lepidandrena),A. (Lepidandrena),sec51-5-6,sec51-5
+A. (Melanapis),A. (Melanapis),sec51-5-9,sec51-5
+A. (Plastandrena),A. (Plastandrena),sec51-5-1,sec51-5
+A. (Agandrena),A. (Agandrena),sec51-5-1,sec51-5
+A. (Scitandrena),A. (Scitandrena),sec51-5-1,sec51-5
+A. (Suandrena),A. (Suandrena),sec51-5-1,sec51-5
+A. (Pallandrena),A. (Pallandrena),sec51-5-1,sec51-5
+A. (Charitandrena),A. (Charitandrena),sec51-5-1,sec51-5
+A. (Ulandrena),A. (Ulandrena),sec51-5-1,sec51-5
+A. (Cubiandrena),A. (Cubiandrena),sec51-5-1,sec51-5
+A. (Avandrena)(in part),A. (Avandrena)(in part),sec51-5-1,sec51-5
+A. (Brachyandrena),A. (Brachyandrena),sec51-5-1,sec51-5
+A. (Biareolina),A. (Biareolina),sec51-5-1,sec51-5
+A. (Trachandrena),A. (Trachandrena),sec51-5-1,sec51-5
+A. (Aenandrena),A. (Aenandrena),sec51-5-2,sec51-5
+A. (Micrandrena)(in part) and A. (Fumandrena),A. (Micrandrena)(in part) and A. (Fumandrena),sec51-5-2,sec51-5
+A. (Graecandrena),A. (Graecandrena),sec51-5-2,sec51-5
+A. (Aciandr ena),A. (Aciandr ena),sec51-5-2,sec51-5
+A. (Distandrena),A. (Distandrena),sec51-5-2,sec51-5
+A. (Parandrenella),A. (Parandrenella),sec51-5-2,sec51-5
+A. (Hyperandrena),A. (Hyperandrena),sec51-5-2,sec51-5
+A. (Didonia) (in part),A. (Didonia) (in part),sec51-5-3,sec51-5
+A. (Chrysandrena),A. (Chrysandrena),sec51-5-3,sec51-5
+A. (Euandrena),A. (Euandrena),sec51-5-3,sec51-5
+A. (Simandrena),A. (Simandrena),sec51-5-3,sec51-5
+A. (T aeniandrena)and A. (Troandrena),A. (T aeniandrena)and A. (Troandrena),sec51-5-3,sec51-5
+A. (Hoplandrena),A. (Hoplandrena),sec51-5-3,sec51-5
+A. (Nobandrena),A. (Nobandrena),sec51-5-3,sec51-5
+A. (Melittoides),A. (Melittoides),sec51-5-3,sec51-5
+A. (Scaphandrena),A. (Scaphandrena),sec51-5-3,sec51-5
+A. (Poecilandrena),A. (Poecilandrena),sec51-5-4,sec51-5
+A. (Poliandrena)(in part) and A. (T arsandrena)(in part),A. (Poliandrena)(in part) and A. (T arsandrena)(in part),sec51-5-4,sec51-5
+A. (Cryptandrena) (in part),A. (Cryptandrena) (in part),sec51-5-4,sec51-5
+A. (Cordandrena),A. (Cordandrena),sec51-5-4,sec51-5
+A. (Thysandrena),A. (Thysandrena),sec51-5-4,sec51-5
+A. (Leucandrena) (in part) —. Basal area of labrum short-triangular A. (Larandrena),A. (Leucandrena) (in part) —. Basal area of labrum short-triangular A. (Larandrena),sec51-5-4,sec51-5
+A. (Andrena s. str.),A. (Andrena s. str.),sec51-5-5,sec51-5
+A. (Cnemidandrena),A. (Cnemidandrena),sec51-5-5,sec51-5
+A. (Campylogaster),A. (Campylogaster),sec51-5-5,sec51-5
+A. (Oreomelissa),A. (Oreomelissa),sec51-5-5,sec51-5
+A. (Rufandrena),A. (Rufandrena),sec51-6-1,sec51-6
+A. (Holandrena) (in part),A. (Holandrena) (in part),sec51-6-4,sec51-6
+A. (Melanapis),A. (Melanapis),sec51-6-4,sec51-6
+A. (Brachyandrena),A. (Brachyandrena),sec51-6-5,sec51-6
+A. (Biareolina),A. (Biareolina),sec51-6-6,sec51-6
+A. (Trachandrena),A. (Trachandrena),sec51-6-7,sec51-6
+A. (Agandrena),A. (Agandrena),sec51-6-8,sec51-6
+A. (Plastandrena),A. (Plastandrena),sec51-6-8,sec51-6
+A. (Scitandrena),A. (Scitandrena),sec51-6-1,sec51-6
+A. (Campylogaster) (in part),A. (Campylogaster) (in part),sec51-6-1,sec51-6
+A. (Cubiandrena),A. (Cubiandrena),sec51-6-1,sec51-6
+A. (Micrandrena)(in part) and A. (Fumandrena),A. (Micrandrena)(in part) and A. (Fumandrena),sec51-6-1,sec51-6
+A. (Distandrena),A. (Distandrena),sec51-6-1,sec51-6
+A. (Aciandrena),A. (Aciandrena),sec51-6-1,sec51-6
+A. (Graecandrena),A. (Graecandrena),sec51-6-1,sec51-6
+A. (T aeniandrena)and A. (Troandrena),A. (T aeniandrena)and A. (Troandrena),sec51-6-1,sec51-6
+A. (Charitandrena),A. (Charitandrena),sec51-6-2,sec51-6
+A. (Didonia) (in part),A. (Didonia) (in part),sec51-6-2,sec51-6
+A. (Cryptandrena),A. (Cryptandrena),sec51-6-2,sec51-6
+A. (Chlorandrena),A. (Chlorandrena),sec51-6-2,sec51-6
+A. (Suandrena),A. (Suandrena),sec51-6-2,sec51-6
+A. (Hoplandrena) (in part),A. (Hoplandrena) (in part),sec51-6-2,sec51-6
+A. (Cordandrena),A. (Cordandrena),sec51-6-2,sec51-6
+A. (Aenandrena),A. (Aenandrena),sec51-6-2,sec51-6
+A. (Thysandrena),A. (Thysandrena),sec51-6-2,sec51-6
+A. (Simandrena),A. (Simandrena),sec51-6-3,sec51-6
+A. (Melandrena) (in part),A. (Melandrena) (in part),sec51-6-3,sec51-6
+A. (Micrandrena)(in part),A. (Micrandrena)(in part),sec51-6-3,sec51-6
+A. (Hyperandrena),A. (Hyperandrena),sec51-6-3,sec51-6
+A. (Euandrena),A. (Euandrena),sec51-6-3,sec51-6
+A. (Zonandrena),A. (Zonandrena),sec51-6-3,sec51-6
+A. (Melandrena) (in part),A. (Melandrena) (in part),sec51-6-3,sec51-6
+A. (Pallandrena),A. (Pallandrena),sec51-6-3,sec51-6
+A. (Ulandrena) (in part),A. (Ulandrena) (in part),sec51-6-3,sec51-6
+A. (Poliandrena)(in part),A. (Poliandrena)(in part),sec51-6-3,sec51-6
+A. (Avandrena),A. (Avandrena),sec51-6-4,sec51-6
+A. (Leucandrena),A. (Leucandrena),sec51-6-4,sec51-6
+A. (Melittoides),A. (Melittoides),sec51-6-4,sec51-6
+A. (Nobandrena),A. (Nobandrena),sec51-6-4,sec51-6
+A. (Scaphandrena),A. (Scaphandrena),sec51-6-4,sec51-6
+A. (Parandrenella),A. (Parandrenella),sec51-6-4,sec51-6
+A. (Poecilandrena),A. (Poecilandrena),sec51-6-4,sec51-6
+A. (Ulandrena) (in part),A. (Ulandrena) (in part),sec51-6-4,sec51-6
+A. (Orandrena),A. (Orandrena),sec51-6-4,sec51-6
+A. (Poliandrena)(in part) and A. (T arsandrena)(in part),A. (Poliandrena)(in part) and A. (T arsandrena)(in part),sec51-6-4,sec51-6
+A. (Campylogaster) (in part),A. (Campylogaster) (in part),sec51-6-5,sec51-6
+A. (Holandrena) (in part),A. (Holandrena) (in part),sec51-6-5,sec51-6
+A. (Cnemidandrena),A. (Cnemidandrena),sec51-6-5,sec51-6
+A. (Poliandrena)(in part) and A. (T arsandrena)(in part),A. (Poliandrena)(in part) and A. (T arsandrena)(in part),sec51-6-5,sec51-6
+A. (Holandrena) (in part),A. (Holandrena) (in part),sec51-6-5,sec51-6
+A. (Carandrena),A. (Carandrena),sec51-6-5,sec51-6
+A. (Notandrena),A. (Notandrena),sec51-6-5,sec51-6
+A. (Larandrena),A. (Larandrena),sec51-6-5,sec51-6
+A. (Andrena s. str.),A. (Andrena s. str.),sec51-6-5,sec51-6
+A. (Ptilandrena),A. (Ptilandrena),sec51-6-5,sec51-6
+A. (Hoplandrena) (in part),A. (Hoplandrena) (in part),sec51-6-5,sec51-6
+A. (Parandrena),A. (Parandrena),sec51-7-1,sec51-7
+A. (Micrandrena),A. (Micrandrena),sec51-7-2,sec51-7
+A. (Trachandrena),A. (Trachandrena),sec51-7-4,sec51-7
+A. (Plastandrena),A. (Plastandrena),sec51-7-4,sec51-7
+A. (Stenomelissa),A. (Stenomelissa),sec51-7-6,sec51-7
+A. (Chlorandrena),A. (Chlorandrena),sec51-7-6,sec51-7
+A. (Habromelissa),A. (Habromelissa),sec51-7-7,sec51-7
+A. (Cnemidandrena),A. (Cnemidandrena),sec51-7-8,sec51-7
+A. (Poecilandrena),A. (Poecilandrena),sec51-7-9,sec51-7
+A. (Hoplandrena),A. (Hoplandrena),sec51-7-1,sec51-7
+A. (Andrena s. str.),A. (Andrena s. str.),sec51-7-1,sec51-7
+A. (Plastandrena),A. (Plastandrena),sec51-7-1,sec51-7
+A. (Holandrena) (in part),A. (Holandrena) (in part),sec51-7-1,sec51-7
+A. (Simandrena),A. (Simandrena),sec51-7-1,sec51-7
+A. (Melandrena),A. (Melandrena),sec51-7-1,sec51-7
+A. (Holandrena) (in part),A. (Holandrena) (in part),sec51-7-1,sec51-7
+A. (T aeniandrena),A. (T aeniandrena),sec51-7-1,sec51-7
+A. (Euandrena),A. (Euandrena),sec51-7-1,sec51-7
+A. (Notandrena),A. (Notandrena),sec51-7-1,sec51-7
+A. (Calomelissa),A. (Calomelissa),sec51-7-2,sec51-7
+A. (Oreomelissa),A. (Oreomelissa),sec51-7-2,sec51-7
+A. (Stenomelissa),A. (Stenomelissa),sec51-8-2,sec51-8
+A. (Habromelissa),A. (Habromelissa),sec51-8-3,sec51-8
+A. (Notandrena)(in part),A. (Notandrena)(in part),sec51-8-4,sec51-8
+A. (Poecilandrena),A. (Poecilandrena),sec51-8-5,sec51-8
+A. (Oreomelissa),A. (Oreomelissa),sec51-8-7,sec51-8
+A. (Calomelissa),A. (Calomelissa),sec51-8-7,sec51-8
+A. (Chlorandrena)(in part),A. (Chlorandrena)(in part),sec51-8-8,sec51-8
+A. (Holandrena),A. (Holandrena),sec51-8-8,sec51-8
+A. (Hoplandrena),A. (Hoplandrena),sec51-8-9,sec51-8
+A. (Andrena s. str.)(in part),A. (Andrena s. str.)(in part),sec51-8-1,sec51-8
+A. (Andrena s. str.)(in part),A. (Andrena s. str.)(in part),sec51-8-1,sec51-8
+A. (Plastandrena) (in part),A. (Plastandrena) (in part),sec51-8-1,sec51-8
+A. (Plastandrena) (in part),A. (Plastandrena) (in part),sec51-8-1,sec51-8
+A. (Trachandrena),A. (Trachandrena),sec51-8-1,sec51-8
+A. (Micrandrena),A. (Micrandrena),sec51-8-1,sec51-8
+A. (Cnemidandrena),A. (Cnemidandrena),sec51-8-1,sec51-8
+A. (Notandrena),A. (Notandrena),sec51-8-1,sec51-8
+A. (Chlorandrena)(in part),A. (Chlorandrena)(in part),sec51-8-1,sec51-8
+A. (Melandrena),A. (Melandrena),sec51-8-1,sec51-8
+A. (Notandrena)(in part),A. (Notandrena)(in part),sec51-8-2,sec51-8
+A. (Simandrena),A. (Simandrena),sec51-8-2,sec51-8
+A. (T aeniandrena),A. (T aeniandrena),sec51-8-2,sec51-8
+A. (Euandrena),A. (Euandrena),sec51-8-2,sec51-8
+M. (Erythrandrena),M. (Erythrandrena),sec51-9-1,sec51-9
+M. (Megandrena s. str.),M. (Megandrena s. str.),sec51-9-1,sec51-9
+sec59-1,Calliopsini,sec52-1-1,sec52-1
+sec58-1,Perditini,sec52-1-2,sec52-1
+sec57-1,Protomeliturgini,sec52-1-3,sec52-1
+sec54-1,Panurgini,sec52-1-6,sec52-1
+sec53-1,Protandrenini,sec52-1-6,sec52-1
+Parapsaenythia,Parapsaenythia,sec53-1-2,sec53-1
+Liphanthus (in part),Liphanthus (in part),sec53-1-3,sec53-1
+Psaenythia,Psaenythia,sec53-1-4,sec53-1
+Anthrenoides,Anthrenoides,sec53-1-5,sec53-1
+Protandrena s. str.,Protandrena s. str.,sec53-1-5,sec53-1
+Neffapis,Neffapis,sec53-1-6,sec53-1
+Liphanthus (in part),Liphanthus (in part),sec53-1-7,sec53-1
+Rhophitulus (Cephalurgus),Rhophitulus (Cephalurgus),sec53-1-8,sec53-1
+Pseudopanurgus,Pseudopanurgus,sec53-1-9,sec53-1
+Chaeturginus,Chaeturginus,sec53-1-1,sec53-1
+Protandrena (in part),Protandrena (in part),sec53-1-1,sec53-1
+Rhophitulus s. str.,Rhophitulus s. str.,sec53-1-1,sec53-1
+Protandrena (Metapsaenythia),Protandrena (Metapsaenythia),sec53-1-1,sec53-1
+Anthemurgus,Anthemurgus,sec53-1-1,sec53-1
+Parapsaenythia,Parapsaenythia,sec53-2-2,sec53-2
+Psaenythia,Psaenythia,sec53-2-3,sec53-2
+Liphanthus (in part),Liphanthus (in part),sec53-2-4,sec53-2
+Anthrenoides,Anthrenoides,sec53-2-5,sec53-2
+Protandrena s. str.,Protandrena s. str.,sec53-2-5,sec53-2
+Neffapis,Neffapis,sec53-2-6,sec53-2
+Liphanthus (in part),Liphanthus (in part),sec53-2-7,sec53-2
+Chaeturginus,Chaeturginus,sec53-2-8,sec53-2
+Pseudopanurgus,Pseudopanurgus,sec53-2-9,sec53-2
+Anthemurgus,Anthemurgus,sec53-2-1,sec53-2
+Rhophitulus,Rhophitulus,sec53-2-1,sec53-2
+Protandrena (in part),Protandrena (in part),sec53-2-1,sec53-2
+L. (Neoliphanthus),L. (Neoliphanthus),sec53-3-1,sec53-3
+L. (Melaliphanthus),L. (Melaliphanthus),sec53-3-4,sec53-3
+L. (Leptophanthus),L. (Leptophanthus),sec53-3-4,sec53-3
+L. (Tricholiphanthus),L. (Tricholiphanthus),sec53-3-5,sec53-3
+L. (Liphanthus s. str.),L. (Liphanthus s. str.),sec53-3-6,sec53-3
+L. (Pseudoliphanthus),L. (Pseudoliphanthus),sec53-3-6,sec53-3
+L. (Neoliphanthus),L. (Neoliphanthus),sec53-4-1,sec53-4
+L. (Xenoliphanthus),L. (Xenoliphanthus),sec53-4-2,sec53-4
+L. (Leptophanthus),L. (Leptophanthus),sec53-4-3,sec53-4
+L. (Melaliphanthus),L. (Melaliphanthus),sec53-4-4,sec53-4
+L. (Pseudoliphanthus),L. (Pseudoliphanthus),sec53-4-5,sec53-4
+L. (Liphanthus s. str.),L. (Liphanthus s. str.),sec53-4-5,sec53-4
+P . (Protandrena s. str.),P . (Protandrena s. str.),sec53-5-1,sec53-5
+P . (Metapsaenythia),P . (Metapsaenythia),sec53-5-2,sec53-5
+P . (Austropanurgus),P . (Austropanurgus),sec53-5-3,sec53-5
+P . (Parasarus),P . (Parasarus),sec53-5-4,sec53-5
+P . (Pterosarus),P . (Pterosarus),sec53-5-5,sec53-5
+P . (Heterosarus),P . (Heterosarus),sec53-5-5,sec53-5
+P . (Protandrena s. str.),P . (Protandrena s. str.),sec53-6-1,sec53-6
+P . (Metapsaenythia),P . (Metapsaenythia),sec53-6-2,sec53-6
+P . (Austropanurgus),P . (Austropanurgus),sec53-6-3,sec53-6
+P . (Parasarus),P . (Parasarus),sec53-6-4,sec53-6
+P . (Metapsaenythia),P . (Metapsaenythia),sec53-6-3,sec53-6
+P . (Heterosarus),P . (Heterosarus),sec53-6-4,sec53-6
+P . (Austropanurgus),P . (Austropanurgus),sec53-6-5,sec53-6
+P . (Parasarus),P . (Parasarus),sec53-6-5,sec53-6
+(R. Rhophitulus s. str.),(R. Rhophitulus s. str.),sec53-7-1,sec53-7
+Camptopoeum,Camptopoeum,sec54-1-1,sec54-1
+Panurginus,Panurginus,sec54-1-2,sec54-1
+C. (Camptopoeum s. str.),C. (Camptopoeum s. str.),sec54-2-1,sec54-2
+C. (Epimethea),C. (Epimethea),sec54-2-1,sec54-2
+P . (Panurgus s. str.),P . (Panurgus s. str.),sec54-3-1,sec54-3
+P . (Simpanurgus),P . (Simpanurgus),sec54-3-2,sec54-3
+Melitturga,Melitturga,sec56-1-2,sec56-1
+Plesiopanurgus,Plesiopanurgus,sec56-1-3,sec56-1
+Mermiglossa,Mermiglossa,sec56-1-3,sec56-1
+Flavomeliturgula,Flavomeliturgula,sec56-1-4,sec56-1
+Gasparinahla,Gasparinahla,sec56-1-5,sec56-1
+Borgatomelissa,Borgatomelissa,sec56-1-6,sec56-1
+Meliturgula,Meliturgula,sec56-1-6,sec56-1
+Perdita,Perdita,sec58-1-1,sec58-1
+Macrotera,Macrotera,sec58-1-1,sec58-1
+Perdita,Perdita,sec58-2-1,sec58-2
+M. (Macrotera s. str.),M. (Macrotera s. str.),sec58-2-2,sec58-2
+M. (Cockerellula),M. (Cockerellula),sec58-2-2,sec58-2
+M. (Macroteropsis),M. (Macroteropsis),sec58-2-3,sec58-2
+M. (Macroterella),M. (Macroterella),sec58-2-3,sec58-2
+P . (Xerophasma),P . (Xerophasma),sec58-3-1,sec58-3
+P . (Pseudomacrotera),P . (Pseudomacrotera),sec58-3-3,sec58-3
+P . (Heteroperdita),P . (Heteroperdita),sec58-3-4,sec58-3
+P . (Glossoperdita),P . (Glossoperdita),sec58-3-5,sec58-3
+P . (Hesperoperdita),P . (Hesperoperdita),sec58-3-6,sec58-3
+P . (Epimacrotera),P . (Epimacrotera),sec58-3-6,sec58-3
+P . (Allomacrotera),P . (Allomacrotera),sec58-3-9,sec58-3
+P . (Cockerellia),P . (Cockerellia),sec58-3-1,sec58-3
+P . (Procockerellia),P . (Procockerellia),sec58-3-1,sec58-3
+P . (Pentaperdita),P . (Pentaperdita),sec58-3-1,sec58-3
+P . (Xeromacrotera),P . (Xeromacrotera),sec58-3-1,sec58-3
+P . (Callomacrotera),P . (Callomacrotera),sec58-3-1,sec58-3
+P . (Hexaperdita),P . (Hexaperdita),sec58-3-1,sec58-3
+P . (Perditella),P . (Perditella),sec58-3-1,sec58-3
+P . (Alloperdita),P . (Alloperdita),sec58-3-1,sec58-3
+P . (Pygoperdita),P . (Pygoperdita),sec58-3-1,sec58-3
+P . (Perdita s. str.),P . (Perdita s. str.),sec58-3-1,sec58-3
+Acamptopoeum,Acamptopoeum,sec59-1-2,sec59-1
+Calliopsis,Calliopsis,sec59-1-3,sec59-1
+Litocalliopsis,Litocalliopsis,sec59-1-3,sec59-1
+Arhysosage,Arhysosage,sec59-1-4,sec59-1
+Spinoliella,Spinoliella,sec59-1-5,sec59-1
+Callonychium,Callonychium,sec59-1-5,sec59-1
+C. (Liopoeum),C. (Liopoeum),sec59-2-1,sec59-2
+C. (Verbenapis),C. (Verbenapis),sec59-2-3,sec59-2
+C. (Calliopsis s. str.),C. (Calliopsis s. str.),sec59-2-4,sec59-2
+"C. (Calliopsima) —. Labrum with basal area delimited by weak ridge; mid- dle basitarsus much longer than hind; propodeal triangle basally with weak striae, not delimited posteriorly by  strong transverse ridge (nearctic) ..............C. (Perissander)","C. (Calliopsima) —. Labrum with basal area delimited by weak ridge; mid- dle basitarsus much longer than hind; propodeal triangle basally with weak striae, not delimited posteriorly by  strong transverse ridge (nearctic) ..............C. (Perissander)",sec59-2-5,sec59-2
+C. (Ceroliopoeum),C. (Ceroliopoeum),sec59-2-7,sec59-2
+C. (Hypomacrotera),C. (Hypomacrotera),sec59-2-8,sec59-2
+C. (Liopoeodes),C. (Liopoeodes),sec59-2-8,sec59-2
+C. (Micronomadopsis),C. (Micronomadopsis),sec59-2-9,sec59-2
+C. (Nomadopsis),C. (Nomadopsis),sec59-2-9,sec59-2
+C. (Ceroliopoeum),C. (Ceroliopoeum),sec59-3-1,sec59-3
+C. (Liopoeodes),C. (Liopoeodes),sec59-3-3,sec59-3
+C. (Liopoeum) (in part),C. (Liopoeum) (in part),sec59-3-4,sec59-3
+C. (Verbenapis),C. (Verbenapis),sec59-3-5,sec59-3
+C. (Calliopsis s. str.),C. (Calliopsis s. str.),sec59-3-6,sec59-3
+C. (Calliopsima),C. (Calliopsima),sec59-3-7,sec59-3
+C. (Perissander),C. (Perissander),sec59-3-7,sec59-3
+C. (Liopoeum) (in part),C. (Liopoeum) (in part),sec59-3-8,sec59-3
+C. (Hypomacrotera),C. (Hypomacrotera),sec59-3-9,sec59-3
+C. (Micronomadopsis),C. (Micronomadopsis),sec59-3-1,sec59-3
+C. (Nomadopsis),C. (Nomadopsis),sec59-3-1,sec59-3
+C. (Callonychium s. str.),C. (Callonychium s. str.),sec59-4-1,sec59-4
+C. (Paranychium),C. (Paranychium),sec59-4-1,sec59-4
+Oxaea,Oxaea,sec60-1-1,sec60-1
+Notoxaea,Notoxaea,sec60-1-2,sec60-1
+Protoxaea,Protoxaea,sec60-1-3,sec60-1
+Mesoxaea,Mesoxaea,sec60-1-3,sec60-1
+sec62-1,Rophitinae,sec61-1-1,sec61-1
+sec63-1,Nomiinae,sec61-1-2,sec61-1
+sec65-1,Halictinae,sec61-1-3,sec61-1
+sec64-1,Nomioidinae,sec61-1-3,sec61-1
+Dufourea,Dufourea,sec62-1-2,sec62-1
+Micralictoides,Micralictoides,sec62-1-3,sec62-1
+Sphecodosoma (in part),Sphecodosoma (in part),sec62-1-3,sec62-1
+Dufourea,Dufourea,sec62-2-2,sec62-2
+Micralictoides,Micralictoides,sec62-2-3,sec62-2
+Sphecodosoma (in part),Sphecodosoma (in part),sec62-2-3,sec62-2
+Ceblurgus,Ceblurgus,sec62-2-5,sec62-2
+Penapis,Penapis,sec62-2-6,sec62-2
+Goeletapis,Goeletapis,sec62-2-6,sec62-2
+Xeralictus,Xeralictus,sec62-2-7,sec62-2
+Protodufourea,Protodufourea,sec62-2-8,sec62-2
+Conanthalictus,Conanthalictus,sec62-2-9,sec62-2
+Systropha,Systropha,sec62-2-2,sec62-2
+Dufourea,Dufourea,sec62-2-3,sec62-2
+Rophites,Rophites,sec62-2-4,sec62-2
+Morawitzia,Morawitzia,sec62-2-4,sec62-2
+C. (Conanthalictus. s. str.),C. (Conanthalictus. s. str.),sec62-3-1,sec62-3
+C. (Phaceliapis),C. (Phaceliapis),sec62-3-1,sec62-3
+R. (Flavodufourea),R. (Flavodufourea),sec62-4-1,sec62-4
+R. (Rophites s. str.),R. (Rophites s. str.),sec62-4-2,sec62-4
+R. (Rhophitoides),R. (Rhophitoides),sec62-4-2,sec62-4
+S. (Michenerula),S. (Michenerula),sec62-5-1,sec62-5
+S. (Sphecodosoma s. str.),S. (Sphecodosoma s. str.),sec62-5-1,sec62-5
+Mellitidia,Mellitidia,sec63-1-2,sec63-1
+Ptilonomia,Ptilonomia,sec63-1-2,sec63-1
+Reepenia,Reepenia,sec63-1-3,sec63-1
+Nomia (in part),Nomia (in part),sec63-1-4,sec63-1
+Pseudapis,Pseudapis,sec63-1-5,sec63-1
+Steganomus,Steganomus,sec63-1-6,sec63-1
+Mellitidia,Mellitidia,sec63-2-2,sec63-2
+Ptilonomia,Ptilonomia,sec63-2-2,sec63-2
+Reepenia,Reepenia,sec63-2-3,sec63-2
+Nomia (in part),Nomia (in part),sec63-2-4,sec63-2
+Pseudapis,Pseudapis,sec63-2-5,sec63-2
+Steganomus,Steganomus,sec63-2-6,sec63-2
+Sphegocephala,Sphegocephala,sec63-2-8,sec63-2
+Halictonomia,Halictonomia,sec63-2-8,sec63-2
+Lipotriches (in part),Lipotriches (in part),sec63-2-1,sec63-2
+Nomia (in part),Nomia (in part),sec63-2-1,sec63-2
+Dieunomia,Dieunomia,sec63-2-1,sec63-2
+D. (Dieunomia s. str.),D. (Dieunomia s. str.),sec63-3-1,sec63-3
+D. (Epinomia),D. (Epinomia),sec63-3-1,sec63-3
+L. (Nubenomia),L. (Nubenomia),sec63-4-1,sec63-4
+L. (Lipotriches s. str.),L. (Lipotriches s. str.),sec63-4-2,sec63-4
+L. (Clavinomia),L. (Clavinomia),sec63-4-3,sec63-4
+L. (Maynenomia),L. (Maynenomia),sec63-4-4,sec63-4
+L. (Melanomia),L. (Melanomia),sec63-4-5,sec63-4
+L. (Macronomia),L. (Macronomia),sec63-4-6,sec63-4
+L. (Austronomia),L. (Austronomia),sec63-4-7,sec63-4
+L. (Trinomia),L. (Trinomia),sec63-4-8,sec63-4
+L. (Afronomia),L. (Afronomia),sec63-4-8,sec63-4
+N. (Crocisaspidia),N. (Crocisaspidia),sec63-5-2,sec63-5
+N. (Hoplonomia),N. (Hoplonomia),sec63-5-2,sec63-5
+N. (Acunomia),N. (Acunomia),sec63-5-4,sec63-5
+N. (Paulynomia),N. (Paulynomia),sec63-5-4,sec63-5
+N. (Leuconomia),N. (Leuconomia),sec63-5-5,sec63-5
+N. (Nomia s. str.),N. (Nomia s. str.),sec63-5-5,sec63-5
+P . (Pachynomia),P . (Pachynomia),sec63-6-1,sec63-6
+P . (Pseudapis s. str.),P . (Pseudapis s. str.),sec63-6-1,sec63-6
+Nomioides,Nomioides,sec64-1-1,sec64-1
+Cellariella,Cellariella,sec64-1-2,sec64-1
+Ceylalictus,Ceylalictus,sec64-1-2,sec64-1
+C. (Ceylalictus s. str.),C. (Ceylalictus s. str.),sec64-2-1,sec64-2
+C. (Meganomioides),C. (Meganomioides),sec64-2-2,sec64-2
+C. (Atronomioides),C. (Atronomioides),sec64-2-2,sec64-2
+sec66-1,Halictini,sec65-1-1,sec65-1
+sec67-1,Augochlorini,sec65-1-1,sec65-1
+Lasioglossum (Dialictus) (in part),Lasioglossum (Dialictus) (in part),sec66-1-2,sec66-1
+Ptilocleptis,Ptilocleptis,sec66-1-3,sec66-1
+Microsphecodes,Microsphecodes,sec66-1-4,sec66-1
+Lasioglossum (in part),Lasioglossum (in part),sec66-1-5,sec66-1
+Halictus,Halictus,sec66-1-7,sec66-1
+Pseudagapostemon,Pseudagapostemon,sec66-1-7,sec66-1
+Agapostemon,Agapostemon,sec66-1-8,sec66-1
+Ruizantheda,Ruizantheda,sec66-1-1,sec66-1
+Dinagapostemon (in part),Dinagapostemon (in part),sec66-1-1,sec66-1
+Mexalictus,Mexalictus,sec66-1-1,sec66-1
+Rhinetula,Rhinetula,sec66-1-1,sec66-1
+Habralictus,Habralictus,sec66-1-1,sec66-1
+Caenohalictus,Caenohalictus,sec66-1-1,sec66-1
+Paragapostemon,Paragapostemon,sec66-1-1,sec66-1
+Dinagapostemon (in part),Dinagapostemon (in part),sec66-1-1,sec66-1
+Halictus,Halictus,sec66-2-2,sec66-2
+Pseudagapostemon,Pseudagapostemon,sec66-2-2,sec66-2
+Paragapostemon,Paragapostemon,sec66-2-4,sec66-2
+Rhinetula,Rhinetula,sec66-2-4,sec66-2
+Agapostemon,Agapostemon,sec66-2-6,sec66-2
+Mexalictus,Mexalictus,sec66-2-7,sec66-2
+Habralictus,Habralictus,sec66-2-8,sec66-2
+Microsphecodes,Microsphecodes,sec66-2-1,sec66-2
+Dinagapostemon,Dinagapostemon,sec66-2-1,sec66-2
+Ruizantheda,Ruizantheda,sec66-2-1,sec66-2
+Caenohalictus,Caenohalictus,sec66-2-1,sec66-2
+Ptilocleptis,Ptilocleptis,sec66-2-1,sec66-2
+Sphecodes,Sphecodes,sec66-2-1,sec66-2
+Nesosphecodes,Nesosphecodes,sec66-2-1,sec66-2
+Parathrincostoma,Parathrincostoma,sec66-3-3,sec66-3
+Halictus (Paraseladonia),Halictus (Paraseladonia),sec66-3-4,sec66-3
+Eupetersia,Eupetersia,sec66-3-5,sec66-3
+Sphecodes,Sphecodes,sec66-3-5,sec66-3
+Halictus,Halictus,sec66-3-6,sec66-3
+Thrinchostoma,Thrinchostoma,sec66-3-7,sec66-3
+Thrincohalictus,Thrincohalictus,sec66-3-8,sec66-3
+Glossodialictus,Glossodialictus,sec66-3-9,sec66-3
+Patellapis,Patellapis,sec66-3-9,sec66-3
+Urohalictus,Urohalictus,sec66-3-1,sec66-3
+Echthralictus,Echthralictus,sec66-3-1,sec66-3
+Homalictus,Homalictus,sec66-3-1,sec66-3
+Lasioglossum,Lasioglossum,sec66-3-1,sec66-3
+A. (Agapostemonoides),A. (Agapostemonoides),sec66-4-1,sec66-4
+A. (Agapostemon s. str.),A. (Agapostemon s. str.),sec66-4-1,sec66-4
+E. (Eupetersia s. str.),E. (Eupetersia s. str.),sec66-5-1,sec66-5
+E. (Nesoeupetersia),E. (Nesoeupetersia),sec66-5-1,sec66-5
+H. (Habralictus s. str.),H. (Habralictus s. str.),sec66-6-1,sec66-6
+H. (Zikaniella),H. (Zikaniella),sec66-6-1,sec66-6
+H. (Halictus s. str.),H. (Halictus s. str.),sec66-7-3,sec66-7
+H. (Nealictus),H. (Nealictus),sec66-7-5,sec66-7
+H. (Lampralicutus),H. (Lampralicutus),sec66-7-6,sec66-7
+H. (Protohalictus),H. (Protohalictus),sec66-7-6,sec66-7
+H. (Monilapis),H. (Monilapis),sec66-7-8,sec66-7
+H. (Platyhalictus),H. (Platyhalictus),sec66-7-8,sec66-7
+H. (Odontalictus),H. (Odontalictus),sec66-7-9,sec66-7
+H. (Hexataenites),H. (Hexataenites),sec66-7-1,sec66-7
+H. (Tytthalictus),H. (Tytthalictus),sec66-7-1,sec66-7
+H. (Argalictus),H. (Argalictus),sec66-7-1,sec66-7
+H. (Paraseladonia),H. (Paraseladonia),sec66-7-1,sec66-7
+H. (Vestitohalictus),H. (Vestitohalictus),sec66-7-1,sec66-7
+H. (Seladonia),H. (Seladonia),sec66-7-1,sec66-7
+H. (Pachyceble),H. (Pachyceble),sec66-7-1,sec66-7
+H. (Homalictus s. str.),H. (Homalictus s. str.),sec66-8-1,sec66-8
+H. (Papualictus),H. (Papualictus),sec66-8-2,sec66-8
+H. (Quasilictus),H. (Quasilictus),sec66-8-2,sec66-8
+L. (Lasioglossum s. str.),L. (Lasioglossum s. str.),sec66-9-1,sec66-9
+L. (Evylaeus),L. (Evylaeus),sec66-9-2,sec66-9
+L. (Sphecodogastra),L. (Sphecodogastra),sec66-9-3,sec66-9
+L. (Hemihalictus),L. (Hemihalictus),sec66-9-4,sec66-9
+L. (Eickwortia),L. (Eickwortia),sec66-9-5,sec66-9
+L. (Dialictus),L. (Dialictus),sec66-9-5,sec66-9
+L. (Lasioglossum s. str.),L. (Lasioglossum s. str.),sec66-10-1,sec66-10
+L. (Evylaeus),L. (Evylaeus),sec66-10-2,sec66-10
+L. (Sphecodogastra),L. (Sphecodogastra),sec66-10-3,sec66-10
+L. (Hemihalictus),L. (Hemihalictus),sec66-10-4,sec66-10
+L. (Eickwortia),L. (Eickwortia),sec66-10-5,sec66-10
+L. (Lasioglossum s. str.),L. (Lasioglossum s. str.),sec66-10-2,sec66-10
+L. (Ctenonomia),L. (Ctenonomia),sec66-10-2,sec66-10
+L. (Acanthalictus),L. (Acanthalictus),sec66-10-3,sec66-10
+L. (Paradialictus),L. (Paradialictus),sec66-10-4,sec66-10
+L. (Sellalictus),L. (Sellalictus),sec66-10-5,sec66-10
+L. (Sudila),L. (Sudila),sec66-10-6,sec66-10
+L. (Evylaeus),L. (Evylaeus),sec66-10-7,sec66-10
+L. (Dialictus),L. (Dialictus),sec66-10-7,sec66-10
+L. (Austrevylaeus),L. (Austrevylaeus),sec66-11-1,sec66-11
+L. (Pseudochilalictus),L. (Pseudochilalictus),sec66-11-5,sec66-11
+L. (Parasphecodes),L. (Parasphecodes),sec66-11-5,sec66-11
+L. (Callalictus),L. (Callalictus),sec66-11-6,sec66-11
+L. (Ctenonomia),L. (Ctenonomia),sec66-11-6,sec66-11
+L. (Glossalictus),L. (Glossalictus),sec66-11-7,sec66-11
+L. (Chilalictus),L. (Chilalictus),sec66-11-8,sec66-11
+L. (Australictus),L. (Australictus),sec66-11-8,sec66-11
+L. (Glossalictus),L. (Glossalictus),sec66-11-1,sec66-11
+"L. (Ctenonomia) (in part) —. Gonostylus more than half as long as gonocoxite (except in L. idoneum Cockerell), in some cases as long as gono- coxite ........................................................L. (Chilalictus)","L. (Ctenonomia) (in part) —. Gonostylus more than half as long as gonocoxite (except in L. idoneum Cockerell), in some cases as long as gono- coxite ........................................................L. (Chilalictus)",sec66-11-1,sec66-11
+L. (Australictus),L. (Australictus),sec66-11-1,sec66-11
+L. (Callalictus),L. (Callalictus),sec66-11-1,sec66-11
+L. (Parasphecodes),L. (Parasphecodes),sec66-11-1,sec66-11
+P . (Lomatalictus),P . (Lomatalictus),sec66-12-2,sec66-12
+P . (Zonalictus),P . (Zonalictus),sec66-12-3,sec66-12
+P . (Archihalictus),P . (Archihalictus),sec66-12-4,sec66-12
+P . (Pachyhalictus),P . (Pachyhalictus),sec66-12-5,sec66-12
+P . (Dictyohalictus),P . (Dictyohalictus),sec66-12-5,sec66-12
+P . (Patellapis s. str.),P . (Patellapis s. str.),sec66-12-6,sec66-12
+P . (Chaetalictus),P . (Chaetalictus),sec66-12-6,sec66-12
+P . (Brasilagapostemon),P . (Brasilagapostemon),sec66-13-1,sec66-13
+P . (Neagapostemon),P . (Neagapostemon),sec66-13-2,sec66-13
+P . (Pseudagapostemon s. str.),P . (Pseudagapostemon s. str.),sec66-13-2,sec66-13
+T . (Eothrincostoma),T . (Eothrincostoma),sec66-14-1,sec66-14
+T . (Diagonozus),T . (Diagonozus),sec66-14-2,sec66-14
+T . (Thrinchostoma s. str.),T . (Thrinchostoma s. str.),sec66-14-2,sec66-14
+Ariphanarthra,Ariphanarthra,sec67-1-2,sec67-1
+Megaloptidia,Megaloptidia,sec67-1-3,sec67-1
+Chlerogelloides,Chlerogelloides,sec67-1-4,sec67-1
+Megommation,Megommation,sec67-1-5,sec67-1
+Micrommation,Micrommation,sec67-1-5,sec67-1
+T emnosoma,T emnosoma,sec67-1-7,sec67-1
+Augochlora,Augochlora,sec67-1-9,sec67-1
+Augochlorella,Augochlorella,sec67-1-9,sec67-1
+Corynura (Corynura),Corynura (Corynura),sec67-1-1,sec67-1
+"Paroxystoglossa —. Preoccipital ridge rounded; mesoscutum very slightly narrowed anteriorly, lip low and rounded; labral basal el- evation transverse ..........................................Megaloptilla","Paroxystoglossa —. Preoccipital ridge rounded; mesoscutum very slightly narrowed anteriorly, lip low and rounded; labral basal el- evation transverse ..........................................Megaloptilla",sec67-1-1,sec67-1
+Caenaugochlora (Ctenaugochlora),Caenaugochlora (Ctenaugochlora),sec67-1-1,sec67-1
+Chlerogella (Ischnomelissa),Chlerogella (Ischnomelissa),sec67-1-1,sec67-1
+Chlerogella (Chlerogella),Chlerogella (Chlerogella),sec67-1-1,sec67-1
+Chlerogas,Chlerogas,sec67-1-1,sec67-1
+Megalopta,Megalopta,sec67-1-1,sec67-1
+Xenochlora,Xenochlora,sec67-1-1,sec67-1
+Augochloropsis,Augochloropsis,sec67-1-1,sec67-1
+Rhinocorynura,Rhinocorynura,sec67-1-2,sec67-1
+Thectochlora,Thectochlora,sec67-1-2,sec67-1
+Rhectomia,Rhectomia,sec67-1-2,sec67-1
+Andinaugochlora (Andinaugochlora),Andinaugochlora (Andinaugochlora),sec67-1-2,sec67-1
+Neocorynura,Neocorynura,sec67-1-2,sec67-1
+Corynura (Callistochlora),Corynura (Callistochlora),sec67-1-2,sec67-1
+Augochlorodes,Augochlorodes,sec67-1-2,sec67-1
+Pseudaugochlora,Pseudaugochlora,sec67-1-2,sec67-1
+Caenaugochlora (Caenaugochlora),Caenaugochlora (Caenaugochlora),sec67-1-2,sec67-1
+Ariphanarthra,Ariphanarthra,sec67-2-2,sec67-2
+Megaloptidia,Megaloptidia,sec67-2-3,sec67-2
+Chlerogelloides,Chlerogelloides,sec67-2-4,sec67-2
+Chlerogella (in part),Chlerogella (in part),sec67-2-7,sec67-2
+Chlerogas,Chlerogas,sec67-2-7,sec67-2
+Augochloropsis,Augochloropsis,sec67-2-8,sec67-2
+Megalopta,Megalopta,sec67-2-1,sec67-2
+Thectochlora (in part),Thectochlora (in part),sec67-2-1,sec67-2
+Paroxystoglossa,Paroxystoglossa,sec67-2-1,sec67-2
+T emnosoma,T emnosoma,sec67-2-1,sec67-2
+Rhinocorynura,Rhinocorynura,sec67-2-1,sec67-2
+Thectochlora (in part),Thectochlora (in part),sec67-2-1,sec67-2
+Chlerogella (Ischnomelissa) (in part),Chlerogella (Ischnomelissa) (in part),sec67-2-1,sec67-2
+Halictillus,Halictillus,sec67-2-1,sec67-2
+Corynura,Corynura,sec67-2-1,sec67-2
+Megaloptilla,Megaloptilla,sec67-2-2,sec67-2
+Rhectomia,Rhectomia,sec67-2-2,sec67-2
+Augochlorodes,Augochlorodes,sec67-2-2,sec67-2
+Andinaugochlora (Neocorynurella),Andinaugochlora (Neocorynurella),sec67-2-2,sec67-2
+Augochlorella (Ceratalictus),Augochlorella (Ceratalictus),sec67-2-2,sec67-2
+Paroxystoglossa,Paroxystoglossa,sec67-2-2,sec67-2
+Neocorynura,Neocorynura,sec67-2-2,sec67-2
+Andinaugochlora (Andinaugochlora),Andinaugochlora (Andinaugochlora),sec67-2-2,sec67-2
+Augochlora,Augochlora,sec67-2-2,sec67-2
+Augochlorella,Augochlorella,sec67-2-2,sec67-2
+Pseudaugochlora,Pseudaugochlora,sec67-2-2,sec67-2
+Caenaugochlora,Caenaugochlora,sec67-2-2,sec67-2
+A. (Andinaugochlora s. str.),A. (Andinaugochlora s. str.),sec67-3-1,sec67-3
+A. (Neocorynurella),A. (Neocorynurella),sec67-3-1,sec67-3
+A. (Oxystoglossella),A. (Oxystoglossella),sec67-4-1,sec67-4
+A. (Augochlora s. str.),A. (Augochlora s. str.),sec67-4-1,sec67-4
+A. (Ceratalictus),A. (Ceratalictus),sec67-5-1,sec67-5
+A. (Pereirapis),A. (Pereirapis),sec67-5-2,sec67-5
+A. (Augochlorella s. str.),A. (Augochlorella s. str.),sec67-5-2,sec67-5
+A. (Ceratalictus),A. (Ceratalictus),sec67-6-1,sec67-6
+A. (Pereirapis),A. (Pereirapis),sec67-6-2,sec67-6
+A. (Augochlorella s. str.),A. (Augochlorella s. str.),sec67-6-2,sec67-6
+A. (Augochloropsis s. str.),A. (Augochloropsis s. str.),sec67-7-1,sec67-7
+A. (Paraugochloropsis),A. (Paraugochloropsis),sec67-7-1,sec67-7
+C. (Caenaugochlora s. str.),C. (Caenaugochlora s. str.),sec67-8-1,sec67-8
+C. (Ctenaugochlora),C. (Ctenaugochlora),sec67-8-1,sec67-8
+C. (Ischnomelissa),C. (Ischnomelissa),sec67-9-1,sec67-9
+C. (Chlerogella s. str.),C. (Chlerogella s. str.),sec67-9-1,sec67-9
+C. (Ischnomelissa),C. (Ischnomelissa),sec67-10-1,sec67-10
+M. (Megalopta s. str.),M. (Megalopta s. str.),sec67-11-1,sec67-11
+M. (Noctoraptor),M. (Noctoraptor),sec67-11-1,sec67-11
+M. (Megommation s. str.),M. (Megommation s. str.),sec67-12-1,sec67-12
+sec73-1,Meganomiinae,sec68-1-1,sec68-1
+sec69-1,Dasypodainae,sec68-1-2,sec68-1
+sec74-1,Melittinae,sec68-1-2,sec68-1
+sec70-1,Dasypodaini,sec69-1-1,sec69-1
+sec71-1,Promelittini,sec69-1-2,sec69-1
+sec72-1,Sambini,sec69-1-2,sec69-1
+Eremaphanta,Eremaphanta,sec70-1-1,sec70-1
+Dasypoda,Dasypoda,sec70-1-2,sec70-1
+E. (Eremaphanta s. str.),E. (Eremaphanta s. str.),sec70-2-1,sec70-2
+E. (Popovapis),E. (Popovapis),sec70-2-1,sec70-2
+H. (Capicoloides),H. (Capicoloides),sec70-3-2,sec70-3
+H. (Capicola),H. (Capicola),sec70-3-2,sec70-3
+H. (Xeralictoides),H. (Xeralictoides),sec70-3-3,sec70-3
+H. (Panurgomia),H. (Panurgomia),sec70-3-4,sec70-3
+H. (Carinapis),H. (Carinapis),sec70-3-7,sec70-3
+H. (Hesperapis s. str.),H. (Hesperapis s. str.),sec70-3-7,sec70-3
+H. (Zacesta),H. (Zacesta),sec70-3-8,sec70-3
+H. (Disparapis) —. First ﬂagellar segment equal to or shorter than second ................................................................ H. (Amblyapis),H. (Disparapis) —. First ﬂagellar segment equal to or shorter than second ................................................................ H. (Amblyapis),sec70-3-9,sec70-3
+H. (Zacesta),H. (Zacesta),sec70-3-1,sec70-3
+H. (Hesperapis s. str.),H. (Hesperapis s. str.),sec70-4-1,sec70-4
+H. (Carinapis) (in part),H. (Carinapis) (in part),sec70-4-2,sec70-4
+H. (Carinapis) (in part),H. (Carinapis) (in part),sec70-4-2,sec70-4
+H. (Disparapis),H. (Disparapis),sec70-4-4,sec70-4
+H. (Amblyapis) (in part),H. (Amblyapis) (in part),sec70-4-5,sec70-4
+Samba,Samba,sec72-1-1,sec72-1
+Haplomelitta,Haplomelitta,sec72-1-1,sec72-1
+Samba,Samba,sec72-2-1,sec72-2
+H. (Haplosamba),H. (Haplosamba),sec72-2-2,sec72-2
+H. (Haplomelitta s. str.),H. (Haplomelitta s. str.),sec72-2-3,sec72-2
+H. (Atrosamba),H. (Atrosamba),sec72-2-4,sec72-2
+H. (Prosamba),H. (Prosamba),sec72-2-4,sec72-2
+Meganomia,Meganomia,sec73-1-1,sec73-1
+Pseudophilanthus,Pseudophilanthus,sec73-1-2,sec73-1
+Uromonia,Uromonia,sec73-1-3,sec73-1
+Ceratomonia,Ceratomonia,sec73-1-3,sec73-1
+P . (Dicromonia),P . (Dicromonia),sec73-2-1,sec73-2
+P . (Pseudophilanthus s. str.),P . (Pseudophilanthus s. str.),sec73-2-1,sec73-2
+U. (Nesomonia),U. (Nesomonia),sec73-3-1,sec73-3
+U. (Uromonia s. str.),U. (Uromonia s. str.),sec73-3-1,sec73-3
+Macropis,Macropis,sec74-1-1,sec74-1
+Melitta,Melitta,sec74-1-2,sec74-1
+Redivivoides,Redivivoides,sec74-1-3,sec74-1
+Rediviva,Rediviva,sec74-1-3,sec74-1
+M. (Paramacropis),M. (Paramacropis),sec74-2-1,sec74-2
+M. (Sinomacropis),M. (Sinomacropis),sec74-2-2,sec74-2
+M. (Macropis s. str.),M. (Macropis s. str.),sec74-2-2,sec74-2
+M. (Paramacropis),M. (Paramacropis),sec74-3-1,sec74-3
+M. (Sinomacropis),M. (Sinomacropis),sec74-3-2,sec74-3
+sec76-1,Fideliinae,sec75-1-1,sec75-1
+sec79-1,Megachilinae,sec75-1-1,sec75-1
+sec78-1,Fideliini,sec76-1-1,sec76-1
+sec77-1,Pararhophitini,sec76-1-1,sec76-1
+Neoﬁdelia,Neoﬁdelia,sec78-1-1,sec78-1
+Fidelia,Fidelia,sec78-1-1,sec78-1
+F . (Fideliopsis),F . (Fideliopsis),sec78-2-1,sec78-2
+F . (Fidelia s. str.),F . (Fidelia s. str.),sec78-2-2,sec78-2
+F . (Fideliana),F . (Fideliana),sec78-2-3,sec78-2
+F . (Paraﬁdelia),F . (Paraﬁdelia),sec78-2-3,sec78-2
+sec80-1,Lithurgini,sec79-1-1,sec79-1
+sec83-1,Dioxyini,sec79-1-2,sec79-1
+sec81-1,"Megachilini (Sec. 84) — Arolia present; preaxilla, below posterolateral angle of scutum, vertical, smooth and shining or with some hairs, these much shorter than those of adjacent sclerites; body sometimes metallic green, blue, or brassy ...................... ............................................................ Osmiini",sec79-1-4,sec79-1
+Trichothurgus,Trichothurgus,sec80-1-1,sec80-1
+Microthurge,Microthurge,sec80-1-2,sec80-1
+Trichothurgus,Trichothurgus,sec80-2-1,sec80-2
+Microthurge,Microthurge,sec80-2-2,sec80-2
+Noteriades,Noteriades,sec81-1-2,sec81-1
+Wainia,Wainia,sec81-1-3,sec81-1
+Heriades,Heriades,sec81-1-4,sec81-1
+Protosmia,Protosmia,sec81-1-4,sec81-1
+Osmia (in part),Osmia (in part),sec81-1-5,sec81-1
+Afroheriades,Afroheriades,sec81-2-1,sec81-2
+Ochreriades,Ochreriades,sec81-2-3,sec81-2
+Hofferia,Hofferia,sec81-2-4,sec81-2
+Noteriades,Noteriades,sec81-2-7,sec81-2
+Pseudoheriades,Pseudoheriades,sec81-2-8,sec81-2
+Stenoheriades,Stenoheriades,sec81-2-9,sec81-2
+Heriades,Heriades,sec81-2-9,sec81-2
+Protosmia,Protosmia,sec81-2-1,sec81-2
+Othinosmia (in part),Othinosmia (in part),sec81-2-1,sec81-2
+Othinosmia (Afrosmia),Othinosmia (Afrosmia),sec81-2-1,sec81-2
+Hoplosmia,Hoplosmia,sec81-2-1,sec81-2
+Wainia(in part),Wainia(in part),sec81-2-1,sec81-2
+"Osmia (Allosmia, some Erythrosmia)","Osmia (Allosmia, some Erythrosmia)",sec81-2-1,sec81-2
+Hoplitis (most subgenera),Hoplitis (most subgenera),sec81-2-1,sec81-2
+Haetosmia,Haetosmia,sec81-2-1,sec81-2
+Wainia (Wainiella),Wainia (Wainiella),sec81-2-1,sec81-2
+Stenosmia,Stenosmia,sec81-2-1,sec81-2
+Hoplitis (Kumobia),Hoplitis (Kumobia),sec81-2-1,sec81-2
+Heriades,Heriades,sec81-3-1,sec81-3
+Osmia,Osmia,sec81-3-2,sec81-3
+Chelostoma,Chelostoma,sec81-3-3,sec81-3
+Protosmia,Protosmia,sec81-3-4,sec81-3
+Xeroheriades,Xeroheriades,sec81-3-5,sec81-3
+Ashmeadiella,Ashmeadiella,sec81-3-6,sec81-3
+A. (Isosmia),A. (Isosmia),sec81-4-1,sec81-4
+A. (Chilosima),A. (Chilosima),sec81-4-3,sec81-4
+"A. (Cubitognatha, Arogochila)","A. (Cubitognatha, Arogochila)",sec81-4-4,sec81-4
+A. (Ashmeadiella s. str.),A. (Ashmeadiella s. str.),sec81-4-4,sec81-4
+A. (Ashmeadiella s. str.),A. (Ashmeadiella s. str.),sec81-4-5,sec81-4
+A. (Cubitognatha),A. (Cubitognatha),sec81-4-6,sec81-4
+A. (Atoposmia s. str.),A. (Atoposmia s. str.),sec81-5-1,sec81-5
+A. (Hexosmia),A. (Hexosmia),sec81-5-2,sec81-5
+A. (Eremosmia),A. (Eremosmia),sec81-5-2,sec81-5
+C. (Gyrodromella),C. (Gyrodromella),sec81-6-2,sec81-6
+C. (Foveosmia),C. (Foveosmia),sec81-6-3,sec81-6
+C. (Chelostoma s. str.),C. (Chelostoma s. str.),sec81-6-3,sec81-6
+C. (Prochelostoma),C. (Prochelostoma),sec81-6-4,sec81-6
+C. (Ceraheriades),C. (Ceraheriades),sec81-6-5,sec81-6
+C. (Eochelostoma),C. (Eochelostoma),sec81-6-5,sec81-6
+H. (Rhopaloheriades),H. (Rhopaloheriades),sec81-7-2,sec81-7
+H. (Neotrypetes),H. (Neotrypetes),sec81-7-4,sec81-7
+H. (Michenerella),H. (Michenerella),sec81-7-4,sec81-7
+H. (Pachyheriades),H. (Pachyheriades),sec81-7-5,sec81-7
+H. (T oxeriades),H. (T oxeriades),sec81-7-6,sec81-7
+H. (Tyttheriades),H. (Tyttheriades),sec81-7-6,sec81-7
+H. (Amboheriades),H. (Amboheriades),sec81-7-7,sec81-7
+H. (Heriades s. str.),H. (Heriades s. str.),sec81-7-7,sec81-7
+H. (Rhopaloheriades),H. (Rhopaloheriades),sec81-8-2,sec81-8
+H. (Neotrypetes),H. (Neotrypetes),sec81-8-4,sec81-8
+H. (Michenerella),H. (Michenerella),sec81-8-4,sec81-8
+H. (Pachyheriades),H. (Pachyheriades),sec81-8-5,sec81-8
+H. (T oxeriades),H. (T oxeriades),sec81-8-6,sec81-8
+H. (Tyttheriades),H. (Tyttheriades),sec81-8-6,sec81-8
+H. (Annosmia),H. (Annosmia),sec81-9-4,sec81-9
+H. (Coloplitis),H. (Coloplitis),sec81-9-4,sec81-9
+H. (Eurypariella),H. (Eurypariella),sec81-9-5,sec81-9
+H. (Hoplitis s. str.),H. (Hoplitis s. str.),sec81-9-6,sec81-9
+H. (Bytinskia),H. (Bytinskia),sec81-9-7,sec81-9
+H. (Kumobia),H. (Kumobia),sec81-9-7,sec81-9
+H. (Kumobia),H. (Kumobia),sec81-9-9,sec81-9
+H. (Bytinskia),H. (Bytinskia),sec81-9-9,sec81-9
+H. (Hoplitis s. str.),H. (Hoplitis s. str.),sec81-9-1,sec81-9
+H. (Coloplitis),H. (Coloplitis),sec81-9-1,sec81-9
+H. (Annosmia),H. (Annosmia),sec81-9-1,sec81-9
+H. (Eurypariella),H. (Eurypariella),sec81-9-1,sec81-9
+H. (Megahoplitis),H. (Megahoplitis),sec81-9-1,sec81-9
+H. (Formicapis),H. (Formicapis),sec81-9-1,sec81-9
+H. (Anthocopa),H. (Anthocopa),sec81-9-1,sec81-9
+H. (Platosmia),H. (Platosmia),sec81-9-1,sec81-9
+H. (Chlidoplitis),H. (Chlidoplitis),sec81-9-1,sec81-9
+H. (Jaxartinula),H. (Jaxartinula),sec81-9-2,sec81-9
+H. (Exanthocopa),H. (Exanthocopa),sec81-9-2,sec81-9
+H. (Nasutosmia),H. (Nasutosmia),sec81-9-2,sec81-9
+H. (Microhoplitis),H. (Microhoplitis),sec81-9-2,sec81-9
+H. (Prionohoplitis),H. (Prionohoplitis),sec81-9-2,sec81-9
+H. (Megalosmia),H. (Megalosmia),sec81-9-2,sec81-9
+H. (Monumetha),H. (Monumetha),sec81-9-2,sec81-9
+H. (Alcidamea),H. (Alcidamea),sec81-9-2,sec81-9
+H. (Prionohoplitis),H. (Prionohoplitis),sec81-9-2,sec81-9
+H. (Microhoplitis),H. (Microhoplitis),sec81-9-2,sec81-9
+H. (Chlidoplitis),H. (Chlidoplitis),sec81-9-3,sec81-9
+H. (Anthocopa),H. (Anthocopa),sec81-9-3,sec81-9
+H. (Nasutosmia),H. (Nasutosmia),sec81-9-3,sec81-9
+H. (Formicapis),H. (Formicapis),sec81-9-3,sec81-9
+H. (Jaxartinula),H. (Jaxartinula),sec81-9-3,sec81-9
+H. (Megalosmia) (in part),H. (Megalosmia) (in part),sec81-9-3,sec81-9
+H. (Monumetha),H. (Monumetha),sec81-9-3,sec81-9
+H. (Pentadentosmia),H. (Pentadentosmia),sec81-9-3,sec81-9
+H. (Megalosmia) (in part),H. (Megalosmia) (in part),sec81-9-3,sec81-9
+H. (Megahoplitis),H. (Megahoplitis),sec81-9-3,sec81-9
+H. (Platosmia),H. (Platosmia),sec81-9-3,sec81-9
+H. (Alcidamea),H. (Alcidamea),sec81-9-3,sec81-9
+H. (Proteriades),H. (Proteriades),sec81-10-2,sec81-10
+H. (Acrosmia),H. (Acrosmia),sec81-10-3,sec81-10
+H. (Penteriades),H. (Penteriades),sec81-10-4,sec81-10
+H. (Hoplitina),H. (Hoplitina),sec81-10-4,sec81-10
+H. (Cyrtosmia),H. (Cyrtosmia),sec81-10-5,sec81-10
+H. (Formicapis),H. (Formicapis),sec81-10-7,sec81-10
+H. (Hoplitis s. str.),H. (Hoplitis s. str.),sec81-10-9,sec81-10
+H. (Monumetha),H. (Monumetha),sec81-10-1,sec81-10
+H. (Alcidamea),H. (Alcidamea),sec81-10-1,sec81-10
+H. (Penteriades),H. (Penteriades),sec81-11-2,sec81-11
+H. (Proteriades),H. (Proteriades),sec81-11-2,sec81-11
+H. (Robertsonella),H. (Robertsonella),sec81-11-4,sec81-11
+H. (Formicapis),H. (Formicapis),sec81-11-4,sec81-11
+H. (Monumetha),H. (Monumetha),sec81-11-5,sec81-11
+H. (Cyrtosmia),H. (Cyrtosmia),sec81-11-6,sec81-11
+H. (Acrosmia),H. (Acrosmia),sec81-11-7,sec81-11
+H. (Hoplitina),H. (Hoplitina),sec81-11-8,sec81-11
+H. (Dasyosmia),H. (Dasyosmia),sec81-11-9,sec81-11
+H. (Hoplitis s. str.),H. (Hoplitis s. str.),sec81-11-1,sec81-11
+H. (Alcidamea),H. (Alcidamea),sec81-11-1,sec81-11
+H. (Hoplosmia s. str.),H. (Hoplosmia s. str.),sec81-12-1,sec81-12
+H. (Paranthocopa),H. (Paranthocopa),sec81-12-2,sec81-12
+H. (Odontanthocopa),H. (Odontanthocopa),sec81-12-2,sec81-12
+H. (Hoplosmia s. str.),H. (Hoplosmia s. str.),sec81-13-1,sec81-13
+H. (Paranthocopa),H. (Paranthocopa),sec81-13-2,sec81-13
+H. (Paranthocopa),H. (Paranthocopa),sec81-13-2,sec81-13
+H. (Hoplosmia s. str.),H. (Hoplosmia s. str.),sec81-13-3,sec81-13
+H. (Odontanthocopa) (in part),H. (Odontanthocopa) (in part),sec81-13-3,sec81-13
+O. (Osmia s. str.),O. (Osmia s. str.),sec81-14-2,sec81-14
+O. (Monosmia),O. (Monosmia),sec81-14-3,sec81-14
+O. (Orientosmia),O. (Orientosmia),sec81-14-3,sec81-14
+O. (Ozbekosmia),O. (Ozbekosmia),sec81-14-5,sec81-14
+O. (Helicosmia),O. (Helicosmia),sec81-14-6,sec81-14
+O. (Pyrosmia),O. (Pyrosmia),sec81-14-6,sec81-14
+O. (Hemiosmia),O. (Hemiosmia),sec81-14-8,sec81-14
+O. (Neosmia),O. (Neosmia),sec81-14-9,sec81-14
+O. (T ergosmia),O. (T ergosmia),sec81-14-9,sec81-14
+O. (Allosmia),O. (Allosmia),sec81-14-1,sec81-14
+O. (Erythrosmia),O. (Erythrosmia),sec81-14-1,sec81-14
+O. (Metallinella),O. (Metallinella),sec81-14-1,sec81-14
+O. (Melanosmia),O. (Melanosmia),sec81-14-1,sec81-14
+O. (Metallinella),O. (Metallinella),sec81-15-1,sec81-15
+O. (Osmia s. str.),O. (Osmia s. str.),sec81-15-2,sec81-15
+O. (Helicosmia),O. (Helicosmia),sec81-15-3,sec81-15
+O. (Monosmia),O. (Monosmia),sec81-15-5,sec81-15
+O. (Orientosmia),O. (Orientosmia),sec81-15-5,sec81-15
+O. (Allosmia),O. (Allosmia),sec81-15-7,sec81-15
+O. (Erythrosmia),O. (Erythrosmia),sec81-15-7,sec81-15
+O. (Neosmia),O. (Neosmia),sec81-15-8,sec81-15
+O. (Hemiosmia),O. (Hemiosmia),sec81-15-9,sec81-15
+O. (Pyrosmia),O. (Pyrosmia),sec81-15-1,sec81-15
+O. (Melanosmia),O. (Melanosmia),sec81-15-1,sec81-15
+O. (Ozbekosmia),O. (Ozbekosmia),sec81-15-1,sec81-15
+O. (T ergosmia),O. (T ergosmia),sec81-15-1,sec81-15
+O. (Metallinella),O. (Metallinella),sec81-16-1,sec81-16
+O. (Osmia s. str.),O. (Osmia s. str.),sec81-16-2,sec81-16
+O. (Helicosmia),O. (Helicosmia),sec81-16-3,sec81-16
+O. (Monosmia),O. (Monosmia),sec81-16-5,sec81-16
+O. (Orientosmia),O. (Orientosmia),sec81-16-5,sec81-16
+O. (Allosmia),O. (Allosmia),sec81-16-7,sec81-16
+O. (Erythrosmia),O. (Erythrosmia),sec81-16-7,sec81-16
+O. (Neosmia),O. (Neosmia),sec81-16-8,sec81-16
+O. (Hemiosmia),O. (Hemiosmia),sec81-16-9,sec81-16
+O. (Pyrosmia),O. (Pyrosmia),sec81-16-1,sec81-16
+O. (Melanosmia),O. (Melanosmia),sec81-16-1,sec81-16
+O. (Ozbekosmia),O. (Ozbekosmia),sec81-16-1,sec81-16
+O. (Osmia s. str.),O. (Osmia s. str.),sec81-16-2,sec81-16
+O.(Mystacosmia),O.(Mystacosmia),sec81-16-6,sec81-16
+O. (Othinosmia s. str.),O. (Othinosmia s. str.),sec81-17-1,sec81-17
+O. (Afrosmia),O. (Afrosmia),sec81-17-2,sec81-17
+O. (Megaloheriades),O. (Megaloheriades),sec81-17-2,sec81-17
+O. (Othinosmia s. str.),O. (Othinosmia s. str.),sec81-18-1,sec81-18
+O. (Afrosmia),O. (Afrosmia),sec81-18-2,sec81-18
+O. (Megaloheriades),O. (Megaloheriades),sec81-18-2,sec81-18
+P . (Protosmia s. str.),P . (Protosmia s. str.),sec81-19-2,sec81-19
+P . (Dolichosmia),P . (Dolichosmia),sec81-19-2,sec81-19
+P . (Chelostomopsis),P . (Chelostomopsis),sec81-19-3,sec81-19
+P . (Nanosmia),P . (Nanosmia),sec81-19-3,sec81-19
+P . (Protosmia s. str.),P . (Protosmia s. str.),sec81-20-2,sec81-20
+P . (Dolichosmia),P . (Dolichosmia),sec81-20-2,sec81-20
+P . (Chelostomopsis),P . (Chelostomopsis),sec81-20-3,sec81-20
+P . (Nanosmia,P . (Nanosmia,sec81-20-3,sec81-20
+W . (Wainia s. str.),W . (Wainia s. str.),sec81-21-1,sec81-21
+W . (Wainiella),W . (Wainiella),sec81-21-2,sec81-21
+Caposmia,Caposmia,sec81-21-2,sec81-21
+Anthidium,Anthidium,sec82-1-3,sec82-1
+Afranthidium (in part),Afranthidium (in part),sec82-1-3,sec82-1
+Serapista,Serapista,sec82-1-4,sec82-1
+Anthidioma,Anthidioma,sec82-1-5,sec82-1
+Pachyanthidium (in part),Pachyanthidium (in part),sec82-1-6,sec82-1
+Neanthidium,Neanthidium,sec82-1-8,sec82-1
+Gnathanthidium,Gnathanthidium,sec82-1-9,sec82-1
+Afranthidium (in part),Afranthidium (in part),sec82-1-9,sec82-1
+Indanthidium,Indanthidium,sec82-1-1,sec82-1
+Pseudoanthidium,Pseudoanthidium,sec82-1-1,sec82-1
+Aspidosmia,Aspidosmia,sec82-1-1,sec82-1
+Icteranthidium,Icteranthidium,sec82-1-1,sec82-1
+Euaspis,Euaspis,sec82-1-1,sec82-1
+Trachusoides,Trachusoides,sec82-1-1,sec82-1
+Trachusa,Trachusa,sec82-1-1,sec82-1
+Apianthidium,Apianthidium,sec82-1-1,sec82-1
+Acedanthidium,Acedanthidium,sec82-1-1,sec82-1
+Larinostelis,Larinostelis,sec82-1-2,sec82-1
+Eoanthidium,Eoanthidium,sec82-1-2,sec82-1
+Cyphanthidium,Cyphanthidium,sec82-1-2,sec82-1
+Plesianthidium,Plesianthidium,sec82-1-2,sec82-1
+Benanthis,Benanthis,sec82-1-2,sec82-1
+Rhodanthidium,Rhodanthidium,sec82-1-2,sec82-1
+Bathanthidium,Bathanthidium,sec82-1-2,sec82-1
+Anthidiellum (in part),Anthidiellum (in part),sec82-1-2,sec82-1
+Stelis (in part),Stelis (in part),sec82-1-2,sec82-1
+Afrostelis,Afrostelis,sec82-1-2,sec82-1
+Xenostelis,Xenostelis,sec82-1-2,sec82-1
+B,B,sec82-2-1,sec82-2
+A. (Immanthidium),A. (Immanthidium),sec82-3-1,sec82-3
+A. (Zosteranthidium),A. (Zosteranthidium),sec82-3-3,sec82-3
+A. (Nigranthidium),A. (Nigranthidium),sec82-3-4,sec82-3
+A. (Domanthidium),A. (Domanthidium),sec82-3-5,sec82-3
+A. (Oranthidium),A. (Oranthidium),sec82-3-6,sec82-3
+A. (Afranthidium s. str.),A. (Afranthidium s. str.),sec82-3-6,sec82-3
+A. (Mesanthidium),A. (Mesanthidium),sec82-3-7,sec82-3
+A. (Xenanthidium),A. (Xenanthidium),sec82-3-8,sec82-3
+A. (Capanthidium),A. (Capanthidium),sec82-3-9,sec82-3
+A. (Mesanthidiellum),A. (Mesanthidiellum),sec82-3-1,sec82-3
+A. (Branthidium),A. (Branthidium),sec82-3-1,sec82-3
+A. (Ananthidiellum),A. (Ananthidiellum),sec82-4-2,sec82-4
+A. (Chloranthidiellum),A. (Chloranthidiellum),sec82-4-3,sec82-4
+A. (Clypanthidium),A. (Clypanthidium),sec82-4-4,sec82-4
+A. (Pycnanthidium),A. (Pycnanthidium),sec82-4-5,sec82-4
+A. (Ranthidiellum),A. (Ranthidiellum),sec82-4-5,sec82-4
+A. (Loyolanthidium),A. (Loyolanthidium),sec82-4-6,sec82-4
+A. (Anthidiellum s. str.),A. (Anthidiellum s. str.),sec82-4-6,sec82-4
+A. (Callanthidium),A. (Callanthidium),sec82-5-1,sec82-5
+A. (Anthidium s. str.),A. (Anthidium s. str.),sec82-5-2,sec82-5
+A. (Nivanthidium),A. (Nivanthidium),sec82-5-3,sec82-5
+A. (Severanthidium),A. (Severanthidium),sec82-5-5,sec82-5
+A. (Gulanthidium),A. (Gulanthidium),sec82-5-5,sec82-5
+A. (Turkanthidium),A. (Turkanthidium),sec82-5-6,sec82-5
+A. (Proanthidium),A. (Proanthidium),sec82-5-6,sec82-5
+A. (Anthodioctes s. str.),A. (Anthodioctes s. str.),sec82-6-1,sec82-6
+A. (Bothranthidium),A. (Bothranthidium),sec82-6-1,sec82-6
+B. (Bathanthidium s. str.),B. (Bathanthidium s. str.),sec82-7-1,sec82-7
+B. (Manthidium),B. (Manthidium),sec82-7-2,sec82-7
+B. (Stenanthidiellum),B. (Stenanthidiellum),sec82-7-2,sec82-7
+D. (Dianthidium s. str.),D. (Dianthidium s. str.),sec82-8-1,sec82-8
+D. (Deranchanthidium),D. (Deranchanthidium),sec82-8-2,sec82-8
+D. (Adanthidium),D. (Adanthidium),sec82-8-3,sec82-8
+D. (Mecanthidium),D. (Mecanthidium),sec82-8-3,sec82-8
+E. (Hemidiellum),E. (Hemidiellum),sec82-9-1,sec82-9
+E. (Salemanthidium),E. (Salemanthidium),sec82-9-2,sec82-9
+E. (Clistanthidium),E. (Clistanthidium),sec82-9-3,sec82-9
+E. (Eoanthidium s. str.),E. (Eoanthidium s. str.),sec82-9-3,sec82-9
+E. (Carloticola),E. (Carloticola),sec82-10-2,sec82-10
+E. (Ananthidium),E. (Ananthidium),sec82-10-2,sec82-10
+E. (Carloticola),E. (Carloticola),sec82-11-1,sec82-11
+E. (Epanthidium s. str.),E. (Epanthidium s. str.),sec82-11-2,sec82-11
+E. (Ananthidium),E. (Ananthidium),sec82-11-2,sec82-11
+H. (Rhynostelis),H. (Rhynostelis),sec82-12-1,sec82-12
+H. (Hoplostelis s. str.),H. (Hoplostelis s. str.),sec82-12-1,sec82-12
+H. (Michanthidium),H. (Michanthidium),sec82-13-2,sec82-13
+H. (Larocanthidium),H. (Larocanthidium),sec82-13-2,sec82-13
+H. (Dichanthidium),H. (Dichanthidium),sec82-13-3,sec82-13
+H. (Mielkeanthidium),H. (Mielkeanthidium),sec82-13-4,sec82-13
+H. (Ctenanthidium),H. (Ctenanthidium),sec82-13-5,sec82-13
+H. (Saranthidium),H. (Saranthidium),sec82-13-6,sec82-13
+H. (Dicranthidium),H. (Dicranthidium),sec82-13-7,sec82-13
+H. (Moureanthidium),H. (Moureanthidium),sec82-13-9,sec82-13
+H. (Anthidulum),H. (Anthidulum),sec82-13-9,sec82-13
+H. (Tylanthidium),H. (Tylanthidium),sec82-14-1,sec82-14
+H. (Hypanthidium s. str.),H. (Hypanthidium s. str.),sec82-14-1,sec82-14
+N. (Notanthidium s. str.),N. (Notanthidium s. str.),sec82-15-1,sec82-15
+N. (Chrisanthidium) —. Omaulus rounded; mandible of female obscurely four- toothed ................................................ N. (Allanthidium),N. (Chrisanthidium) —. Omaulus rounded; mandible of female obscurely four- toothed ................................................ N. (Allanthidium),sec82-15-2,sec82-15
+P . (Ausanthidium),P . (Ausanthidium),sec82-16-2,sec82-16
+P . (Pachyanthidium s. str.),P . (Pachyanthidium s. str.),sec82-16-2,sec82-16
+P . (Trichanthidium),P . (Trichanthidium),sec82-16-3,sec82-16
+P . (Trichanthidioides),P . (Trichanthidioides),sec82-16-3,sec82-16
+P . (Paranthidium s. str.),P . (Paranthidium s. str.),sec82-17-1,sec82-17
+P . (Rapanthidium),P . (Rapanthidium),sec82-17-1,sec82-17
+P . (Spinanthidiellum),P . (Spinanthidiellum),sec82-18-1,sec82-18
+P . (Carinanthidium),P . (Carinanthidium),sec82-18-2,sec82-18
+P . (Spinanthidium),P . (Spinanthidium),sec82-18-3,sec82-18
+P . (Plesianthidium s. str.),P . (Plesianthidium s. str.),sec82-18-3,sec82-18
+P . (Micranthidium),P . (Micranthidium),sec82-19-2,sec82-19
+P . (Semicarinella),P . (Semicarinella),sec82-19-2,sec82-19
+P . (Tuberanthidium),P . (Tuberanthidium),sec82-19-3,sec82-19
+P . (Exanthidium),P . (Exanthidium),sec82-19-4,sec82-19
+P . (Royanthidium),P . (Royanthidium),sec82-19-5,sec82-19
+P . (Pseudoanthidium s. str.),P . (Pseudoanthidium s. str.),sec82-19-5,sec82-19
+R. (Rhodanthidium s. str.),R. (Rhodanthidium s. str.),sec82-20-1,sec82-20
+R. (Asianthidium),R. (Asianthidium),sec82-20-2,sec82-20
+R. (Meganthidium),R. (Meganthidium),sec82-20-2,sec82-20
+S. (Stelidomorpha),S. (Stelidomorpha),sec82-21-1,sec82-21
+S. (Malanthidium),S. (Malanthidium),sec82-21-2,sec82-21
+S. (Stelis s. str.),S. (Stelis s. str.),sec82-21-3,sec82-21
+S. (Heterostelis),S. (Heterostelis),sec82-21-4,sec82-21
+S. (Protostelis),S. (Protostelis),sec82-21-5,sec82-21
+S. (Pseudostelis),S. (Pseudostelis),sec82-21-5,sec82-21
+S. (Heterostelis),S. (Heterostelis),sec82-22-1,sec82-22
+S. (Dolichostelis),S. (Dolichostelis),sec82-22-2,sec82-22
+S. (Stelis s. str.),S. (Stelis s. str.),sec82-22-2,sec82-22
+T . (Trachusa s. str.),T . (Trachusa s. str.),sec82-23-1,sec82-23
+T . (Archianthidium),T . (Archianthidium),sec82-23-2,sec82-23
+T . (Orthanthidium),T . (Orthanthidium),sec82-23-4,sec82-23
+T . (Paraanthidium),T . (Paraanthidium),sec82-23-4,sec82-23
+T . (Massanthidium),T . (Massanthidium),sec82-23-5,sec82-23
+T . (Metatrachusa),T . (Metatrachusa),sec82-23-6,sec82-23
+T . (Congotrachusa),T . (Congotrachusa),sec82-23-6,sec82-23
+T . (Heteranthidium),T . (Heteranthidium),sec82-24-1,sec82-24
+T . (Ulanthidium),T . (Ulanthidium),sec82-24-2,sec82-24
+T . (Legnanthidium),T . (Legnanthidium),sec82-24-3,sec82-24
+T . (Trachusomimus),T . (Trachusomimus),sec82-24-3,sec82-24
+Aglaoapis,Aglaoapis,sec83-1-2,sec83-1
+Megachile,Megachile,sec84-1-1,sec84-1
+Coelioxys (in part),Coelioxys (in part),sec84-1-2,sec84-1
+Coelioxys: C. gracillima Pasteels,Coelioxys: C. gracillima Pasteels,sec84-1-3,sec84-1
+Radoszkowskiana,Radoszkowskiana,sec84-1-3,sec84-1
+Megachile,Megachile,sec84-2-1,sec84-2
+C. (Boreocoelioxys) (in part),C. (Boreocoelioxys) (in part),sec84-3-2,sec84-3
+C. (Xerocoelioxys),C. (Xerocoelioxys),sec84-3-3,sec84-3
+C. (Coelioxys s. str.),C. (Coelioxys s. str.),sec84-3-3,sec84-3
+C. (Synocoelioxys),C. (Synocoelioxys),sec84-3-5,sec84-3
+C. (Neocoelioxys),C. (Neocoelioxys),sec84-3-5,sec84-3
+C. (Acrocoelioxys),C. (Acrocoelioxys),sec84-3-6,sec84-3
+C. (Boreocoelioxys) (in part),C. (Boreocoelioxys) (in part),sec84-3-8,sec84-3
+C. (Glyptocoelioxys),C. (Glyptocoelioxys),sec84-3-8,sec84-3
+C. (Haplocoelioxys),C. (Haplocoelioxys),sec84-3-9,sec84-3
+C. (Cyrtocoelioxys),C. (Cyrtocoelioxys),sec84-3-1,sec84-3
+C. (Platycoelioxys),C. (Platycoelioxys),sec84-3-1,sec84-3
+C. (Rhinocoelioxys),C. (Rhinocoelioxys),sec84-3-1,sec84-3
+C. (T orridapis),C. (T orridapis),sec84-4-2,sec84-4
+C. (Liothyrapis),C. (Liothyrapis),sec84-4-2,sec84-4
+C. (Allocoelioxys),C. (Allocoelioxys),sec84-4-3,sec84-4
+C. (Mesocoelioxys),C. (Mesocoelioxys),sec84-4-4,sec84-4
+C.(Boreocoelioxys),C.(Boreocoelioxys),sec84-4-5,sec84-4
+C. (Coelioxys s. str.),C. (Coelioxys s. str.),sec84-4-5,sec84-4
+M. (Melanosarus),M. (Melanosarus),sec84-5-2,sec84-5
+M. (Moureapis),M. (Moureapis),sec84-5-4,sec84-5
+M. (Pseudocentron),M. (Pseudocentron),sec84-5-4,sec84-5
+M. (Acentron),M. (Acentron),sec84-5-5,sec84-5
+M. (Leptorachis),M. (Leptorachis),sec84-5-5,sec84-5
+M. (Grosapis),M. (Grosapis),sec84-5-8,sec84-5
+M. (Sayapis),M. (Sayapis),sec84-5-8,sec84-5
+M. (Megachile s. str.)(in part),M. (Megachile s. str.)(in part),sec84-5-1,sec84-5
+M. (Chrysosarus),M. (Chrysosarus),sec84-5-1,sec84-5
+M. (Schrottkyapis),M. (Schrottkyapis),sec84-5-1,sec84-5
+M. (Chelostomoides),M. (Chelostomoides),sec84-5-1,sec84-5
+M. (Stelodides),M. (Stelodides),sec84-5-1,sec84-5
+M. (Gronoceras),M. (Gronoceras),sec84-5-1,sec84-5
+M. (Callomegachile),M. (Callomegachile),sec84-5-1,sec84-5
+M. (Pseudomegachile),M. (Pseudomegachile),sec84-5-1,sec84-5
+M. (Argyropile),M. (Argyropile),sec84-5-1,sec84-5
+M. (Ptilosarus),M. (Ptilosarus),sec84-5-1,sec84-5
+M. (Eutricharaea),M. (Eutricharaea),sec84-5-2,sec84-5
+M. (Trichurochile),M. (Trichurochile),sec84-5-2,sec84-5
+M. (Tylomegachile)(in part),M. (Tylomegachile)(in part),sec84-5-2,sec84-5
+M. (Megachiloides) (in part),M. (Megachiloides) (in part),sec84-5-2,sec84-5
+M. (Dasymegachile),M. (Dasymegachile),sec84-5-2,sec84-5
+M. (Litomegachile),M. (Litomegachile),sec84-5-2,sec84-5
+M. (Megachile s. str.)(in part),M. (Megachile s. str.)(in part),sec84-5-2,sec84-5
+M. (Austromegachile) (in part),M. (Austromegachile) (in part),sec84-5-2,sec84-5
+M. (Tylomegachile)(in part),M. (Tylomegachile)(in part),sec84-5-2,sec84-5
+M. (Austromegachile) (in part),M. (Austromegachile) (in part),sec84-5-2,sec84-5
+M. (Cressoniella),M. (Cressoniella),sec84-5-3,sec84-5
+M. (Xanthosarus),M. (Xanthosarus),sec84-5-3,sec84-5
+M. (Rhyssomegachile),M. (Rhyssomegachile),sec84-5-3,sec84-5
+M. (Ptilosaroides),M. (Ptilosaroides),sec84-5-3,sec84-5
+M. (Neochelynia),M. (Neochelynia),sec84-5-3,sec84-5
+M. (Leptorachis),M. (Leptorachis),sec84-6-2,sec84-6
+M. (Pseudocentron),M. (Pseudocentron),sec84-6-3,sec84-6
+M. (Moureapis),M. (Moureapis),sec84-6-4,sec84-6
+M. (Acentron),M. (Acentron),sec84-6-5,sec84-6
+M. (Melanosarus),M. (Melanosarus),sec84-6-5,sec84-6
+M. (Chelostomoides),M. (Chelostomoides),sec84-6-7,sec84-6
+M. (Grosapis),M. (Grosapis),sec84-6-7,sec84-6
+M. (Schrottkyapis),M. (Schrottkyapis),sec84-6-8,sec84-6
+M. (Gronoceras),M. (Gronoceras),sec84-6-1,sec84-6
+M. (Callomegachile),M. (Callomegachile),sec84-6-1,sec84-6
+M. (Neochelynia) (in part),M. (Neochelynia) (in part),sec84-6-1,sec84-6
+M. (Tylomegachile),M. (Tylomegachile),sec84-6-1,sec84-6
+M. (Rhyssomegachile),M. (Rhyssomegachile),sec84-6-1,sec84-6
+M. (Zonomegachile),M. (Zonomegachile),sec84-6-1,sec84-6
+M. (Ptilosaroides),M. (Ptilosaroides),sec84-6-1,sec84-6
+M. (Chrysosarus) (in part),M. (Chrysosarus) (in part),sec84-6-1,sec84-6
+M. (Dasymegachile),M. (Dasymegachile),sec84-6-1,sec84-6
+M. (Trichurochile),M. (Trichurochile),sec84-6-2,sec84-6
+M. (Cressoniella),M. (Cressoniella),sec84-6-2,sec84-6
+M. (Ptilosarus),M. (Ptilosarus),sec84-6-2,sec84-6
+M. (Neochelynia) (in part),M. (Neochelynia) (in part),sec84-6-2,sec84-6
+M. (Austromegachile),M. (Austromegachile),sec84-6-2,sec84-6
+M. (Stelodides),M. (Stelodides),sec84-6-2,sec84-6
+M. (Sayapis),M. (Sayapis),sec84-6-2,sec84-6
+M. (Argyropile) (in part),M. (Argyropile) (in part),sec84-6-2,sec84-6
+M. (Xanthosarus) (in part),M. (Xanthosarus) (in part),sec84-6-2,sec84-6
+M. (Megachiloides),M. (Megachiloides),sec84-6-2,sec84-6
+M. (Xanthosarus) (in part),M. (Xanthosarus) (in part),sec84-6-3,sec84-6
+M. (Argyropile) (in part),M. (Argyropile) (in part),sec84-6-3,sec84-6
+M. (Chrysosarus) (in part),M. (Chrysosarus) (in part),sec84-6-3,sec84-6
+M. (Xanthosarus) (in part),M. (Xanthosarus) (in part),sec84-6-3,sec84-6
+M. (Megachile s. str.),M. (Megachile s. str.),sec84-6-3,sec84-6
+M. (Eutricharaea),M. (Eutricharaea),sec84-6-3,sec84-6
+M. (Litomegachile),M. (Litomegachile),sec84-6-3,sec84-6
+M. (Creightonella),M. (Creightonella),sec84-7-1,sec84-7
+M. (Parachalicodoma),M. (Parachalicodoma),sec84-7-3,sec84-7
+M. (Chalicodoma),M. (Chalicodoma),sec84-7-4,sec84-7
+M. (Largella),M. (Largella),sec84-7-5,sec84-7
+M. (Maximegachile),M. (Maximegachile),sec84-7-6,sec84-7
+M. (Pseudomegachile),M. (Pseudomegachile),sec84-7-7,sec84-7
+M. (Callomegachile),M. (Callomegachile),sec84-7-7,sec84-7
+M. (Chelostomoda),M. (Chelostomoda),sec84-7-9,sec84-7
+M. (Eumegachile),M. (Eumegachile),sec84-7-9,sec84-7
+M. (Megachile s. str.),M. (Megachile s. str.),sec84-7-1,sec84-7
+M. (Megella),M. (Megella),sec84-7-1,sec84-7
+M. (Xanthosarus),M. (Xanthosarus),sec84-7-1,sec84-7
+M. (Eutricharaea),M. (Eutricharaea),sec84-7-1,sec84-7
+M. (Neocressoniella),M. (Neocressoniella),sec84-7-1,sec84-7
+M. (Paracella),M. (Paracella),sec84-7-1,sec84-7
+M. (Creightonella),M. (Creightonella),sec84-8-1,sec84-8
+M. (Chelostomoda),M. (Chelostomoda),sec84-8-3,sec84-8
+M. (Parachalicodoma),M. (Parachalicodoma),sec84-8-5,sec84-8
+M. (Pseudomegachile)(in part),M. (Pseudomegachile)(in part),sec84-8-6,sec84-8
+M. (Chalicodoma),M. (Chalicodoma),sec84-8-7,sec84-8
+M. (Pseudomegachile) (in part),M. (Pseudomegachile) (in part),sec84-8-7,sec84-8
+M. (Maximegachile),M. (Maximegachile),sec84-8-9,sec84-8
+M. (Largella),M. (Largella),sec84-8-1,sec84-8
+M. (Pseudomegachile) (in part),M. (Pseudomegachile) (in part),sec84-8-1,sec84-8
+M. (Eumegachile) (in part),M. (Eumegachile) (in part),sec84-8-1,sec84-8
+M. (Callomegachile),M. (Callomegachile),sec84-8-1,sec84-8
+M. (Eumegachile) (in part),M. (Eumegachile) (in part),sec84-8-1,sec84-8
+M. (Chelostomoda),M. (Chelostomoda),sec84-8-3,sec84-8
+M. (Parachalicodoma),M. (Parachalicodoma),sec84-8-5,sec84-8
+M. (Pseudomegachile)(in part),M. (Pseudomegachile)(in part),sec84-8-6,sec84-8
+M. (Chalicodoma),M. (Chalicodoma),sec84-8-7,sec84-8
+M. (Pseudomegachile) (in part),M. (Pseudomegachile) (in part),sec84-8-7,sec84-8
+M. (Maximegachile),M. (Maximegachile),sec84-8-9,sec84-8
+M. (Largella),M. (Largella),sec84-8-1,sec84-8
+M. (Pseudomegachile) (in part),M. (Pseudomegachile) (in part),sec84-8-1,sec84-8
+M. (Eumegachile) (in part),M. (Eumegachile) (in part),sec84-8-1,sec84-8
+M. (Callomegachile),M. (Callomegachile),sec84-8-1,sec84-8
+M. (Eumegachile) (in part),M. (Eumegachile) (in part),sec84-8-1,sec84-8
+M. (Gronoceras),M. (Gronoceras),sec84-8-3,sec84-8
+M. (Heriadopsis),M. (Heriadopsis),sec84-8-4,sec84-8
+M. (Chalicodoma),M. (Chalicodoma),sec84-8-5,sec84-8
+M. (Largella),M. (Largella),sec84-8-6,sec84-8
+M. (Maximegachile),M. (Maximegachile),sec84-8-8,sec84-8
+M. (Stenomegachile),M. (Stenomegachile),sec84-8-8,sec84-8
+M. (Cuspidella),M. (Cuspidella),sec84-8-1,sec84-8
+M. (Pseudomegachile),M. (Pseudomegachile),sec84-8-1,sec84-8
+M. (Cestella),M. (Cestella),sec84-8-1,sec84-8
+M. (Callomegachile),M. (Callomegachile),sec84-8-1,sec84-8
+M. (Platysta),M. (Platysta),sec84-8-1,sec84-8
+M. (Megella),M. (Megella),sec84-8-1,sec84-8
+M. (Eutricharaea),M. (Eutricharaea),sec84-8-1,sec84-8
+"M. (Amegachile) —. Mandible with third tooth pointed or rounded, fourth tooth usually rather broad, rounded or truncate, rarely acute, rarely emarginate so that mandible ﬁve-toothed;  cutting edges not crenulate ........................M. (Paracella)","M. (Amegachile) —. Mandible with third tooth pointed or rounded, fourth tooth usually rather broad, rounded or truncate, rarely acute, rarely emarginate so that mandible ﬁve-toothed;  cutting edges not crenulate ........................M. (Paracella)",sec84-8-1,sec84-8
+M. (Creightonella),M. (Creightonella),sec84-9-1,sec84-9
+M. (Gronoceras),M. (Gronoceras),sec84-9-3,sec84-9
+M. (Cuspidella),M. (Cuspidella),sec84-9-4,sec84-9
+M. (Pseudomegachile) (in part),M. (Pseudomegachile) (in part),sec84-9-6,sec84-9
+M. (Chalicodoma),M. (Chalicodoma),sec84-9-7,sec84-9
+M. (Cestella),M. (Cestella),sec84-9-8,sec84-9
+M. (Pseudomegachile) (in part),M. (Pseudomegachile) (in part),sec84-9-8,sec84-9
+M. (Heriadopsis),M. (Heriadopsis),sec84-9-9,sec84-9
+M. (Platysta),M. (Platysta),sec84-9-1,sec84-9
+M. (Creightonella),M. (Creightonella),sec84-10-1,sec84-10
+M. (Austrochile),M. (Austrochile),sec84-10-3,sec84-10
+M. (Schizomegachile),M. (Schizomegachile),sec84-10-4,sec84-10
+M. (Rhodomegachile),M. (Rhodomegachile),sec84-10-5,sec84-10
+M. (Thaumatosoma),M. (Thaumatosoma),sec84-10-6,sec84-10
+M. (Hackeriapis),M. (Hackeriapis),sec84-10-7,sec84-10
+M. (Chalicodomoides),M. (Chalicodomoides),sec84-10-8,sec84-10
+M. (Callomegachile),M. (Callomegachile),sec84-10-8,sec84-10
+M. (Mitchellapis),M. (Mitchellapis),sec84-10-1,sec84-10
+M. (Chelostomoda),M. (Chelostomoda),sec84-10-1,sec84-10
+M. (Amegachile),M. (Amegachile),sec84-10-1,sec84-10
+M. (Eutricharaea),M. (Eutricharaea),sec84-10-1,sec84-10
+M. (Creightonella),M. (Creightonella),sec84-11-1,sec84-11
+M. (Austrochile),M. (Austrochile),sec84-11-3,sec84-11
+M. (Schizomegachile),M. (Schizomegachile),sec84-11-4,sec84-11
+M. (Rhodomegachile),M. (Rhodomegachile),sec84-11-5,sec84-11
+M. (Thaumatosoma),M. (Thaumatosoma),sec84-11-6,sec84-11
+M. (Hackeriapis),M. (Hackeriapis),sec84-11-7,sec84-11
+M. (Chalicodomoides),M. (Chalicodomoides),sec84-11-8,sec84-11
+M. (Callomegachile),M. (Callomegachile),sec84-11-8,sec84-11
+M. (Mitchellapis),M. (Mitchellapis),sec84-11-1,sec84-11
+M. (Chelostomoda),M. (Chelostomoda),sec84-11-1,sec84-11
+M. (Amegachile),M. (Amegachile),sec84-11-1,sec84-11
+M. (Austrochile),M. (Austrochile),sec84-11-3,sec84-11
+M. (Schizomegachile),M. (Schizomegachile),sec84-11-4,sec84-11
+M. (Mitchellapis),M. (Mitchellapis),sec84-11-5,sec84-11
+M. (Rhodomegachile),M. (Rhodomegachile),sec84-11-7,sec84-11
+M. (Chalicodomoides),M. (Chalicodomoides),sec84-11-8,sec84-11
+M. (Chelostomoda),M. (Chelostomoda),sec84-11-9,sec84-11
+M. (Hackeriapis) (in part),M. (Hackeriapis) (in part),sec84-11-9,sec84-11
+M. (Thaumatosoma),M. (Thaumatosoma),sec84-11-1,sec84-11
+M. (Callomegachile),M. (Callomegachile),sec84-11-1,sec84-11
+M. (Hackeriapis) (in part),M. (Hackeriapis) (in part),sec84-11-1,sec84-11
+M. (Amegachile),M. (Amegachile),sec84-11-1,sec84-11
+M. (Eutricharaea),M. (Eutricharaea),sec84-11-1,sec84-11
+sec120-1,"Apinae, Meliponini",sec85-1-1,sec85-1
+sec121-1,"Apinae, Apini",sec85-1-3,sec85-1
+sec118-1,"Apinae, Euglossini",sec85-1-4,sec85-1
+sec119-1,"Apinae, Bombini",sec85-1-4,sec85-1
+sec88-1,"Xylocopinae, Xylocopini",sec85-1-5,sec85-1
+sec90-1,"Xylocopinae, Allodapini",sec85-1-7,sec85-1
+sec87-1,"Xylocopinae,  Manueliini",sec85-1-8,sec85-1
+sec89-1,"Xylocopinae, Ceratinini",sec85-1-8,sec85-1
+sec117-1,"Apinae, Melectini (in part)",sec85-1-1,sec85-1
+sec109-1,"Apinae, T etrapediini, Coelioxoides",sec85-1-1,sec85-1
+sec101-1,"Nomadinae, Caenoprosopidini",sec85-1-1,sec85-1
+sec96-1,"Nomadinae, Ammobatoidini (in part)",sec85-1-1,sec85-1
+sec100-1,"Nomadinae, Ammobatini",sec85-1-1,sec85-1
+sec96-1,"Nomadinae, Ammobatoidini, Ammobatoides",sec85-1-1,sec85-1
+sec99-1,"Nomadinae, Neolarrini",sec85-1-1,sec85-1
+sec115-1,"Apinae, Rhathymini (part)",sec85-1-1,sec85-1
+sec116-1,"Apinae, Ericrocidini",sec85-1-1,sec85-1
+sec117-1,"Apinae, Melectini (in part)",sec85-1-1,sec85-1
+sec115-1,"Apinae, Rhathymini (part)",sec85-1-2,sec85-1
+sec97-1,"Nomadinae, Biastini",sec85-1-2,sec85-1
+sec98-1,"Nomadinae, T ownsendiellini",sec85-1-2,sec85-1
+sec95-1,"Nomadinae, Epeolini",sec85-1-2,sec85-1
+sec104-1,"Apinae, Osirini (in part)",sec85-1-2,sec85-1
+sec93-1,"Nomadinae, Brachynomadini",sec85-1-2,sec85-1
+sec94-1,"Nomadinae, Nomadini",sec85-1-2,sec85-1
+sec92-1,"Nomadinae, Hexepeolini",sec85-1-2,sec85-1
+sec110-1,"Apinae, Ctenoplectrini",sec85-1-2,sec85-1
+sec112-1,"Apinae, Eucerini",sec85-1-3,sec85-1
+sec113-1,"Apinae, Anthophorini",sec85-1-3,sec85-1
+sec114-1,"Apinae, Centridini",sec85-1-3,sec85-1
+sec111-1,"Apinae, Emphorini (in part)",sec85-1-3,sec85-1
+sec111-1,"35 35(34). Clypeus strongly protuberant, in side view pro- truding in front of eye by about width of eye; vertex gen- tly convex as seen from front; hind leg of male (femur to basitarsus) enlarged (Fig. 111-2c) (Western Hemisphere) ...................... Apinae, Emphorini (Ancyloscelis)",sec85-1-3,sec85-1
+sec107-1,"Apinae, Ancylini",sec85-1-3,sec85-1
+sec108-1,"Apinae, Tapinotaspidini (in part)",sec85-1-3,sec85-1
+sec106-1,"Apinae, Exomalopsini",sec85-1-3,sec85-1
+sec104-1,"Apinae, Osirini, Epeoloides",sec85-1-3,sec85-1
+sec103-1,"Apinae, Isepeolini",sec85-1-3,sec85-1
+sec105-1,"Apinae, Protepeolini",sec85-1-3,sec85-1
+sec90-1,Allodapini,sec86-1-2,sec86-1
+sec89-1,Ceratinini,sec86-1-3,sec86-1
+sec87-1,Manueliini,sec86-1-3,sec86-1
+X. (Schonnherria) (in part),X. (Schonnherria) (in part),sec88-1-3,sec88-1
+X. (Nanoxylocopa),X. (Nanoxylocopa),sec88-1-3,sec88-1
+X. (Xylocopoda),X. (Xylocopoda),sec88-1-5,sec88-1
+X. (Cirroxylocopa),X. (Cirroxylocopa),sec88-1-5,sec88-1
+X. (Notoxylocopa),X. (Notoxylocopa),sec88-1-7,sec88-1
+X. (Xylocopoides) (in part),X. (Xylocopoides) (in part),sec88-1-7,sec88-1
+(Calloxylocopa group) X. (Xylocopoides) (in part),(Calloxylocopa group) X. (Xylocopoides) (in part),sec88-1-8,sec88-1
+X. (Xylocopsis),X. (Xylocopsis),sec88-1-9,sec88-1
+X. (Schonnherria) (in part),X. (Schonnherria) (in part),sec88-1-9,sec88-1
+X. (Xylocopoides),X. (Xylocopoides),sec88-2-1,sec88-2
+X. (Neoxylocopa) (in part),X. (Neoxylocopa) (in part),sec88-2-2,sec88-2
+X. (Stenoxylocopa),X. (Stenoxylocopa),sec88-2-3,sec88-2
+X. (Neoxylocopa) (in part),X. (Neoxylocopa) (in part),sec88-2-4,sec88-2
+X. (Notoxylocopa),X. (Notoxylocopa),sec88-2-6,sec88-2
+X. (Schonnherria) (in part),X. (Schonnherria) (in part),sec88-2-7,sec88-2
+"X. (Xylocopsis) —. Labrum with three tubercles; clypeus about half as long as broad; dorsum of metasoma clothed with very long hairs, decidedly shaggy in appearance (South America) ............................................................ X. (Dasyxylocopa)","X. (Xylocopsis) —. Labrum with three tubercles; clypeus about half as long as broad; dorsum of metasoma clothed with very long hairs, decidedly shaggy in appearance (South America) ............................................................ X. (Dasyxylocopa)",sec88-2-8,sec88-2
+X. (Schonnherria) (in part),X. (Schonnherria) (in part),sec88-2-1,sec88-2
+X. (Xylocopoda),X. (Xylocopoda),sec88-2-1,sec88-2
+X. (Diaxylocopa),X. (Diaxylocopa),sec88-2-1,sec88-2
+X. (Monoxylocopa),X. (Monoxylocopa),sec88-2-1,sec88-2
+X. (Nanoxylocopa),X. (Nanoxylocopa),sec88-2-1,sec88-2
+X. (Cirroxylocopa),X. (Cirroxylocopa),sec88-2-1,sec88-2
+X. (Proxylocopa),X. (Proxylocopa),sec88-3-2,sec88-3
+X. (Lestis),X. (Lestis),sec88-3-2,sec88-3
+X. (Ctenoxylocopa),X. (Ctenoxylocopa),sec88-3-6,sec88-3
+X. (Nyctomelitta),X. (Nyctomelitta),sec88-3-6,sec88-3
+X. (Prosopoxylocopa),X. (Prosopoxylocopa),sec88-3-9,sec88-3
+X. (Bomboixylocopa) (in part),X. (Bomboixylocopa) (in part),sec88-3-9,sec88-3
+X. (Alloxylocopa),X. (Alloxylocopa),sec88-3-1,sec88-3
+X. (Koptortosoma)(in part),X. (Koptortosoma)(in part),sec88-3-2,sec88-3
+X. (Mesotrichia) (in part),X. (Mesotrichia) (in part),sec88-3-2,sec88-3
+X. (Xenoxylocopa),X. (Xenoxylocopa),sec88-3-2,sec88-3
+X. (Ctenoxylocopa),X. (Ctenoxylocopa),sec88-4-5,sec88-4
+X. (Xylomelissa) (in part),X. (Xylomelissa) (in part),sec88-4-5,sec88-4
+X. (Biluna),X. (Biluna),sec88-4-6,sec88-4
+X. (Xylomelissa) (in part),X. (Xylomelissa) (in part),sec88-4-8,sec88-4
+X. (Xylomelissa) (in part),X. (Xylomelissa) (in part),sec88-4-9,sec88-4
+X. (Rhysoxylocopa),X. (Rhysoxylocopa),sec88-4-9,sec88-4
+X. (Nodula),X. (Nodula),sec88-4-1,sec88-4
+X. (Maaiana),X. (Maaiana),sec88-4-1,sec88-4
+X. (Nyctomelitta),X. (Nyctomelitta),sec88-4-1,sec88-4
+X. (Gnathoxylocopa),X. (Gnathoxylocopa),sec88-4-1,sec88-4
+X. (Xylomelissa) (in part),X. (Xylomelissa) (in part),sec88-4-1,sec88-4
+X. (Xylocopa s. str.),X. (Xylocopa s. str.),sec88-4-1,sec88-4
+X. (Xenoxylocopa),X. (Xenoxylocopa),sec88-4-1,sec88-4
+X. (Prosopoxylocopa),X. (Prosopoxylocopa),sec88-4-1,sec88-4
+X. (Zonohirsuta),X. (Zonohirsuta),sec88-4-1,sec88-4
+X. (Proxylocopa),X. (Proxylocopa),sec88-4-1,sec88-4
+X. (Lestis),X. (Lestis),sec88-4-1,sec88-4
+X. (Bomboixylocopa) (in part),X. (Bomboixylocopa) (in part),sec88-4-2,sec88-4
+X. (Copoxyla),X. (Copoxyla),sec88-4-2,sec88-4
+X. (Koptortosoma),X. (Koptortosoma),sec88-4-2,sec88-4
+X. (Alloxylocopa),X. (Alloxylocopa),sec88-4-2,sec88-4
+X. (Mesotrichia),X. (Mesotrichia),sec88-4-2,sec88-4
+C. (Megaceratina),C. (Megaceratina),sec89-1-1,sec89-1
+C. (Pithitis),C. (Pithitis),sec89-1-3,sec89-1
+C. (Protopithitis),C. (Protopithitis),sec89-1-3,sec89-1
+C. (Chloroceratina),C. (Chloroceratina),sec89-1-5,sec89-1
+C. (Catoceratina),C. (Catoceratina),sec89-1-6,sec89-1
+C. (Lioceratina),C. (Lioceratina),sec89-1-7,sec89-1
+C. (Xanthoceratina),C. (Xanthoceratina),sec89-1-7,sec89-1
+C. (Simioceratina),C. (Simioceratina),sec89-1-9,sec89-1
+C. (Ctenoceratina),C. (Ctenoceratina),sec89-1-9,sec89-1
+C. (Ceratinidia),C. (Ceratinidia),sec89-1-1,sec89-1
+C. (Ceratinula),C. (Ceratinula),sec89-1-1,sec89-1
+C. (Ceratina s. str.),C. (Ceratina s. str.),sec89-1-1,sec89-1
+C. (Neoceratina),C. (Neoceratina),sec89-1-1,sec89-1
+C. (Euceratina),C. (Euceratina),sec89-1-1,sec89-1
+C. (Malgatina),C. (Malgatina),sec89-1-1,sec89-1
+C. (Copoceratina),C. (Copoceratina),sec89-1-1,sec89-1
+C. (Hirashima),C. (Hirashima),sec89-1-1,sec89-1
+C. (Calloceratina),C. (Calloceratina),sec89-2-2,sec89-2
+C. (Crewella),C. (Crewella),sec89-2-2,sec89-2
+C. (Ceratinula),C. (Ceratinula),sec89-2-3,sec89-2
+C. (Euceratina),C. (Euceratina),sec89-2-4,sec89-2
+C. (Rhysoceratina),C. (Rhysoceratina),sec89-2-5,sec89-2
+C. (Zadontomerus),C. (Zadontomerus),sec89-2-5,sec89-2
+Macrogalea,Macrogalea,sec90-1-1,sec90-1
+Eucondylops,Eucondylops,sec90-1-4,sec90-1
+Nasutapis,Nasutapis,sec90-1-4,sec90-1
+Exoneuridia,Exoneuridia,sec90-1-6,sec90-1
+Compsomelissa (in part),Compsomelissa (in part),sec90-1-7,sec90-1
+Exoneurella,Exoneurella,sec90-1-8,sec90-1
+Exoneura,Exoneura,sec90-1-8,sec90-1
+Exoneurella,Exoneurella,sec90-2-1,sec90-2
+"Braunsapis, Nasutapis","Braunsapis, Nasutapis",sec90-2-3,sec90-2
+Allodape,Allodape,sec90-2-3,sec90-2
+Macrogalea,Macrogalea,sec90-2-4,sec90-2
+Compsomelissa,Compsomelissa,sec90-2-5,sec90-2
+Exoneura,Exoneura,sec90-2-6,sec90-2
+"Allodapula, Eucondylops","Allodapula, Eucondylops",sec90-2-6,sec90-2
+A. (Dalloapula),A. (Dalloapula),sec90-3-1,sec90-3
+A. (Allodapula s. str.),A. (Allodapula s. str.),sec90-3-2,sec90-3
+A. (Allodapulodes),A. (Allodapulodes),sec90-3-2,sec90-3
+A. (Dalloapula),A. (Dalloapula),sec90-4-1,sec90-4
+A. (Allodapula s. str.),A. (Allodapula s. str.),sec90-4-2,sec90-4
+A. (Dalloapula),A. (Dalloapula),sec90-4-2,sec90-4
+A. (Allodapula s. str.)and genus Eucondylops,A. (Allodapula s. str.)and genus Eucondylops,sec90-4-2,sec90-4
+C. (Compsomelissa s. str.),C. (Compsomelissa s. str.),sec90-5-1,sec90-5
+C. (Halterapis),C. (Halterapis),sec90-5-1,sec90-5
+E. (Inquilina),E. (Inquilina),sec90-6-1,sec90-6
+E. (Exoneura s. str.),E. (Exoneura s. str.),sec90-6-2,sec90-6
+E. (Brevineura),E. (Brevineura),sec90-6-2,sec90-6
+E. (Alboneuridia),E. (Alboneuridia),sec90-7-1,sec90-7
+E. (Exoneuridia s str.),E. (Exoneuridia s str.),sec90-7-1,sec90-7
+Kelita,Kelita,sec93-1-1,sec93-1
+Trichonomada,Trichonomada,sec93-1-3,sec93-1
+Paranomada,Paranomada,sec93-1-3,sec93-1
+B. (Brachynomada s. str.),B. (Brachynomada s. str.),sec93-2-1,sec93-2
+B. (Melanomada),B. (Melanomada),sec93-2-1,sec93-2
+B. (Brachynomada s. str.),B. (Brachynomada s. str.),sec93-3-1,sec93-3
+Thalestria,Thalestria,sec95-1-1,sec95-1
+Odyneropsis,Odyneropsis,sec95-1-1,sec95-1
+Rhogepeolus,Rhogepeolus,sec95-1-3,sec95-1
+Doeringiella,Doeringiella,sec95-1-5,sec95-1
+Rhinepeolus,Rhinepeolus,sec95-1-6,sec95-1
+Pseudepeolus,Pseudepeolus,sec95-1-7,sec95-1
+Triepeolus,Triepeolus,sec95-1-8,sec95-1
+Epeolus,Epeolus,sec95-1-8,sec95-1
+Epeolus,Epeolus,sec95-1-9,sec95-1
+Rhinepeolus,Rhinepeolus,sec95-1-1,sec95-1
+Doeringiella,Doeringiella,sec95-1-1,sec95-1
+Triepeolus,Triepeolus,sec95-1-1,sec95-1
+Pseudepeolus,Pseudepeolus,sec95-1-1,sec95-1
+Trophocleptria group,Trophocleptria group,sec95-2-1,sec95-2
+Epeolus group,Epeolus group,sec95-2-1,sec95-2
+O. (Odyneropsis) s. str.,O. (Odyneropsis) s. str.,sec95-3-1,sec95-3
+O. (Parammobates),O. (Parammobates),sec95-3-1,sec95-3
+Ammobatoides,Ammobatoides,sec96-1-1,sec96-1
+Aethammobates,Aethammobates,sec96-1-2,sec96-1
+Holcopasites,Holcopasites,sec96-1-3,sec96-1
+Schmiedeknechtia,Schmiedeknechtia,sec96-1-3,sec96-1
+Rhopalolemma,Rhopalolemma,sec97-1-1,sec97-1
+Biastes,Biastes,sec97-1-2,sec97-1
+Neopasites,Neopasites,sec97-1-2,sec97-1
+N. (Micropasites),N. (Micropasites),sec97-2-1,sec97-2
+N. (Neopasites s. str.),N. (Neopasites s. str.),sec97-2-1,sec97-2
+N. (Neolarra s. str.),N. (Neolarra s. str.),sec99-1-1,sec99-1
+N. (Phileremulus),N. (Phileremulus),sec99-1-1,sec99-1
+Parammobatodes,Parammobatodes,sec100-1-2,sec100-1
+Sphecodopsis,Sphecodopsis,sec100-1-3,sec100-1
+Oreopasites,Oreopasites,sec100-1-3,sec100-1
+Pasites,Pasites,sec100-1-4,sec100-1
+Melanempis,Melanempis,sec100-1-5,sec100-1
+Spinopasites,Spinopasites,sec100-1-6,sec100-1
+Ammobates,Ammobates,sec100-1-6,sec100-1
+A. (Xerammobates),A. (Xerammobates),sec100-2-1,sec100-2
+A. (Euphileremus),A. (Euphileremus),sec100-2-2,sec100-2
+A. (Ammobates s. str.),A. (Ammobates s. str.),sec100-2-2,sec100-2
+S. (Pseudodichroa),S. (Pseudodichroa),sec100-3-1,sec100-3
+S. (Sphecodopsis s. str.),S. (Sphecodopsis s. str.),sec100-3-1,sec100-3
+Caenoprosopis,Caenoprosopis,sec101-1-1,sec101-1
+Caenoprosopina,Caenoprosopina,sec101-1-1,sec101-1
+Isepeolus,Isepeolus,sec103-1-1,sec103-1
+Parepeolus,Parepeolus,sec104-1-1,sec104-1
+Osiris,Osiris,sec104-1-3,sec104-1
+Protosiris,Protosiris,sec104-1-4,sec104-1
+Osirinus,Osirinus,sec104-1-4,sec104-1
+P . (Ecclitodes),P . (Ecclitodes),sec104-2-1,sec104-2
+P . (Parepeolus s. str.),P . (Parepeolus s. str.),sec104-2-1,sec104-2
+T eratognatha,T eratognatha,sec106-1-2,sec106-1
+Eremapis,Eremapis,sec106-1-2,sec106-1
+Anthophorula,Anthophorula,sec106-1-4,sec106-1
+Exomalopsis,Exomalopsis,sec106-1-4,sec106-1
+T eratognatha,T eratognatha,sec106-2-2,sec106-2
+Eremapis,Eremapis,sec106-2-2,sec106-2
+Anthophorula,Anthophorula,sec106-2-4,sec106-2
+A. (Isomalopsis),A. (Isomalopsis),sec106-2-2,sec106-2
+A. (Anthophorula s. str.),A. (Anthophorula s. str.),sec106-2-2,sec106-2
+E. (Stilbomalopsis),E. (Stilbomalopsis),sec106-3-1,sec106-3
+E. (Diomalopsis),E. (Diomalopsis),sec106-3-2,sec106-3
+E. (Phanomalopsis),E. (Phanomalopsis),sec106-3-3,sec106-3
+E. (Exomalopsis s. str.),E. (Exomalopsis s. str.),sec106-3-3,sec106-3
+Ancyla,Ancyla,sec107-1-1,sec107-1
+Monoeca,Monoeca,sec108-1-1,sec108-1
+T apinotaspis,T apinotaspis,sec108-1-2,sec108-1
+Trigonopedia,Trigonopedia,sec108-1-6,sec108-1
+Paratetrapedia,Paratetrapedia,sec108-1-6,sec108-1
+Chalepogenus (Lanthanomelissa),Chalepogenus (Lanthanomelissa),sec108-1-7,sec108-1
+Arhysoceble,Arhysoceble,sec108-1-8,sec108-1
+Chalepogenus s. str,Chalepogenus s. str,sec108-1-8,sec108-1
+C. (Lanthanomelissa),C. (Lanthanomelissa),sec108-2-1,sec108-2
+C. (Chalepogenus s. str.),C. (Chalepogenus s. str.),sec108-2-1,sec108-2
+P . (Xanthopedia),P . (Xanthopedia),sec108-3-2,sec108-3
+P . (Tropidopedia),P . (Tropidopedia),sec108-3-3,sec108-3
+P . (Amphipedia),P . (Amphipedia),sec108-3-3,sec108-3
+P . (Lophopedia),P . (Lophopedia),sec108-3-4,sec108-3
+P . (Paratetrapedia s. str.),P . (Paratetrapedia s. str.),sec108-3-4,sec108-3
+Coelioxoides,Coelioxoides,sec109-1-1,sec109-1
+Ctenoplectra,Ctenoplectra,sec110-1-1,sec110-1
+Ctenoplectrina,Ctenoplectrina,sec110-1-1,sec110-1
+Ancyloscelis,Ancyloscelis,sec111-1-1,sec111-1
+Melitomella,Melitomella,sec111-1-1,sec111-1
+Ptilothrix,Ptilothrix,sec111-1-6,sec111-1
+D. (Diadasina s. str.),D. (Diadasina s. str.),sec111-2-1,sec111-2
+D. (Leptometriella),D. (Leptometriella),sec111-2-1,sec111-2
+Eucerinoda,Eucerinoda,sec112-1-1,sec112-1
+Canephorula,Canephorula,sec112-1-2,sec112-1
+Thygater,Thygater,sec112-1-4,sec112-1
+Trichocerapis,Trichocerapis,sec112-1-4,sec112-1
+Lophothygater,Lophothygater,sec112-1-6,sec112-1
+Alloscirtetica,Alloscirtetica,sec112-1-7,sec112-1
+Pachysvastra,Pachysvastra,sec112-1-9,sec112-1
+Gaesochira,Gaesochira,sec112-1-1,sec112-1
+Melissodes,Melissodes,sec112-1-1,sec112-1
+Florilegus,Florilegus,sec112-1-1,sec112-1
+Peponapis,Peponapis,sec112-1-1,sec112-1
+Santiago,Santiago,sec112-1-1,sec112-1
+Svastrina,Svastrina,sec112-1-1,sec112-1
+Micronychapis,Micronychapis,sec112-1-1,sec112-1
+Hamatothrix,Hamatothrix,sec112-1-1,sec112-1
+Mirnapis,Mirnapis,sec112-1-1,sec112-1
+Gaesischia (in part),Gaesischia (in part),sec112-1-1,sec112-1
+Martinapis (Svastropsis),Martinapis (Svastropsis),sec112-1-2,sec112-1
+Svastra,Svastra,sec112-1-2,sec112-1
+Svastrides,Svastrides,sec112-1-2,sec112-1
+Gaesischia (in part),Gaesischia (in part),sec112-1-2,sec112-1
+Lophothygater,Lophothygater,sec112-1-2,sec112-1
+Thygater,Thygater,sec112-1-2,sec112-1
+Trichocerapis,Trichocerapis,sec112-1-2,sec112-1
+Hamatothrix,Hamatothrix,sec112-1-2,sec112-1
+Peponapis,Peponapis,sec112-1-2,sec112-1
+Florilegus,Florilegus,sec112-1-2,sec112-1
+Svastrina,Svastrina,sec112-1-3,sec112-1
+Pachysvastra,Pachysvastra,sec112-1-3,sec112-1
+Melissoptila,Melissoptila,sec112-1-3,sec112-1
+Santiago,Santiago,sec112-1-3,sec112-1
+Melissodes,Melissodes,sec112-1-3,sec112-1
+Svastra,Svastra,sec112-1-3,sec112-1
+Svastrides,Svastrides,sec112-1-3,sec112-1
+Micronychapis,Micronychapis,sec112-1-3,sec112-1
+Gaesochira,Gaesochira,sec112-1-3,sec112-1
+Gaesischia (in part),Gaesischia (in part),sec112-1-3,sec112-1
+Gaesischia (in part),Gaesischia (in part),sec112-1-4,sec112-1
+Thygater,Thygater,sec112-2-1,sec112-2
+Cemolobus,Cemolobus,sec112-2-2,sec112-2
+Xenoglossa,Xenoglossa,sec112-2-3,sec112-2
+Peponapis,Peponapis,sec112-2-4,sec112-2
+Melissodes,Melissodes,sec112-2-6,sec112-2
+Martinapis,Martinapis,sec112-2-6,sec112-2
+T etraloniella (Pectinapis),T etraloniella (Pectinapis),sec112-2-8,sec112-2
+Svastra (Anthedonia),Svastra (Anthedonia),sec112-2-9,sec112-2
+T etraloniella (Loxoptilus),T etraloniella (Loxoptilus),sec112-2-1,sec112-2
+Eucera (Synhalonia),Eucera (Synhalonia),sec112-2-1,sec112-2
+Simanthedon,Simanthedon,sec112-2-1,sec112-2
+Gaesischia (in part),Gaesischia (in part),sec112-2-1,sec112-2
+T etraloniella(in part),T etraloniella(in part),sec112-2-1,sec112-2
+Gaesischia (in part),Gaesischia (in part),sec112-2-1,sec112-2
+Syntrichalonia,Syntrichalonia,sec112-2-1,sec112-2
+Melissoptila,Melissoptila,sec112-2-1,sec112-2
+Svastra,Svastra,sec112-2-1,sec112-2
+Florilegus,Florilegus,sec112-2-1,sec112-2
+T etraloniella(in part),T etraloniella(in part),sec112-2-1,sec112-2
+Thygater,Thygater,sec112-3-1,sec112-3
+Cemolobus,Cemolobus,sec112-3-2,sec112-3
+Melissoptila,Melissoptila,sec112-3-4,sec112-3
+Florilegus,Florilegus,sec112-3-5,sec112-3
+Melissodes,Melissodes,sec112-3-6,sec112-3
+Peponapis (in part),Peponapis (in part),sec112-3-6,sec112-3
+Xenoglossa,Xenoglossa,sec112-3-7,sec112-3
+Simanthedon,Simanthedon,sec112-3-8,sec112-3
+Martinapis,Martinapis,sec112-3-1,sec112-3
+Agapanthinus,Agapanthinus,sec112-3-1,sec112-3
+Gaesischia,Gaesischia,sec112-3-1,sec112-3
+T etraloniella(in part),T etraloniella(in part),sec112-3-1,sec112-3
+Syntrichalonia,Syntrichalonia,sec112-3-1,sec112-3
+Svastra (Anthedonia),Svastra (Anthedonia),sec112-3-1,sec112-3
+Svastra,Svastra,sec112-3-1,sec112-3
+T etraloniella (Loxoptilus),T etraloniella (Loxoptilus),sec112-3-1,sec112-3
+T etraloniella(in part),T etraloniella(in part),sec112-3-1,sec112-3
+Peponapis (in part),Peponapis (in part),sec112-3-1,sec112-3
+Eucera (Synhalonia),Eucera (Synhalonia),sec112-3-1,sec112-3
+T etraloniella (Pectinapis),T etraloniella (Pectinapis),sec112-3-1,sec112-3
+Eucera (in part),Eucera (in part),sec112-4-2,sec112-4
+Cubitalia,Cubitalia,sec112-4-2,sec112-4
+T etralonia,T etralonia,sec112-4-3,sec112-4
+Notolonia,Notolonia,sec112-4-4,sec112-4
+Eucera (Synhalonia),Eucera (Synhalonia),sec112-4-5,sec112-4
+T etraloniella,T etraloniella,sec112-4-5,sec112-4
+A. (Megascirtetica),A. (Megascirtetica),sec112-5-1,sec112-5
+A. (Alloscirtetica s. str.),A. (Alloscirtetica s. str.),sec112-5-1,sec112-5
+C. (Opacula),C. (Opacula),sec112-6-1,sec112-6
+C. (Cubitalia s. str.),C. (Cubitalia s. str.),sec112-6-2,sec112-6
+C. (Pseudeucera),C. (Pseudeucera),sec112-6-2,sec112-6
+E. (Synhalonia),E. (Synhalonia),sec112-7-1,sec112-7
+E. (Hetereucera),E. (Hetereucera),sec112-7-3,sec112-7
+F . (Euﬂorilegus),F . (Euﬂorilegus),sec112-8-1,sec112-8
+F . (Floriraptor),F . (Floriraptor),sec112-8-2,sec112-8
+F . (Florilegus s. str.),F . (Florilegus s. str.),sec112-8-2,sec112-8
+F . (Euﬂorilegus),F . (Euﬂorilegus),sec112-9-1,sec112-9
+F . (Floriraptor),F . (Floriraptor),sec112-9-2,sec112-9
+F . (Florilegus s. str.),F . (Florilegus s. str.),sec112-9-2,sec112-9
+G. (Gaesischiopsis),G. (Gaesischiopsis),sec112-10-2,sec112-10
+G. (Gaesischiana),G. (Gaesischiana),sec112-10-3,sec112-10
+G. (Gaesischia s. str.),G. (Gaesischia s. str.),sec112-10-3,sec112-10
+G. (Prodasyhalonia),G. (Prodasyhalonia),sec112-10-4,sec112-10
+G. (Dasyhalonia),G. (Dasyhalonia),sec112-10-5,sec112-10
+G. (Pachyhalonia),G. (Pachyhalonia),sec112-10-5,sec112-10
+G. (Gaesischiopsis),G. (Gaesischiopsis),sec112-11-2,sec112-11
+G. (Gaesischiana),G. (Gaesischiana),sec112-11-3,sec112-11
+G. (Gaesischia s. str.),G. (Gaesischia s. str.),sec112-11-3,sec112-11
+G. (Prodasyhalonia),G. (Prodasyhalonia),sec112-11-4,sec112-11
+G. (Dasyhalonia),G. (Dasyhalonia),sec112-11-5,sec112-11
+M. (Martinapis s. str.),M. (Martinapis s. str.),sec112-12-1,sec112-12
+M. (Svastropsis),M. (Svastropsis),sec112-12-1,sec112-12
+M. (Apomelissodes),M. (Apomelissodes),sec112-13-1,sec112-13
+M. (Callimelissodes),M. (Callimelissodes),sec112-13-2,sec112-13
+M. (Psilomelissodes),M. (Psilomelissodes),sec112-13-4,sec112-13
+M. (T achymelissodes),M. (T achymelissodes),sec112-13-5,sec112-13
+M. (Melissodes s. str.),M. (Melissodes s. str.),sec112-13-6,sec112-13
+M. (Ecplectica),M. (Ecplectica),sec112-13-7,sec112-13
+M. (Eumelissodes),M. (Eumelissodes),sec112-13-7,sec112-13
+M. (Apomelissodes),M. (Apomelissodes),sec112-14-1,sec112-14
+M. (Callimelissodes),M. (Callimelissodes),sec112-14-2,sec112-14
+M. (Psilomelissodes),M. (Psilomelissodes),sec112-14-4,sec112-14
+M. (T achymelissodes),M. (T achymelissodes),sec112-14-5,sec112-14
+M. (Melissodes s. str.),M. (Melissodes s. str.),sec112-14-6,sec112-14
+M. (Ecplectica),M. (Ecplectica),sec112-14-7,sec112-14
+M. (Heliomelissodes),M. (Heliomelissodes),sec112-14-2,sec112-14
+M. (Psilomelissodes),M. (Psilomelissodes),sec112-14-3,sec112-14
+M. (T achymelissodes),M. (T achymelissodes),sec112-14-4,sec112-14
+"M. (Callimelissodes, Ecplectica,  Eumelissodes, Melissodes s. str.)","M. (Callimelissodes, Ecplectica,  Eumelissodes, Melissodes s. str.)",sec112-14-4,sec112-14
+S. (Anthedonia),S. (Anthedonia),sec112-15-1,sec112-15
+S. (Idiomelissodes),S. (Idiomelissodes),sec112-15-2,sec112-15
+Brachymelissodes,Brachymelissodes,sec112-15-3,sec112-15
+S. (Svastra s. str.),S. (Svastra s. str.),sec112-15-4,sec112-15
+S. (Epimelissodes),S. (Epimelissodes),sec112-15-4,sec112-15
+T . (T etralonia s. str.),T . (T etralonia s. str.),sec112-16-1,sec112-16
+T . (Eucara),T . (Eucara),sec112-16-2,sec112-16
+T . (Thygatina),T . (Thygatina),sec112-16-2,sec112-16
+T . (Glazunovia),T . (Glazunovia),sec112-17-1,sec112-17
+T . (Pectinapis),T . (Pectinapis),sec112-17-2,sec112-17
+T . (Loxoptilus),T . (Loxoptilus),sec112-17-3,sec112-17
+T . (T etraloniella s. str.),T . (T etraloniella s. str.),sec112-17-3,sec112-17
+T . (Thygater s. str.),T . (Thygater s. str.),sec112-18-1,sec112-18
+T . (Nectarodiaeta),T . (Nectarodiaeta),sec112-18-1,sec112-18
+T . (Thygater s. str.),T . (Thygater s. str.),sec112-19-1,sec112-19
+T . (Nectarodiaeta),T . (Nectarodiaeta),sec112-19-1,sec112-19
+T . (Dithygater),T . (Dithygater),sec112-20-1,sec112-20
+T . (Trichocerapis s. str.),T . (Trichocerapis s. str.),sec112-20-1,sec112-20
+T . (Dithygater),T . (Dithygater),sec112-21-1,sec112-21
+T . (Trichocerapis s. str.),T . (Trichocerapis s. str.),sec112-21-1,sec112-21
+X. (Eoxenoglossa),X. (Eoxenoglossa),sec112-22-1,sec112-22
+X. (Xenoglossa s. str.),X. (Xenoglossa s. str.),sec112-22-1,sec112-22
+Anthophora,Anthophora,sec113-1-2,sec113-1
+Amegilla,Amegilla,sec113-1-2,sec113-1
+Pachymelus,Pachymelus,sec113-1-3,sec113-1
+Deltoptila,Deltoptila,sec113-1-4,sec113-1
+Elaphropoda,Elaphropoda,sec113-1-5,sec113-1
+Habrophorula,Habrophorula,sec113-1-6,sec113-1
+Habropoda,Habropoda,sec113-1-6,sec113-1
+A. (Anthophora s. str.),A. (Anthophora s. str.),sec113-2-3,sec113-2
+A. (Caranthophora),A. (Caranthophora),sec113-2-3,sec113-2
+A. (Lophanthophora),A. (Lophanthophora),sec113-2-4,sec113-2
+A. (Pyganthophora) (in part),A. (Pyganthophora) (in part),sec113-2-4,sec113-2
+A. (Clisodon),A. (Clisodon),sec113-2-5,sec113-2
+A. (Anthophoroides),A. (Anthophoroides),sec113-2-7,sec113-2
+A. (Melea),A. (Melea),sec113-2-7,sec113-2
+A. (Anthomegilla),A. (Anthomegilla),sec113-2-9,sec113-2
+A. (Rhinomegilla),A. (Rhinomegilla),sec113-2-9,sec113-2
+A. (Heliophila),A. (Heliophila),sec113-2-1,sec113-2
+A. (Pyganthophora) (in part),A. (Pyganthophora) (in part),sec113-2-1,sec113-2
+A. (Paramegilla)(in part),A. (Paramegilla)(in part),sec113-2-1,sec113-2
+A. (Petalosternon),A. (Petalosternon),sec113-2-1,sec113-2
+A. (Mystacanthophora),A. (Mystacanthophora),sec113-2-1,sec113-2
+A. (Paramegilla)(in part),A. (Paramegilla)(in part),sec113-2-1,sec113-2
+A. (Dasymegilla),A. (Dasymegilla),sec113-2-1,sec113-2
+A. (Clisodon),A. (Clisodon),sec113-3-1,sec113-3
+A. (Anthophora s. str.),A. (Anthophora s. str.),sec113-3-3,sec113-3
+A. (Anthomegilla),A. (Anthomegilla),sec113-3-4,sec113-3
+A. (Rhinomegilla),A. (Rhinomegilla),sec113-3-4,sec113-3
+A. (Melea),A. (Melea),sec113-3-6,sec113-3
+A. (Anthophoroides),A. (Anthophoroides),sec113-3-6,sec113-3
+A. (Paramegilla)(in part),A. (Paramegilla)(in part),sec113-3-8,sec113-3
+A. (Heliophila),A. (Heliophila),sec113-3-8,sec113-3
+A. (Caranthophora)(in part),A. (Caranthophora)(in part),sec113-3-9,sec113-3
+A. (Paramegilla)(in part),A. (Paramegilla)(in part),sec113-3-1,sec113-3
+"A. (Caranthophora[in part], Dasymegilla,  Lophanthophora, Mystacanthophora[in part],  Paramegilla[in part], Petalosternon, Pyganthophora)","A. (Caranthophora[in part], Dasymegilla,  Lophanthophora, Mystacanthophora[in part],  Paramegilla[in part], Petalosternon, Pyganthophora)",sec113-3-1,sec113-3
+A. (Mystacanthophora)(in part),A. (Mystacanthophora)(in part),sec113-3-1,sec113-3
+P . (Pachymelopsis),P . (Pachymelopsis),sec113-4-1,sec113-4
+P . (Pachymelus s. str.),P . (Pachymelus s. str.),sec113-4-1,sec113-4
+Epicharis,Epicharis,sec114-1-1,sec114-1
+Centris,Centris,sec114-1-1,sec114-1
+C. (Ptilotopus),C. (Ptilotopus),sec114-2-2,sec114-2
+C. (Schisthemisia),C. (Schisthemisia),sec114-2-3,sec114-2
+C. (Paracentris),C. (Paracentris),sec114-2-4,sec114-2
+E. (Hoplepicharis),E. (Hoplepicharis),sec114-3-2,sec114-3
+E. (Epicharis s. str.),E. (Epicharis s. str.),sec114-3-3,sec114-3
+E. (Epicharana),E. (Epicharana),sec114-3-3,sec114-3
+E. (Parepicharis),E. (Parepicharis),sec114-3-4,sec114-3
+E. (Anepicharis),E. (Anepicharis),sec114-3-6,sec114-3
+E. (Triepicharis),E. (Triepicharis),sec114-3-6,sec114-3
+E. (Cyphepicharis),E. (Cyphepicharis),sec114-3-7,sec114-3
+E. (Epicharoides),E. (Epicharoides),sec114-3-8,sec114-3
+E. (Epicharitides),E. (Epicharitides),sec114-3-8,sec114-3
+Rhathymus,Rhathymus,sec115-1-1,sec115-1
+Nanorhathymus,Nanorhathymus,sec115-1-1,sec115-1
+Acanthopus,Acanthopus,sec116-1-1,sec116-1
+Aglaomelissa,Aglaomelissa,sec116-1-4,sec116-1
+Ctenioschelus,Ctenioschelus,sec116-1-4,sec116-1
+Ericrocis,Ericrocis,sec116-1-6,sec116-1
+Mesonychium,Mesonychium,sec116-1-6,sec116-1
+Epiclopus,Epiclopus,sec116-1-7,sec116-1
+Mesoplia,Mesoplia,sec116-1-8,sec116-1
+Hopliphora,Hopliphora,sec116-1-8,sec116-1
+M. (Mesoplia s. str.),M. (Mesoplia s. str.),sec116-2-1,sec116-2
+M. (Eumelissa),M. (Eumelissa),sec116-2-1,sec116-2
+Brachymelecta,Brachymelecta,sec117-1-1,sec117-1
+Zacosmia,Zacosmia,sec117-1-2,sec117-1
+Xeromelecta,Xeromelecta,sec117-1-3,sec117-1
+Melecta,Melecta,sec117-1-3,sec117-1
+Brachymelecta,Brachymelecta,sec117-2-1,sec117-2
+Zacosmia,Zacosmia,sec117-2-2,sec117-2
+Xeromelecta,Xeromelecta,sec117-2-3,sec117-2
+Thyreomelecta,Thyreomelecta,sec117-2-2,sec117-2
+A. (Acanthomelecta),A. (Acanthomelecta),sec117-3-1,sec117-3
+A. (Afromelecta s. str.),A. (Afromelecta s. str.),sec117-3-1,sec117-3
+M. (Pseudomelecta),M. (Pseudomelecta),sec117-4-2,sec117-4
+M. (Paracrocisa),M. (Paracrocisa),sec117-4-2,sec117-4
+M. (Eupavlovskia),M. (Eupavlovskia),sec117-4-3,sec117-4
+"M, (Melectomimus)","M, (Melectomimus)",sec117-4-4,sec117-4
+M. (Melecta s. str.),M. (Melecta s. str.),sec117-4-4,sec117-4
+X. (Xeromelecta s. str.),X. (Xeromelecta s. str.),sec117-5-1,sec117-5
+X. (Nesomelecta),X. (Nesomelecta),sec117-5-2,sec117-5
+X. (Melectomorpha),X. (Melectomorpha),sec117-5-2,sec117-5
+Exaerete,Exaerete,sec118-1-2,sec118-1
+Aglae,Aglae,sec118-1-2,sec118-1
+Euglossa,Euglossa,sec118-1-3,sec118-1
+B (Psithyrus),B (Psithyrus),sec119-1-2,sec119-1
+B. (Mendacibombus),B. (Mendacibombus),sec119-1-2,sec119-1
+B. (Alpigenobombus),B. (Alpigenobombus),sec119-1-3,sec119-1
+B. (Orientalibombus),B. (Orientalibombus),sec119-1-4,sec119-1
+B. (Kallobombus),B. (Kallobombus),sec119-1-5,sec119-1
+B. (Fraternobombus),B. (Fraternobombus),sec119-1-7,sec119-1
+B. (Confusibombus),B. (Confusibombus),sec119-1-8,sec119-1
+B. (Bombias),B. (Bombias),sec119-1-8,sec119-1
+B. (Bombus s. str.),B. (Bombus s. str.),sec119-1-9,sec119-1
+B. (Brachycephalibombus),B. (Brachycephalibombus),sec119-1-1,sec119-1
+B. (Separatobombus),B. (Separatobombus),sec119-1-1,sec119-1
+B. (Crotchiibombus),B. (Crotchiibombus),sec119-1-1,sec119-1
+B. (Sibiricobombus),B. (Sibiricobombus),sec119-1-1,sec119-1
+"B. (Pyrobombus, Festivobombus)","B. (Pyrobombus, Festivobombus)",sec119-1-1,sec119-1
+B. (Cullumanobombus),B. (Cullumanobombus),sec119-1-1,sec119-1
+B. (Ruﬁpedibombus),B. (Ruﬁpedibombus),sec119-1-1,sec119-1
+B. (Dasybombus),B. (Dasybombus),sec119-1-1,sec119-1
+B. (Alpinobombus),B. (Alpinobombus),sec119-1-1,sec119-1
+B. (Robustobombus),B. (Robustobombus),sec119-1-2,sec119-1
+B. (Rubicundobombus),B. (Rubicundobombus),sec119-1-2,sec119-1
+B. (Coccineobombus),B. (Coccineobombus),sec119-1-2,sec119-1
+B. (Senexibombus),B. (Senexibombus),sec119-1-2,sec119-1
+B. (Tricornibombus),B. (Tricornibombus),sec119-1-2,sec119-1
+B. (Laesobombus),B. (Laesobombus),sec119-1-2,sec119-1
+B. (Subterraneobombus),B. (Subterraneobombus),sec119-1-2,sec119-1
+B. (Rhodobombus),B. (Rhodobombus),sec119-1-3,sec119-1
+B. (Fervidobombus),B. (Fervidobombus),sec119-1-3,sec119-1
+B. (Thoracobombus),B. (Thoracobombus),sec119-1-3,sec119-1
+B. (Mucidobombus),B. (Mucidobombus),sec119-1-3,sec119-1
+B. (Eversmannibombus),B. (Eversmannibombus),sec119-1-3,sec119-1
+B. (Psithyrus),B. (Psithyrus),sec119-2-1,sec119-2
+B. (Alpigenobombus),B. (Alpigenobombus),sec119-2-2,sec119-2
+B. (Mendacibombus),B. (Mendacibombus),sec119-2-4,sec119-2
+B. (Sibiricobombus) (in part),B. (Sibiricobombus) (in part),sec119-2-5,sec119-2
+B. (Ruﬁpedibombus),B. (Ruﬁpedibombus),sec119-2-6,sec119-2
+B. (Orientalibombus),B. (Orientalibombus),sec119-2-7,sec119-2
+B. (Melanobombus),B. (Melanobombus),sec119-2-8,sec119-2
+B. (Coccineobombus),B. (Coccineobombus),sec119-2-9,sec119-2
+B. (Bombus s. str.),B. (Bombus s. str.),sec119-2-1,sec119-2
+B. (Separatobombus),B. (Separatobombus),sec119-2-1,sec119-2
+B. (Fraternobombus),B. (Fraternobombus),sec119-2-1,sec119-2
+B. (Crotchiibombus),B. (Crotchiibombus),sec119-2-1,sec119-2
+B. (Rubicundobombus),B. (Rubicundobombus),sec119-2-1,sec119-2
+B. (Robustobombus),B. (Robustobombus),sec119-2-1,sec119-2
+B. (Alpinobombus),B. (Alpinobombus),sec119-2-1,sec119-2
+B. (Funebribombus),B. (Funebribombus),sec119-2-1,sec119-2
+B. (Confusibombus),B. (Confusibombus),sec119-2-1,sec119-2
+B. (Bombias),B. (Bombias),sec119-2-1,sec119-2
+B. (Cullumanobombus),B. (Cullumanobombus),sec119-2-2,sec119-2
+B. (Megabombus),B. (Megabombus),sec119-2-2,sec119-2
+B. (Fervidobombus) (in part),B. (Fervidobombus) (in part),sec119-2-2,sec119-2
+B. (Subterraneobombus)(in part),B. (Subterraneobombus)(in part),sec119-2-2,sec119-2
+B. (Dasybombus),B. (Dasybombus),sec119-2-2,sec119-2
+B. (Brachycephalibombus),B. (Brachycephalibombus),sec119-2-2,sec119-2
+B. (Laesobombus),B. (Laesobombus),sec119-2-2,sec119-2
+B. (Eversmannibombus),B. (Eversmannibombus),sec119-2-2,sec119-2
+B. (Exilobombus),B. (Exilobombus),sec119-2-2,sec119-2
+B. (Tricornibombus),B. (Tricornibombus),sec119-2-2,sec119-2
+B. (Senexibombus),B. (Senexibombus),sec119-2-3,sec119-2
+B. (Sibiricobombus) (in part),B. (Sibiricobombus) (in part),sec119-2-3,sec119-2
+B. (Diversobombus),B. (Diversobombus),sec119-2-3,sec119-2
+B. (Thoracobombus),B. (Thoracobombus),sec119-2-3,sec119-2
+B. (Rhodobombus) (in part),B. (Rhodobombus) (in part),sec119-2-3,sec119-2
+B. (Thoracobombus) (in part),B. (Thoracobombus) (in part),sec119-2-3,sec119-2
+B. (Mucidobombus),B. (Mucidobombus),sec119-2-3,sec119-2
+B. (Subterraneobombus)(in part),B. (Subterraneobombus)(in part),sec119-2-3,sec119-2
+B. (Rhodobombus) (in part),B. (Rhodobombus) (in part),sec119-2-3,sec119-2
+B. (Fervidobombus) (in part),B. (Fervidobombus) (in part),sec119-2-3,sec119-2
+Trigonisca,Trigonisca,sec120-1-1,sec120-1
+Trichotrigona,Trichotrigona,sec120-1-3,sec120-1
+Oxytrigona,Oxytrigona,sec120-1-4,sec120-1
+Cephalotrigona,Cephalotrigona,sec120-1-5,sec120-1
+Trigona,Trigona,sec120-1-5,sec120-1
+Lestrimelitta,Lestrimelitta,sec120-1-6,sec120-1
+Melipona,Melipona,sec120-1-7,sec120-1
+Nannotrigona,Nannotrigona,sec120-1-9,sec120-1
+Scaptotrigona,Scaptotrigona,sec120-1-9,sec120-1
+Paratrigona,Paratrigona,sec120-1-1,sec120-1
+Partamona,Partamona,sec120-1-1,sec120-1
+Meliwillea,Meliwillea,sec120-1-1,sec120-1
+Plebeia,Plebeia,sec120-1-1,sec120-1
+Paratrigonoides,Paratrigonoides,sec120-1-1,sec120-1
+Nogueirapis,Nogueirapis,sec120-1-1,sec120-1
+Cleptotrigona,Cleptotrigona,sec120-2-2,sec120-2
+Liotrigona,Liotrigona,sec120-2-3,sec120-2
+Hypotrigona,Hypotrigona,sec120-2-3,sec120-2
+Dactylurina,Dactylurina,sec120-2-4,sec120-2
+Meliponula,Meliponula,sec120-2-5,sec120-2
+Plebeina,Plebeina,sec120-2-5,sec120-2
+Trigona,Trigona,sec120-3-1,sec120-3
+Pariotrigona,Pariotrigona,sec120-3-2,sec120-3
+Lisotrigona,Lisotrigona,sec120-3-2,sec120-3
+Trigona,Trigona,sec120-4-1,sec120-4
+M. (Meliponula s. str.),M. (Meliponula s. str.),sec120-5-1,sec120-5
+M. (Axestotrigona),M. (Axestotrigona),sec120-5-2,sec120-5
+M. (Meliplebeia),M. (Meliplebeia),sec120-5-2,sec120-5
+P . (Partamona s. str.),P . (Partamona s. str.),sec120-6-1,sec120-6
+P . (Parapartamona),P . (Parapartamona),sec120-6-1,sec120-6
+P . (Scaura),P . (Scaura),sec120-7-1,sec120-7
+P . (Schwarziana),P . (Schwarziana),sec120-7-2,sec120-7
+P . (Plebeia s. str.),P . (Plebeia s. str.),sec120-7-2,sec120-7
+T . (Trigona s. str.),T . (Trigona s. str.),sec120-8-1,sec120-8
+T . (Geotrigona),T . (Geotrigona),sec120-8-2,sec120-8
+T . (T etragonisca),T . (T etragonisca),sec120-8-3,sec120-8
+T . (Duckeola),T . (Duckeola),sec120-8-4,sec120-8
+T . (Frieseomelitta),T . (Frieseomelitta),sec120-8-5,sec120-8
+T . (T etragona),T . (T etragona),sec120-8-5,sec120-8
+T . (Trigona s. str.),T . (Trigona s. str.),sec120-9-1,sec120-9
+T . (Geotrigona),T . (Geotrigona),sec120-9-2,sec120-9
+T . (T etragonisca),T . (T etragonisca),sec120-9-3,sec120-9
+T . (Duckeola),T . (Duckeola),sec120-9-4,sec120-9
+T . (Frieseomelitta),T . (Frieseomelitta),sec120-9-5,sec120-9
+T . (Lepidotrigona),T . (Lepidotrigona),sec120-9-2,sec120-9
+T . (Papuatrigona),T . (Papuatrigona),sec120-9-2,sec120-9
+T . (Heterotrigona),T . (Heterotrigona),sec120-9-3,sec120-9
+T . (Homotrigona),T . (Homotrigona),sec120-9-3,sec120-9
