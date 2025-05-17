@@ -3,7 +3,7 @@ from utils.client_provider import ClientProvider
 
 def generate_descriptions_of_MMD_figures():
 
-    # Read in MMD text files, already standardized references to figures (see standardizeFigRefsFromText.py in data folder)
+    # Read in MMD text files, generated with standardizeMMDFigureReferences.py
     with open("data/texts/MMD-Main-Text-With-Standardized-Fig-Refs.txt", "r", encoding="utf-8") as f:
      main_text = f.read()
 

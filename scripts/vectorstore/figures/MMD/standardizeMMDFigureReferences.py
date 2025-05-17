@@ -20,7 +20,7 @@ def expand_figure_list(match):
     numbers = re.split(r'\s*(?:and|,)\s*', match.group(1))
     return " ".join(f"(Fig. {num})" for num in numbers)
 
-def standardize_figure_references_in_text(text):
+def standardize_MMD_figure_references(text):
 
     # Expand figure ranges, ensuring only three-digit numbers are matched
     text = re.sub(r'\(?Figs?\.?\s*(\d{1,3})\s*-\s*(\d{1,3})\)?', expand_figure_ranges, text)
@@ -34,9 +34,24 @@ def standardize_figure_references_in_text(text):
     # Standardize inline figure references like "Fig.1." -> "(Fig. 1)."
     standardized_text = re.sub(r'(?<!\()Fig\.\s*(\d{1,3})(?!\))', r'(Fig. \1)', text)
 
-    # Save to a file for manual editing. Pass in object_key as param to this function if you need it.
-    # obj_key_without_file_type = object_key[:-4]
-    with open(f"MMD-Keys-Text_standardized_text.txt", "w", encoding="utf-8") as f:
-       f.write(text)
-
     return standardized_text
+
+if __name__ == "__main__":
+    # Read in MMD text files, generated with standardizeMMDFigureReferences.py
+    with open("data/texts/MMD-Main-Text.txt", "r", encoding="utf-8") as f:
+        main_text = f.read()
+
+    with open("data/texts/MMD-Keys.txt", "r", encoding="utf-8") as f:
+        keys_text = f.read()
+
+    # Standardize figure references in both texts
+    standardized_main_text = standardize_MMD_figure_references(main_text)
+    standardized_keys_text = standardize_MMD_figure_references(keys_text)
+
+    # Save the standardized texts to new files
+    with open("data/texts/MMD-Main-Text-With-Standardized-Fig-Refs.txt", "w", encoding="utf-8") as f:
+        f.write(standardized_main_text)
+
+    with open("data/texts/MMD-Keys-With-Standardized-Fig-Refs.txt", "w", encoding="utf-8") as f:
+        f.write(standardized_keys_text)
+    print("Standardized figure references and saved to new files.")
