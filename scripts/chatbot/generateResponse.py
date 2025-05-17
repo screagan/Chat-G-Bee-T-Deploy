@@ -1,9 +1,3 @@
-
-import textwrap
-import requests
-from PIL import Image
-from io import BytesIO
-import time
 from  scripts.utils.client_provider import ClientProvider
 
 def generate_response(query, retrieval_results, history):
@@ -91,17 +85,5 @@ def generate_response(query, retrieval_results, history):
         stream=True
     )
 
-    return images_to_render, stream #textwrap.fill(response.choices[0].message.content, width=80)
-
-def display_images_pil(image_urls):
-    """Display images using PIL"""
-    for url, fig_num in image_urls:
-        try:
-            response = requests.get(url)
-            img = Image.open(BytesIO(response.content))
-            print(f"\nDisplaying Figure {fig_num}:")
-            img.show()  # This will open the image in the default image viewer
-            time.sleep(1)  # Give some time for the image viewer to open
-        except Exception as e:
-            print(f"Could not display image from {url}: {e}")
+    return images_to_render, stream
 
