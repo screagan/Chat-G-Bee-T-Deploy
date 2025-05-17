@@ -1,6 +1,6 @@
 import streamlit as st
 from scripts.chatbot.generateResponse import generate_response
-from scripts.chatbot.retrieveData import retrieve_relevant_data
+from scripts.chatbot.retrieveRelevantData import retrieve_relevant_data
 
 import streamlit as st
 

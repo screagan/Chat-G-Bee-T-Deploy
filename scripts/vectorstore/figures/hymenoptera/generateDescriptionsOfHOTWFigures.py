@@ -1,25 +1,17 @@
-import sys
-import os
-
-# Add the parent directory to the path
-sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(__file__)))))
-
-# Now import the client_provider
 from utils.client_provider import ClientProvider
 from ..getFiguresFromAWS import get_figures_from_AWS
-from dotenv import load_dotenv
 import os
 
 # We need to generate captions for our figures in the hymenoptera data source.
 # This works well for figures which have a caption within view of the figure.
 
-def generate_descriptions_of_hymenoptera_figures():
+def generate_descriptions_of_HOTW_figures():
 
-    #get openai api key and create client
-    load_dotenv()
+    # Create OpenAI Client
     openai_client = ClientProvider.get_openai_client()
-    bucket_name = os.getenv("AWS_BUCKET_NAME")
+
     #Get dataframe containing figures from hymenoptera
+    bucket_name = os.getenv("AWS_BUCKET_NAME")
     figures_df = get_figures_from_AWS(bucket_name=bucket_name, aws_folder='HOTW-Figures/', source_title="Hymenoptera of the World", source_year='1993', source_author='John I Huber', source_publisher='HOTWPublisher') 
     
     descriptions = []

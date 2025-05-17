@@ -20,7 +20,7 @@ def expand_figure_list(match):
     numbers = re.split(r'\s*(?:and|,)\s*', match.group(1))
     return " ".join(f"(Fig. {num})" for num in numbers)
 
-def standardize_figures(text):
+def standardize_figure_references_in_text(text):
 
     # Expand figure ranges, ensuring only three-digit numbers are matched
     text = re.sub(r'\(?Figs?\.?\s*(\d{1,3})\s*-\s*(\d{1,3})\)?', expand_figure_ranges, text)

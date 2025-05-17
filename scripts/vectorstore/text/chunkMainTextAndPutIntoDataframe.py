@@ -1,7 +1,9 @@
 import pandas as pd
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-def chunk_text_to_dataframe(extracted_texts, source_title, source_year, source_author, source_publisher):
+# This function is meant specifically for chunking main text sections to dataframes
+# This probably is not the method for chunkings keys text sections
+def chunk_main_text_and_put_into_dataframe(extracted_texts, source_title, source_year, source_author, source_publisher):
     # Initialize the text splitter
     custom_text_splitter = RecursiveCharacterTextSplitter(
         chunk_size=400,

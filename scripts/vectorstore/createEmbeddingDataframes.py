@@ -1,6 +1,6 @@
 from scripts.vectorstore.figures.hymenoptera.generateDescriptionsOfHOTWFigures import generate_descriptions_of_HOTW_figures
 from scripts.vectorstore.figures.MMD.generateDescriptionsOfMMDFigures import generate_descriptions_of_MMD_figures
-from scripts.vectorstore.text.chunkMainTextToDataframe import chunk_main_text_to_dataframe
+from scripts.vectorstore.text.chunkMainTextAndPutIntoDataframe import chunk_main_text_and_put_into_dataframe
 from scripts.vectorstore.text.extractTextFromPDF import extract_text_from_pdf   
 import pandas as pd
 
@@ -10,7 +10,7 @@ if __name__ == "__main__":
 # We do not use text chunks from the keys text of MMD, because it is not useful for embeddings
 # The information within the keys text of MMD is accessible to the chatbots through figure descriptions
     mmd_extracted_texts = extract_text_from_pdf(object_key='MMD-Main-Text.pdf', bucket_name='ccber-tester-bucket', num_columns=1)
-    mmd_text_chunks_df = chunk_main_text_to_dataframe(extracted_texts=mmd_extracted_texts, source_title='MMD', source_year='2022', source_author='Danforth, Bryan, et al.', source_publisher='MMDPublisher')
+    mmd_text_chunks_df = chunk_main_text_and_put_into_dataframe(extracted_texts=mmd_extracted_texts, source_title='MMD', source_year='2022', source_author='Danforth, Bryan, et al.', source_publisher='MMDPublisher')
     mmd_text_chunks_df.to_csv("data/dataframesForEmbeddings/mmd_text_chunks.csv", index=False) #Save to csv to check out chunks. Optional.
     print("Made text chunks for MMD")
 
@@ -22,7 +22,7 @@ if __name__ == "__main__":
 # Get text chunks and page numbers from HOTW, put them into DF ready to be embedded
 # Like MMD, we do not use text chunks from the keys text of HOTW, all of that info is in the figure descriptions
     hymenoptera_extracted_texts = extract_text_from_pdf(object_key='HOTW-Main-Text.pdf', bucket_name='ccber-tester-bucket', num_columns=2) #TODO: This pdf is kinda off center. Check text extraction.
-    hymenoptera_text_chunks_df = chunk_main_text_to_dataframe(extracted_texts=hymenoptera_extracted_texts, source_title="Hymenoptera of the World", source_year='1993', source_author='Charles D. Michener', source_publisher='HOTWPublisher')
+    hymenoptera_text_chunks_df = chunk_main_text_and_put_into_dataframe(extracted_texts=hymenoptera_extracted_texts, source_title="Hymenoptera of the World", source_year='1993', source_author='Charles D. Michener', source_publisher='HOTWPublisher')
     hymenoptera_text_chunks_df.to_csv("data/dataframesForEmbeddings/hymenoptera_text_chunks.csv", index=False)
     print("Made text chunks for HOTW")
 
@@ -32,9 +32,9 @@ if __name__ == "__main__":
     print(list(hymenoptera_figs_df.columns))
 
 # Get text chunks and page numbers from BOTW, put them into DF ready to be embedded 
-# TODO: Get only main text, not keys.
+# TODO: Get only main text, right now you just have small sample object instead of proper all main text.
     botw_extracted_texts = extract_text_from_pdf(object_key='test_short_botw.pdf', bucket_name='ccber-tester-bucket', num_columns=2)
-    botw_text_chunks_df = chunk_main_text_to_dataframe(extracted_texts=botw_extracted_texts, source_title="Bees of the World", source_year='2007', source_author='Daniel C. Danforth', source_publisher='BOTWPublisher')
+    botw_text_chunks_df = chunk_main_text_and_put_into_dataframe(extracted_texts=botw_extracted_texts, source_title="Bees of the World", source_year='2007', source_author='Daniel C. Danforth', source_publisher='BOTWPublisher')
     botw_text_chunks_df.to_csv("data/dataframesForEmbeddings/short_test_botw_text_chunks.csv", index=False)
     print("Made text chunks for (shorter version of) BOTW")
 
@@ -44,7 +44,7 @@ if __name__ == "__main__":
     # print(list(botw_figs_df.columns))
 
 # Combine all DataFrames into a single DataFrame
-    combined_df = pd.concat([mmd_text_chunks_df, mmd_figs_df, hymenoptera_text_chunks_df, hymenoptera_figs_df], ignore_index=True)
+    combined_df = pd.concat([mmd_text_chunks_df, mmd_figs_df, hymenoptera_text_chunks_df, hymenoptera_figs_df, botw_text_chunks_df], ignore_index=True)
 
 # Save the combined DataFrame to a single CSV file
     combined_df.to_csv("data/dataframesForEmbeddings/combined_data.csv", index=False)
