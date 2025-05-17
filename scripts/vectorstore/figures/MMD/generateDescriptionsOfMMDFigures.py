@@ -1,4 +1,4 @@
-from vectorstore.figures.MMD.getContextForMMDFigures import get_context_for_MMD_figure_descriptions
+from scripts.vectorstore.figures.MMD.getContextForMMDFigureDescriptions import get_context_for_MMD_figure_descriptions
 from utils.client_provider import ClientProvider
 
 def generate_descriptions_of_MMD_figures():

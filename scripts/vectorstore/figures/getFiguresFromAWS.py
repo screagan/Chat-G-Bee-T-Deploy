@@ -3,7 +3,7 @@ import pandas as pd
 from utils.client_provider import ClientProvider
 # Takes in a bucket name and source name, outputs a dataframe containing the figures, their s3 keys and their urls.
 
-def get_figures_from_source(bucket_name, aws_folder, source_title, source_year, source_author, source_publisher): # e.g. aws_folder = 'MMD-Figures/'. Should correspond to folder in s3 bucket where images are held
+def get_figures_from_AWS(bucket_name, aws_folder, source_title, source_year, source_author, source_publisher): # e.g. aws_folder = 'MMD-Figures/'. Should correspond to folder in s3 bucket where images are held
 
   s3 = ClientProvider.get_s3_client()
 

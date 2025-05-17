@@ -6,7 +6,7 @@ from io import BytesIO
 import time
 from  scripts.utils.client_provider import ClientProvider
 
-def generate_answer_with_images_with_history(query, retrieval_results, history):
+def generate_response(query, retrieval_results, history):
     """
     Generates an answer using OpenAI API based on retrieved embeddings from Qdrant,
     considering conversation history.

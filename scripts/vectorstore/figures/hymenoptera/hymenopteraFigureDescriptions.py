@@ -6,7 +6,7 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(
 
 # Now import the client_provider
 from utils.client_provider import ClientProvider
-from ..getFiguresFromAWS import get_figures_from_source
+from ..getFiguresFromAWS import get_figures_from_AWS
 from dotenv import load_dotenv
 import os
 
@@ -20,7 +20,7 @@ def generate_descriptions_of_hymenoptera_figures():
     openai_client = ClientProvider.get_openai_client()
     bucket_name = os.getenv("AWS_BUCKET_NAME")
     #Get dataframe containing figures from hymenoptera
-    figures_df = get_figures_from_source(bucket_name=bucket_name, aws_folder='HOTW-Figures/', source_title="Hymenoptera of the World", source_year='1993', source_author='John I Huber', source_publisher='HOTWPublisher') 
+    figures_df = get_figures_from_AWS(bucket_name=bucket_name, aws_folder='HOTW-Figures/', source_title="Hymenoptera of the World", source_year='1993', source_author='John I Huber', source_publisher='HOTWPublisher') 
     
     descriptions = []
     for url in figures_df["Image URL"]:

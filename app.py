@@ -1,6 +1,5 @@
 import streamlit as st
-from langchain_openai.chat_models import ChatOpenAI
-from scripts.chatbot.generateResponse import generate_answer_with_images_with_history
+from scripts.chatbot.generateResponse import generate_response
 from scripts.chatbot.retrieveData import retrieve_relevant_data
 
 import streamlit as st
@@ -20,7 +19,7 @@ for message in st.session_state.messages:
             for image in message["images"]:
                 st.image(image[0], caption=f"Figure Number: {image[1]}")
 
-def generate_response(input_text, history):
+def answer_user_question(input_text, history):
     # Convert history to format suitable for context
     formatted_history = []
     for msg in history:
@@ -45,7 +44,7 @@ def generate_response(input_text, history):
         sources_info.append(source_info)
     
     # Generate answer considering history
-    images, stream = generate_answer_with_images_with_history(input_text, retrieval_results, formatted_history)
+    images, stream = generate_response(input_text, retrieval_results, formatted_history)
     
     return images, stream, sources_info  # Return three values including sources_info
 
@@ -63,7 +62,7 @@ if user_input:
     # Generate and display assistant response
     with st.chat_message("assistant"):
         with st.spinner("Generating response..."):
-            images, answer_stream, sources_info = generate_response(user_input, st.session_state.messages)
+            images, answer_stream, sources_info = answer_user_question(user_input, st.session_state.messages)
             
             # Initialize an empty container for the message
             response_placeholder = st.empty()
