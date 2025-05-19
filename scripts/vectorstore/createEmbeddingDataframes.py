@@ -2,6 +2,7 @@ from scripts.vectorstore.figures.hymenoptera.generateDescriptionsOfHOTWFigures i
 from scripts.vectorstore.figures.MMD.generateDescriptionsOfMMDFigures import generate_descriptions_of_MMD_figures
 from scripts.vectorstore.text.chunkMainTextAndPutIntoDataframe import chunk_main_text_and_put_into_dataframe
 from scripts.vectorstore.text.extractTextFromPDF import extract_text_from_pdf   
+from scripts.vectorstore.text.chunkBOTWKeysAndPutIntoDataframe import chunk_BOTW_keys_and_put_into_dataframe
 import pandas as pd
 
 if __name__ == "__main__":
@@ -38,7 +39,11 @@ if __name__ == "__main__":
     botw_text_chunks_df.to_csv("data/dataframesForEmbeddings/short_test_botw_text_chunks.csv", index=False)
     print("Made text chunks for (shorter version of) BOTW")
 
-# TODO: Add an BOTW keys chunk section, because unlike MMD and HOTW, BOTW has a keys section that is useful for embeddings.
+# Unlike MMD and HOTW, BOTW has a keys section that is useful for embeddings, so we get information from it.
+# This function does not extract the keys directly from the PDF, but rather gets the keys info from a text file created by Daniel based off of the keys (data/texts/bees-of-the-world-key-descriptions.txt)
+    botw_keys_chunks_df = chunk_BOTW_keys_and_put_into_dataframe()
+    botw_keys_chunks_df.to_csv("data/dataframesForEmbeddings/botw_keys_chunks.csv", index=False)
+    print("Made text chunks for BOTW keys")
 
 # Generate descriptions of BOTW Figures, put them into DF ready to be embedded 
     # botw_figs_df = TODO: Make this function actually work to make figure descriptions for BOTW
