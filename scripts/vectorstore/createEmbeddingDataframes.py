@@ -2,6 +2,7 @@ from scripts.vectorstore.figures.hymenoptera.generateDescriptionsOfHOTWFigures i
 from scripts.vectorstore.figures.MMD.generateDescriptionsOfMMDFigures import generate_descriptions_of_MMD_figures
 from scripts.vectorstore.text.chunkMainTextAndPutIntoDataframe import chunk_main_text_and_put_into_dataframe
 from scripts.vectorstore.text.extractTextFromPDF import extract_text_from_pdf   
+from scripts.vectorstore.figures.BOTW.generateDescriptionsOfBOTWFigures import generate_descriptions_of_BOTW_figures
 from scripts.vectorstore.text.chunkBOTWKeysAndPutIntoDataframe import chunk_BOTW_keys_and_put_into_dataframe
 import pandas as pd
 
@@ -45,10 +46,10 @@ if __name__ == "__main__":
     botw_keys_chunks_df.to_csv("data/dataframesForEmbeddings/botw_keys_chunks.csv", index=False)
     print("Made text chunks for BOTW keys")
 
-# Generate descriptions of BOTW Figures, put them into DF ready to be embedded 
-    # botw_figs_df = TODO: Make this function actually work to make figure descriptions for BOTW
-    # botw_figs_df.to_csv("data/dataframesForEmbeddings/botw_figs.csv", index=False)
-    # print(list(botw_figs_df.columns))
+# Generate descriptions of BOTW Figures using references in main text and keys, put them into DF ready to be embedded 
+    botw_figs_df = generate_descriptions_of_BOTW_figures()
+    botw_figs_df.to_csv("data/dataframesForEmbeddings/botw_figs.csv", index=False)
+    print(list(botw_figs_df.columns))
 
 # Combine all DataFrames into a single DataFrame
     combined_df = pd.concat([mmd_text_chunks_df, mmd_figs_df, hymenoptera_text_chunks_df, hymenoptera_figs_df, botw_text_chunks_df], ignore_index=True)
