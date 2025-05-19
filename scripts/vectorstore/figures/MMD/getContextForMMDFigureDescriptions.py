@@ -1,5 +1,5 @@
 
-from vectorstore.figures.getFiguresFromAWS import get_figures_from_AWS
+from scripts.vectorstore.figures.getFiguresFromAWS import get_figures_from_AWS
 import re
 import pandas as pd
 

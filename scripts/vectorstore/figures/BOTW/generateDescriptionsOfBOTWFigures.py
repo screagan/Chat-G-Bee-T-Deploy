@@ -24,7 +24,7 @@ def generate_descriptions_of_BOTW_figures():
 
 #Function to takes in context (figure references) of a figure and creates a description.
 #We will embed these descriptions rather than embedding the image themselves.
-def generate_figure_description(client, figure_num, context):
+def generate_figure_description(client, figure_num, context, source = "Bees of the World", author = 'Daniel C. Danforth'):
     """
     Calls OpenAI's API to generate a figure description optimized for embedding retrieval.
 
@@ -37,6 +37,7 @@ def generate_figure_description(client, figure_num, context):
     """
     prompt = f"""
     Generate a **figure description** of Fig. {figure_num} optimized for embedding retrieval.
+    - Mention the figure number, source ({source}) and author ({author}) in the first sentence. 
     - Summarize the **main topic of the figure** in the first sentence.
     - Ignore information about any figures that are not Fig. {figure_num}
     - Clearly describe the **key labeled components** and their significance.
