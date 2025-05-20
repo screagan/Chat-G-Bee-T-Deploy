@@ -104,7 +104,7 @@ MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,3,Text,"~ The bee proboscis is a
 we which together make up the “labiomaxillary complex.” The maxilla consists of paired cardines
 (singular: cardo) that suspend the labiomaxillary complex from beneath the head capsule, the
 ~ stipes, blade-like galea (plural: galeae), and the maxillary palpus (plural: palpi) with up to six",NA,NA,NA,NA
-MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,3,Text,"= segments [Figs. 6, 7]. Attached at the apex of the
+MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,3,Text,"~ segments [Figs. 6, 7]. Attached at the apex of the
 hs cardines is the labium, which consists of the lorum,
 e mentum, prementum, tongue-like glossa, and (typically)
 four-segmented labial palpus [Fig. 6]. In Colletidae the
@@ -131,12 +131,11 @@ MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,3,Text,"~ head capsule, making i
 o individual elements can be easily recognized. In some cases, it is necessary to examine the
 maxillary and labial palpi and to count the number of palpal segments (e.g., in certain Eucerini).",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,3,Text,"~ It can also be useful to be able to identify the blade-like, first two labial palpal segments in long-",NA,NA,NA,NA
-MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,4,Text,"Qrotvon Wrene ~
-on Crowe, ¥
-tongued bees as a tool for knowing whether you are examining a short-tongued or long-tongued
+MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,4,Text,"tongued bees as a tool for knowing whether you are examining a short-tongued or long-tongued
 bee. But this is by no means essential for using the keys to the genera. Chapter 11 (Key to the ~
 Families of North and Central America), however, makes heavy use of mouthpart characters ~
-because these characters are defining features of the bee families. sl",NA,NA,NA,NA
+because these characters are defining features of the bee families. sl
+MESOSOMA (Figs. 11-18) ~",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,4,Text,"MESOSOMA (Figs. 11-18) ~
 The mesosoma is a compact structure consisting of sclerites of the pro-, meso- and ~
 metathoracic segments, which bear the legs and wings, and the first true abdominal segment, WJ
@@ -283,9 +282,7 @@ MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,7,Text,"~~ S7, S8 or the genital
 ~ and even the fourth sterna are also hidden and modified. On a
 freshly relaxed specimen it is usually possible to reach between the apical exposed tergum and
 ~ sternum and, with a hooked needle, pull out the genitalia and hidden sterna. In most cases such",NA,NA,NA,NA
-MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,8,Text,"~
--
-~~
+MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,8,Text,"~~
 dissection is not difficult, but in the Megachilidae the numerous hidden sterna are firmly
 connected to one another and to the terga laterally and are often delicate medially, so that ~
 successful dissection may be difficult. Beginners should start with other groups. Y
@@ -458,9 +455,9 @@ w distinguishing characters.
 Under “Revision(s)” we list reviews, keys, and so forth, as well as full revisions;
 
 ~ sometimes we give a reference to a relevant work even if it lacks keys to species. To avoid",NA,NA,NA,NA
-MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,11,Text,"id repetition, the major faunal work (Mitchell 1960, 1962), which includes keys to species as well
+MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,11,Text,"- repetition, the major faunal work (Mitchell 1960, 1962), which includes keys to species as well
 
-v as descriptions of the species found east of the Mississippi River (i.e., eastern USA and Canada),
+hs as descriptions of the species found east of the Mississippi River (i.e., eastern USA and Canada),
 is not cited under each genus; however, that work contains a “revision” of each genus for that
 
 ~ area. For many genera in the eastern USA, Discover Life (https://www.discoverlife.org) has",NA,NA,NA,NA
@@ -476,15 +473,15 @@ Y Synonymous names exist for many genera. We list those names that have been in 
 
 o use and that might cause confusion.
 
-- Family Andrenidae
+~ Family Andrenidae
 
-ka Glossa short to long, pointed, with or without flabellum. Labial palpus with segments usually
+ks Glossa short to long, pointed, with or without flabellum. Labial palpus with segments usually
 similar, but some species with elongate mouthparts may have greatly elongated labial and",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,11,Text,"~ maxillary palpi (for example, Andrena micheneriana LaBerge, Calliopsis zonalis Cresson), and
 
 ~ Perdita hurdi Timberlake). Mentum membranous or sclerotized; lorum scoop shaped, or Y
 
-oS shaped with arms not as slender as in long tongued bees; mentum and lorum forming a lobe that
+S shaped with arms not as slender as in long tongued bees; mentum and lorum forming a lobe that
 projects behind proboscis when proboscis is folded. Usually with paired subantennal sulci but",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,11,Text,~ single in males of some species of Protandrena and sometimes difficult to see in strongly,NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,12,Text,"sculptured species. Facial fovea present in Andreninae (females) and Panurginae (females and
@@ -658,14 +655,14 @@ w is inflated and protruding. Males exhibit enormous variation in head size, as 
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,15,Text,"wy single species (Pseudomacrotera turgiceps (Timberlake)) occurs in the deserts of the
 southwestern US (Arizona, California, Nevada and Utah, USA) and Baja California, Mexico.
 ~ Specimens have been collected on diverse plant families in southern California. This group was
-w originally included in Perdita but recent phylogenetic studies (Bossert et al. 2021) indicate that",NA,NA,NA,NA
+~ originally included in Perdita but recent phylogenetic studies (Bossert et al. 2021) indicate that",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,15,Text,"wo Pseudomacrotera is a distinct lineage. (couplet ##)
 “ Panurginae: Protandrenini
 12. Protandrena Cockerell: Small to medium (4-12 mm), andreniform, usually black but
 ~ sometimes red, metallic blue or mesosoma or metasoma maculate; males, and sometimes
 ~ females, usually with extensive facial maculae. Most with two submarginal cells but three in",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,15,Text,"w Protandrena s. str. Some males in subgenera Heterosarus and Prerosarus lack the usual andrenid
-i outer subantennal sulcus. Widespread in temperate areas, occurring from southern Canada to
+SC outer subantennal sulcus. Widespread in temperate areas, occurring from southern Canada to
 Panama, most abundant and diverse in arid regions of southwestern USA and northern Mexico,
 ~ but rare in humid tropics. As currently defined, Protandrena is a strictly North American group.",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,16,Text,"Currently absent from the Caribbean but represented by a Miocene fossil from the Dominican
@@ -792,7 +789,7 @@ subspecies A. mellifera scutellata has resulted in abundance of Apis mellifera i
 temperate regions (now cosmopolitan; originally palearctic, oriental, and African). Highly
 eusocial; nests in cavities in trees, in soil, in man-made hives, and so forth; occasionally combs ~",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,18,Text,"of cells hang in the open. (couplet 13) ~
-Apinae: Bombini e)",NA,NA,NA,NA
+Apinae: Bombini )",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,18,Text,"~~
 —",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,19,Text,"~ 17. Bombus Latreille: Moderate-sized to very large (queens), bombiform [Figs. 508 and 509];
@@ -1132,7 +1129,7 @@ MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,25,Text,"~ Eucerinae: Eucerini
 Ww The tribe Eucerini (“long-horned” bees) is a distinctive group. Males have elongate antennae
 (Fig. ##) and females have a characteristic w-shaped gradulus on S2 (Figs. 253, 254). Once you
 ~ become familiar with recognizing these features, it becomes easy to distinguish Eucerini from",NA,NA,NA,NA
-MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,25,Text,"w other large, hairy, apid bees. The taxonomy of this group has been a challenge, to put it mildly.
+MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,25,Text,"aa other large, hairy, apid bees. The taxonomy of this group has been a challenge, to put it mildly.
 ~ The generic and subgeneric boundaries are difficult to define and, while recent phylogenetic
 U studies have significantly improved our understanding of relationships (Dorchin et al. 2018a,b;
 / Freitas et al. 2020) and historical biogeography (Freitas et al. 2022), the morphological features",NA,NA,NA,NA
@@ -1143,7 +1140,7 @@ oe taxonomy changes. Our key (Chapter 9) is based on the key provided in Dorchin
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,25,Text,"~ Melissodes. Floral hosts unknown but compound eyes and ocelli enlarged suggesting matinal or
 ww crepuscular foraging. Rare; one species, A. callophila (Cockerell). Baja California and
 U California deserts. See LaBerge (1957). (couplet ## in the Key to Genera of Eucerini)
-~ [3 Eucera Scopoli: Small to large, anthophoriform or euceriform, hairy, fast-flying bees. North",NA,NA,NA,NA
+~ fs Eucera Scopoli: Small to large, anthophoriform or euceriform, hairy, fast-flying bees. North",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,25,Text,"ww ~American subgenera include Tetralonia (including Tetraloniella), Peponapis, Xenoglossa,
 oe Cemolobus, Syntrichalonia, Synhalonia, and Xenoglossodes (including Pectinapis). This is a
 mainly Holarctic group, ranging across our area from Canada to Central America, with few
@@ -1152,7 +1149,7 @@ MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,25,Text,"~ approximately 115 spe
 ¥ Cemolobus (oligolectic on Ipomoea), and Peponapis and Xenoglossa (oligolectic on Cucurbita).
 This is a challenging group and there is currently no key to the subgenera of North America.
 ~ (couplet ## in the Key to Genera of Eucerini)
-~ Revisions:
+= Revisions:
 w Loxoptilis (now part of Xenoglossodes): LaBerge, 1957",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,25,Text,"Pectinapis (now part of Xenoglossodes): LaBerge, 1989a
 ~ Peponapis: Hurd and Linsley (1964, US species; 1966, Mexican species; 1970).
@@ -1721,7 +1718,7 @@ to Arizona, Kansas, and North Carolina; absent in moist tropics except for Costa
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,36,Text,"al. 2021). These are large, fast-flying, crepuscular bees. Nests excavated in soil. Floral hosts ~
 poorly known but most seem to be polylectic.We recognize Caupolicana in the broader sense of )
 Michener (2007), which includes Zikanapis as a subgenus. Revision: Michener (1966). (couplet
-17) w
+17) ~
 101. Crawfordapis Moure: Similar to Ptiloglossa but not metallic. Rare. Two species are w",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,36,Text,"present at high altitudes from Panama to Mexico. Nests excavated in soil. (couplet 17) 7
 102. Priloglossa Smith: Large, robust, hairy, apiform or euceriform [Fig. 419], with bifid glossa; ~
@@ -2046,7 +2043,7 @@ sNbiSCaENaCosasacssueseenesorurncororcosnenensenenseeenenenessesunesnenensentscn
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,43,Text,"— Propodeum with lateral carina usually poorly developed, not reaching dorsal surface, but if
 ~ strong then without combination above, i.e. dorsal surface longer than scutellum or weakly
 ~ sculptured or if strongly sculptured then T1 with basal hair band or head short (length/width ratio
-Ww = 0.77-0.89); male gonostylus with retrorse lobe ........s cece eeeneteteteteteeeeeeeeeeeel, (Lasioglossum)",NA,NA,NA,NA
+os = 0.77-0.89); male gonostylus with retrorse lobe ........s cece eeeneteteteteteeeeeeeeeeeel, (Lasioglossum)",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,43,Text,"~ c(a). Head and mesosoma metallic (green, blue or golden), at least in part...
 ha — Head and mesosoma black-brown .........csesesesseseseeseseeeesseeeseseeaesesnesesesaesesesaeaeenssesneneaeeteacacereseevee E
 vw d(c). Head and mesosoma brilliant metallic (Caribbean); male inner metatibial spur typically",NA,NA,NA,NA
@@ -2069,7 +2066,7 @@ g(f). Female mandible strongly bidentate, subapical tooth nearly equal to apical
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,43,Text,"~ gonobase at middorsum less than one-fourth length of gonocoxite (Mesoamerica) ........cccsecceeees
 oad sesesevesesesesesesesesesessenenessuesesesececseneseueneseneneaeseseeeseaestenesneaeaeieseseneetetetssttsaeassseetesseee Le (Bickwortia 8.5.)
 WY — Female mandible with small preapical tooth dorsally; male gonobase at middorsum usually",NA,NA,NA,NA
-MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,43,Text,"U more than one-third length of ZOMOCOXItC........ceeeseseseseseeessenessenenestencatensaescsseatsresestsecsessseseessseseeel]
+MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,43,Text,"o more than one-third length of ZOMOCOXItC........ceeeseseseseseeessenessenenestencatensaescsseatsresestsecsessseseessseseeel]
 ~ h(g). Either propodeum with weak lateral carina and fully developed scopa or mesosoma
 - coarsely sculptured on pleuron and carina appearing to reach dorsal surface; male metasomal",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,43,Text,"- sterna with erect pubecence; male antennae relatively short; male heads sometimes enlarged with
@@ -2691,24 +2688,24 @@ MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,55,Text,"~ NOTES ON THE BIOLOGY,
 
 ™ ground-nesting, solitary, and with narrow host-plant preferences. They are most diverse in
 
-— Africa, where all three subfamilies occur. This family is absent from South America and
+ww Africa, where all three subfamilies occur. This family is absent from South America and",NA,NA,NA,NA
+MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,55,Text,"Uy Australia. Phylogeny of Melittidae was most recently analyzed by Michez et al. (2009) and we
+follow the classification used therein.
 
-Uy Australia. Phylogeny of Melittidae was most recently analyzed by Michez et al. (2009) and we
-follow the classification used therein.",NA,NA,NA,NA
-MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,55,Text,"~ Dasypodainae -- Hesperapini
+~ Dasypodainae -- Hesperapini
 
 ~ 171. Hesperapis Cockerell: Small to moderate-sized, andreniform, usually with tergal hair
 
-~ bands; metasoma, especially of female, dorso-ventrally flattened and integument soft, rarely red.
+~ bands; metasoma, especially of female, dorso-ventrally flattened and integument soft, rarely red.",NA,NA,NA,NA
+MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,55,Text,"~ Differs from superficially similar and more common genera, such as Andrena, Halictus,
 
-~ Differs from superficially similar and more common genera, such as Andrena, Halictus,",NA,NA,NA,NA
-MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,55,Text,"WY Lasioglossum, and Colletes by the presence of the tibial (rather than trochanteral/femoral) scopa.
+WY Lasioglossum, and Colletes by the presence of the tibial (rather than trochanteral/femoral) scopa.
 Not uncommon. Western and central USA, north to North Dakota (but absent from northeastern
 
-~ and northwestern states), east to Florida, south to Baja California, Morelos and Puebla. Nests
+~ and northwestern states), east to Florida, south to Baja California, Morelos and Puebla. Nests",NA,NA,NA,NA
+MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,55,Text,"~ with unlined cells excavated in sandy soils. The majority of species are host-plant specialists on
 
-~ with unlined cells excavated in sandy soils. The majority of species are host-plant specialists on",NA,NA,NA,NA
-MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,55,Text,"Y Asteraceae, Malvaceae, Fabaceae, Onagraceae, Boraginaceae and Zygophyllaceae (Stage 1966).
+— Asteraceae, Malvaceae, Fabaceae, Onagraceae, Boraginaceae and Zygophyllaceae (Stage 1966).
 
 SC Revision: Stage (1966); Snelling and Stage (1995a) for subgenus Xeralictoides. (couplet 194) ,",NA,NA,NA,NA
 MMD,2022,"Danforth, Bryan, et al.",MMDPublisher,56,Text,"Melittinae -- Macropidini ~
