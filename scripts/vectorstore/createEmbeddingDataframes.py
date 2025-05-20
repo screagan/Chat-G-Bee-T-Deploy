@@ -33,9 +33,8 @@ if __name__ == "__main__":
     hymenoptera_figs_df.to_csv("data/dataframesForEmbeddings/hymenoptera_figs.csv", index=False)
     print(list(hymenoptera_figs_df.columns))
 
-# Get text chunks and page numbers from BOTW, put them into DF ready to be embedded 
-# TODO: Get full main text only, right now you just have small sample pages instead of proper entirety of main text.
-    botw_extracted_main_text = extract_text_from_pdf(object_key='short_BOTW_Main_Text.pdf', bucket_name='ccber-tester-bucket', num_columns=2)
+# Get text chunks and page numbers from BOTW, put them into DF ready to be embedded
+    botw_extracted_main_text = extract_text_from_pdf(object_key='BOTW-Main-Text.pdf', bucket_name='ccber-tester-bucket', num_columns=2)
     botw_text_chunks_df = chunk_main_text_and_put_into_dataframe(extracted_texts=botw_extracted_main_text, source_title="Bees of the World", source_year='2007', source_author='Daniel C. Danforth', source_publisher='BOTWPublisher')
     botw_text_chunks_df.to_csv("data/dataframesForEmbeddings/short_test_botw_text_chunks.csv", index=False)
     print("Made text chunks for (shorter version of) BOTW")
