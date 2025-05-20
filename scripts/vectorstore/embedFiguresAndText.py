@@ -3,10 +3,11 @@ from qdrant_client.http import models as rest
 from tqdm.auto import tqdm
 import uuid
 import os
-from ..utils.client_provider import ClientProvider  
+from scripts.utils.client_provider import ClientProvider  
 
 COLLECTION_NAME = os.getenv("QDRANT_COLLECTION_NAME")           # Choose your collection name
-BATCH_SIZE = 10                                     # Batch size for uploads
+BATCH_SIZE = 100                                     # Batch size for uploads
+
 
 qdrant_client = ClientProvider.get_qdrant_client()
 embeddings = ClientProvider.get_embeddings()
@@ -74,7 +75,7 @@ def upload_to_qdrant(df):
                 "content_type": content_type,
                 "text_content": row['Text Content'] if pd.notna(row['Text Content']) else '',
                 # Store image-specific data when available
-                "figure_number": int(row['Figure Number']) if pd.notna(row['Figure Number']) else None,
+                "figure_number": row['Figure Number'] if pd.notna(row['Figure Number']) else None,
                 "image_key": row['Image Key'] if pd.notna(row['Image Key']) else '',
                 "image_url": row['Image URL'] if pd.notna(row['Image URL']) else '',
                 "image_description": row['Image Description'] if pd.notna(row['Image Description']) else ''
