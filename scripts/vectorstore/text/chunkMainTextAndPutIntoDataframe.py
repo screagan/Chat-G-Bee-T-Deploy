@@ -6,7 +6,7 @@ from langchain.text_splitter import RecursiveCharacterTextSplitter
 def chunk_main_text_and_put_into_dataframe(extracted_texts, source_title, source_year, source_author, source_publisher):
     # Initialize the text splitter
     custom_text_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=400,
+        chunk_size=800,
         chunk_overlap=30,
         length_function=len
     )
