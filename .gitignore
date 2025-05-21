@@ -1,1 +1,4 @@
 .env
+data/dataframesForEmbeddings/combined_data.csv
+data/dataframesForEmbeddings/discover_life_chunks.csv
+data/dataframesForEmbeddings/dori_bees_chunks.csv
