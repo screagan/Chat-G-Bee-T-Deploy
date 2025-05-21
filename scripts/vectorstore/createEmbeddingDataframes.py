@@ -6,6 +6,52 @@ from scripts.vectorstore.figures.BOTW.generateDescriptionsOfBOTWFigures import g
 from scripts.vectorstore.text.chunkBOTWKeysAndPutIntoDataframe import chunk_BOTW_keys_and_put_into_dataframe
 import pandas as pd
 
+#If you want to do testing and you already have the dataframes, you can make a sample below
+def create_sample_dataframes():
+    # Create individual sample dataframes
+    mmd_text_sample = mmd_text_chunks_df.head(5)
+    mmd_figs_sample = mmd_figs_df.head(5)
+    hymenoptera_text_sample = hymenoptera_text_chunks_df.head(5)
+    hymenoptera_figs_sample = hymenoptera_figs_df.head(5)
+    botw_text_sample = botw_text_chunks_df.head(5)
+    botw_keys_sample = botw_keys_chunks_df.head(5)
+    botw_figs_sample = botw_figs_df.head(5)
+    
+    # Save individual samples
+    mmd_text_sample.to_csv("data/sample_dataframes/mmd_text_chunks_sample.csv", index=False)
+    mmd_figs_sample.to_csv("data/sample_dataframes/mmd_figs_sample.csv", index=False)
+    hymenoptera_text_sample.to_csv("data/sample_dataframes/hymenoptera_text_chunks_sample.csv", index=False)
+    hymenoptera_figs_sample.to_csv("data/sample_dataframes/hymenoptera_figs_sample.csv", index=False)
+    botw_text_sample.to_csv("data/sample_dataframes/botw_text_chunks_sample.csv", index=False)
+    botw_keys_sample.to_csv("data/sample_dataframes/botw_keys_chunks_sample.csv", index=False)
+    botw_figs_sample.to_csv("data/sample_dataframes/botw_figs_sample.csv", index=False)
+    
+    
+    # Create a list of all sample dataframes
+    sample_dfs = [
+        mmd_text_sample,
+        mmd_figs_sample,
+        hymenoptera_text_sample,
+        hymenoptera_figs_sample,
+        botw_text_sample,
+        botw_keys_sample,
+        botw_figs_sample
+    ]
+    
+    # Check if all dataframes have the same columns
+    # If not, we'll need to use concat with ignore_index=True
+    # This will preserve all columns but may result in NaN values
+    combined_samples = pd.concat(sample_dfs, ignore_index=True)
+    
+    # Save the combined dataframe
+    combined_samples.to_csv("data/sample_dataframes/combined_samples.csv", index=False)
+    
+    print("Created individual sample dataframes and a combined sample dataframe")
+    print(f"Combined sample shape: {combined_samples.shape}")
+    
+    return combined_samples
+
+
 if __name__ == "__main__":
 
 # Get text chunks and page numbers from main text of MMD, put them into DF ready to be embedded
@@ -50,10 +96,23 @@ if __name__ == "__main__":
     botw_figs_df.to_csv("data/dataframesForEmbeddings/botw_figs.csv", index=False)
     print(list(botw_figs_df.columns))
 
+# To instead read in previously generated CSV files, comment out the section above and uncomment the following lines:
+    # mmd_text_chunks_df = pd.read_csv("data/dataframesForEmbeddings/mmd_text_chunks.csv")
+    # mmd_figs_df = pd.read_csv("data/dataframesForEmbeddings/mmd_figs.csv")
+    # hymenoptera_text_chunks_df = pd.read_csv("data/dataframesForEmbeddings/hymenoptera_text_chunks.csv")
+    # hymenoptera_figs_df = pd.read_csv("data/dataframesForEmbeddings/hymenoptera_figs.csv")
+    # botw_text_chunks_df = pd.read_csv("data/dataframesForEmbeddings/short_test_botw_text_chunks.csv")
+    # botw_keys_chunks_df = pd.read_csv("data/dataframesForEmbeddings/botw_keys_chunks.csv")
+    # botw_figs_df = pd.read_csv("data/dataframesForEmbeddings/botw_figs.csv")
+
+# To create a sample of the dataframes, uncomment the following line:
+    # create_sample_dataframes()
+
 # Combine all DataFrames into a single DataFrame
     combined_df = pd.concat([mmd_text_chunks_df, mmd_figs_df, hymenoptera_text_chunks_df, hymenoptera_figs_df, botw_text_chunks_df], ignore_index=True)
 
 # Save the combined DataFrame to a single CSV file
     combined_df.to_csv("data/dataframesForEmbeddings/combined_data.csv", index=False)
     print("Combined DataFrame saved to 'data/combined_data.csv'")
+
 
