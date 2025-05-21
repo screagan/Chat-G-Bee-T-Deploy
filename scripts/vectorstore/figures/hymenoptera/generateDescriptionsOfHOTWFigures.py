@@ -6,9 +6,6 @@ import os
 # This works well for figures which have a caption within view of the figure.
 
 def generate_descriptions_of_HOTW_figures():
-    import os
-    from dotenv import load_dotenv
-    load_dotenv()
 
     # Create OpenAI Client
     openai_client = ClientProvider.get_openai_client()
