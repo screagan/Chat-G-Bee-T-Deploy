@@ -1,6 +1,7 @@
 import streamlit as st
 from scripts.chatbot.generateResponse import generate_response
 from scripts.chatbot.retrieveRelevantData import retrieve_relevant_data
+from hymenoptera_glossary import GLOSSARY, extract_glossary_terms
 
 import streamlit as st
 
@@ -109,6 +110,14 @@ if user_input:
                         apa_citation += '.'
                     
                     st.markdown(apa_citation)
+            
+            # Display Hymenoptera glossary
+            matched_terms = extract_glossary_terms(full_response, GLOSSARY)
+            
+            if matched_terms:
+                with st.expander("Glossary of Terms"):
+                    for term in matched_terms:
+                        st.markdown(f"**{term.capitalize()}**: {GLOSSARY[term]}")
                 
             # Display images (after text)    
             if images:
