@@ -28,7 +28,7 @@ class ClientProvider:
             api_key = os.getenv("QDRANT_API_KEY")
             if not url or not api_key:
                 raise ValueError("QDRANT_URL or QDRANT_API_KEY environment variables not set")
-            cls._qdrant_client = QdrantClient(url=url, api_key=api_key)
+            cls._qdrant_client = QdrantClient(url=url, api_key=api_key, timeout=120,)
         return cls._qdrant_client
     
     @classmethod

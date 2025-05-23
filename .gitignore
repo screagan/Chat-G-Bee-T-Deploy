@@ -1,4 +1,6 @@
 .env
 data/dataframesForEmbeddings/combined_data.csv
+data/dataframesForEmbeddings/combined_data_without_txt_files.csv
+data/dataframesForEmbeddings/botw_text_chunks.csv
 data/dataframesForEmbeddings/discover_life_chunks.csv
 data/dataframesForEmbeddings/dori_bees_chunks.csv
