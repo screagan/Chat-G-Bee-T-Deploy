@@ -1,23 +1,27 @@
-import pandas as pd
-from qdrant_client.http import models as rest
-from tqdm.auto import tqdm
-import uuid
 import os
-from scripts.utils.client_provider import ClientProvider  
+import uuid
+import pandas as pd
+import numpy as np
+from tqdm import tqdm
+from qdrant_client import models as rest
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from scripts.utils.client_provider import ClientProvider
+import threading
 
-COLLECTION_NAME = os.getenv("QDRANT_COLLECTION_NAME")           # Choose your collection name
-BATCH_SIZE = 100                                     # Batch size for uploads
-
+COLLECTION_NAME = os.getenv("QDRANT_COLLECTION_NAME")
+BATCH_SIZE = 500  # Increased batch size
+MAX_WORKERS = 4   # For parallel embedding generation
 
 qdrant_client = ClientProvider.get_qdrant_client()
 embeddings = ClientProvider.get_embeddings()
 
 def create_collection_if_not_exists(collection_name, vector_size=1536):
     """Create collection if it doesn't exist"""
-    collections = qdrant_client.get_collections().collections
-    collection_names = [collection.name for collection in collections]
-    
-    if collection_name not in collection_names:
+    try:
+        collection_info = qdrant_client.get_collection(collection_name)
+        print(f"Collection '{collection_name}' already exists with {collection_info.vectors_count} points.")
+        return True
+    except Exception:
         print(f"Creating collection '{collection_name}'...")
         qdrant_client.create_collection(
             collection_name=collection_name,
@@ -27,92 +31,187 @@ def create_collection_if_not_exists(collection_name, vector_size=1536):
             )
         )
         print(f"Collection '{collection_name}' created successfully!")
-    else:
-        print(f"Collection '{collection_name}' already exists.")
+        return True
 
-def upload_to_qdrant(df):
-    """Upload data from dataframe to Qdrant"""
+def prepare_content_for_embedding(df):
+    """Pre-process and prepare content for embedding"""
+    content_list = []
+    valid_indices = []
     
-    # First create collection if needed
+    for idx, row in df.iterrows():
+        if pd.notna(row['Text Content']) and row['Text Content'].strip():
+            content_list.append(row['Text Content'].strip())
+            valid_indices.append((idx, 'text_chunk'))
+        elif pd.notna(row['Image Description']) and row['Image Description'].strip():
+            content_list.append(row['Image Description'].strip())
+            valid_indices.append((idx, 'image_description'))
+        else:
+            print(f"Warning: Row {idx} has no valid content to embed")
+    
+    return content_list, valid_indices
+
+def generate_embeddings_batch(content_list, batch_size=50):
+    """Generate embeddings in batches to optimize API calls"""
+    embeddings_list = []
+    
+    # If your embedding provider supports batch processing, use it
+    if hasattr(embeddings, 'embed_documents'):
+        # Use batch embedding if available
+        for i in tqdm(range(0, len(content_list), batch_size), desc="Generating embeddings"):
+            batch_content = content_list[i:i + batch_size]
+            batch_embeddings = embeddings.embed_documents(batch_content)
+            embeddings_list.extend(batch_embeddings)
+    else:
+        # Fallback to individual embeddings with threading
+        def embed_single(content):
+            return embeddings.embed_query(content)
+        
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+            future_to_content = {executor.submit(embed_single, content): i 
+                               for i, content in enumerate(content_list)}
+            
+            # Create list to maintain order
+            embeddings_list = [None] * len(content_list)
+            
+            for future in tqdm(as_completed(future_to_content), 
+                             total=len(content_list), desc="Generating embeddings"):
+                idx = future_to_content[future]
+                try:
+                    embeddings_list[idx] = future.result()
+                except Exception as exc:
+                    print(f'Embedding generation failed for content {idx}: {exc}')
+    
+    return embeddings_list
+
+def create_point_from_row(row, embedding_vector, content_type, point_id=None):
+    """Create a Qdrant point from dataframe row"""
+    if point_id is None:
+        point_id = str(uuid.uuid4())
+    
+    # Optimize payload - only include non-null/non-empty values
+    payload = {"content_type": content_type}
+    
+    # Add fields only if they have meaningful values
+    if pd.notna(row['Title']) and row['Title'].strip():
+        payload["title"] = row['Title'].strip()
+    if pd.notna(row['Year']) and row['Year'] != '':
+        payload["year"] = str(row['Year'])
+    if pd.notna(row['Author']) and row['Author'].strip():
+        payload["author"] = row['Author'].strip()
+    if pd.notna(row['Publisher']) and row['Publisher'].strip():
+        payload["publisher"] = row['Publisher'].strip()
+    if pd.notna(row['Page Number']):
+        try:
+            payload["page_number"] = int(float(row['Page Number']))
+        except (ValueError, TypeError):
+            pass
+    if pd.notna(row['Type']) and row['Type'].strip():
+        payload["type"] = row['Type'].strip()
+    
+    # Content-specific fields
+    if content_type == 'text_chunk' and pd.notna(row['Text Content']):
+        payload["text_content"] = row['Text Content'].strip()
+    elif content_type == 'image_description':
+        if pd.notna(row['Image Description']):
+            payload["image_description"] = row['Image Description'].strip()
+        if pd.notna(row['Figure Number']):
+            payload["figure_number"] = str(row['Figure Number'])
+        if pd.notna(row['Image Key']) and row['Image Key'].strip():
+            payload["image_key"] = row['Image Key'].strip()
+        if pd.notna(row['Image URL']) and row['Image URL'].strip():
+            payload["image_url"] = row['Image URL'].strip()
+    
+    return rest.PointStruct(
+        id=point_id,
+        vector=embedding_vector,
+        payload=payload
+    )
+
+def upload_to_qdrant_optimized(df):
+    """Optimized upload to Qdrant with batch embedding generation"""
+    
+    # Create collection if needed
     create_collection_if_not_exists(COLLECTION_NAME)
     
-    total_rows = len(df)
-    print(f"Processing {total_rows} records...")
+    print(f"Processing {len(df)} records...")
     
-    # Process in batches
-    for i in tqdm(range(0, total_rows, BATCH_SIZE)):
-        batch_df = df.iloc[i:i + BATCH_SIZE]
-        
-        # Prepare points for this batch
-        points = []
-        
-        for _, row in batch_df.iterrows():
-            # Determine the content to embed based on type
-            if pd.notna(row['Text Content']):
-                content_to_embed = row['Text Content']
-                content_type = 'text_chunk'
-            elif pd.notna(row['Image Description']):
-                content_to_embed = row['Image Description']
-                content_type = 'image_description'
-            else:
-                print(f"Warning: Row has no content to embed: {row}")
-                continue
-                
-            # Create embedding
-            embedding_vector = embeddings.embed_query(content_to_embed)
-            
-            # Create point ID
-            point_id = str(uuid.uuid4())
-            
-            # Create metadata payload
-            payload = {
-                "title": row['Title'] if pd.notna(row['Title']) else '',
-                "year": row['Year'] if pd.notna(row['Year']) else '',
-                "author": row['Author'] if pd.notna(row['Author']) else '',
-                "publisher": row['Publisher'] if pd.notna(row['Publisher']) else '',
-                "page_number": int(row['Page Number']) if pd.notna(row['Page Number']) else None,
-                "type": row['Type'] if pd.notna(row['Type']) else '',
-                "content_type": content_type,
-                "text_content": row['Text Content'] if pd.notna(row['Text Content']) else '',
-                # Store image-specific data when available
-                "figure_number": row['Figure Number'] if pd.notna(row['Figure Number']) else None,
-                "image_key": row['Image Key'] if pd.notna(row['Image Key']) else '',
-                "image_url": row['Image URL'] if pd.notna(row['Image URL']) else '',
-                "image_description": row['Image Description'] if pd.notna(row['Image Description']) else ''
-            }
-            
-            # Add point to batch
-            points.append(rest.PointStruct(
-                id=point_id,
-                vector=embedding_vector,
-                payload=payload
-            ))
-        
-        # Upload batch to Qdrant
-        if points:
-            qdrant_client.upsert(
-                collection_name=COLLECTION_NAME,
-                points=points
-            )
-            print(f"Batch of {len(points)} points uploaded successfully!")
-        else:
-            print("No valid points in this batch.")
+    # Step 1: Prepare content for embedding
+    content_list, valid_indices = prepare_content_for_embedding(df)
     
-    print(f"Upload complete! {total_rows} records processed.")
+    if not content_list:
+        print("No valid content found for embedding!")
+        return
+    
+    print(f"Found {len(content_list)} valid records for embedding...")
+    
+    # Step 2: Generate all embeddings at once (most efficient)
+    embeddings_list = generate_embeddings_batch(content_list)
+    
+    if len(embeddings_list) != len(valid_indices):
+        print("Error: Mismatch between embeddings and valid indices!")
+        return
+    
+    # Step 3: Upload to Qdrant in batches
+    total_points = 0
+    points_batch = []
+    
+    for i, (embedding_vector, (row_idx, content_type)) in enumerate(
+        tqdm(zip(embeddings_list, valid_indices), desc="Preparing points")
+    ):
+        row = df.iloc[row_idx]
+        point = create_point_from_row(row, embedding_vector, content_type)
+        points_batch.append(point)
+        
+        # Upload when batch is full or at the end
+        if len(points_batch) >= BATCH_SIZE or i == len(embeddings_list) - 1:
+            try:
+                qdrant_client.upsert(
+                    collection_name=COLLECTION_NAME,
+                    points=points_batch,
+                    wait=False  # Don't wait for indexing to complete
+                )
+                total_points += len(points_batch)
+                print(f"Uploaded batch of {len(points_batch)} points. Total: {total_points}")
+                points_batch = []
+            except Exception as e:
+                print(f"Error uploading batch: {e}")
+                # You might want to retry logic here
+    
+    print(f"Upload complete! {total_points} points uploaded successfully.")
 
 def verify_upload():
     """Verify the upload by counting points in collection"""
-    collection_info = qdrant_client.get_collection(COLLECTION_NAME)
-    print(f"Collection '{COLLECTION_NAME}' contains {collection_info.vectors_count} points.")
+    try:
+        collection_info = qdrant_client.get_collection(COLLECTION_NAME)
+        print(f"Collection '{COLLECTION_NAME}' contains {collection_info.vectors_count} points.")
+        
+        # Sample a few points to verify structure
+        search_result = qdrant_client.scroll(
+            collection_name=COLLECTION_NAME,
+            limit=3,
+            with_payload=True,
+            with_vectors=False
+        )
+        
+        print("Sample points:")
+        for point in search_result[0]:
+            print(f"ID: {point.id}")
+            print(f"Payload keys: {list(point.payload.keys())}")
+            print("---")
+            
+    except Exception as e:
+        print(f"Error during verification: {e}")
 
 # Main execution
 if __name__ == "__main__":
-    # Load dataframe with all of our embedding data
-    df = pd.read_csv('data/dataframesForEmbeddings/combined_data.csv')  
+    # Load dataframe
+    df = pd.read_csv('data/dataframesForEmbeddings/combined_data.csv')
     
-    # Upload data to Qdrant
-    upload_to_qdrant(df)
+    # Clean dataframe - remove completely empty rows
+    df = df.dropna(how='all')
+    
+    # Upload data to Qdrant using optimized method
+    upload_to_qdrant_optimized(df)
     
     # Verify the upload
     verify_upload()
-    
