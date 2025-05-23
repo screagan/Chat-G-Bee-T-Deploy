@@ -1,7 +1,7 @@
 import streamlit as st
 from scripts.chatbot.generateResponse import generate_response
 from scripts.chatbot.retrieveRelevantData import retrieve_relevant_data
-from hymenoptera_glossary import GLOSSARY, extract_glossary_terms
+from scripts.chatbot.hymenoptera_glossary import GLOSSARY, extract_glossary_terms
 
 import streamlit as st
 

@@ -52,7 +52,7 @@ def extract_terms_and_definitions(text):
     return glossary
 
     
-with open("/Users/caseylinden/Documents/GitHub/capstone-ccber/data/texts/hymenoptera_of_the_world_keywords.txt", "r", encoding="utf-8") as f:
+with open("data/texts/hymenoptera_of_the_world_keywords.txt", "r", encoding="utf-8") as f:
     full_text = f.read()
 
 
@@ -73,3 +73,5 @@ GLOSSARY['malar space'] = fixed_2.strip()
 # 3. Add the new correct key
 GLOSSARY['met-, meta-'] = "A Greek prefix meaning hind or posterior; used with Latin, latinized, or Greek words to indicate the posterior (usually third) part of a structure."
 GLOSSARY['mes- meso-'] = "A Greek prefix meaning middle or mid; used with Latin, latinized, or Greek words to indicate the middle (often second) part of a structure."
+
+print(len(GLOSSARY))
