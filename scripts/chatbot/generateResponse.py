@@ -53,6 +53,11 @@ def generate_response(query, retrieval_results, history):
             # Only include the text content, not image references
             conversation_context += f"{role}: {msg['content']}\n"
 
+    # Check if there are no relevant contexts
+    if not contexts:
+        fallback_response = "I'm sorry, but I couldn't find any relevant information to answer your question. Please provide more details or consult a specialist for further assistance."
+        return images_to_render, fallback_response
+
     # Construct OpenAI Prompt
     prompt = f"""
     You are a scientific assistant helping to answer questions about bees using retrieved figure descriptions and text.
@@ -70,6 +75,10 @@ def generate_response(query, retrieval_results, history):
     - Consider the previous conversation for context when crafting your response.
     - Maintain a coherent conversation flow by referring to previously discussed topics if relevant.
     - If specific figures are mentioned in the text, reference them properly.
+    - If the question is not answerable with the provided information, politely inform the user.
+    - If the question is outside your expertise, suggest consulting a specialist or provide a general answer.
+    - If the question is too vague, ask for clarification.
+    - If there are no sources available, inform the user that you cannot provide an answer.
     """
 
     client = ClientProvider.get_openai_client()

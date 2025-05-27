@@ -11,6 +11,9 @@ if 'messages' not in st.session_state:
 
 # Display existing chat messages
 st.title("ChatG🐝T: Your Bee Knowledge Assistant")
+with st.sidebar:
+    st.subheader("Disclaimer")
+    st.write("Ask me anything about bees! I'm here to help you with your questions and provide information about bees, their taxonomy, and related topics. I am specifically trained on the taxonomy of bees, this includes sources of literature, tabulated data, and images, but my knowledge is limited to the data I was trained on. If you have a specific question, feel free to ask, and I'll do my best to assist you!")
 
 # Display chat history
 for message in st.session_state.messages:
@@ -43,6 +46,10 @@ def answer_user_question(input_text, history):
             "score": result.score
         }
         sources_info.append(source_info)
+            # If no relevant sources are found, pass an empty list to generate_response
+    if not retrieval_results:
+        fallback_message = "I'm sorry, but I couldn't find any relevant information to answer your question."
+        return [], [{"choices": [{"delta": {"content": fallback_message}}]}], []
     
     # Generate answer considering history
     images, stream = generate_response(input_text, retrieval_results, formatted_history)
@@ -72,9 +79,22 @@ if user_input:
             full_response = ""
             
             for chunk in answer_stream:
-                if chunk.choices and chunk.choices[0].delta and chunk.choices[0].delta.content:
+                # Safely check if chunk.choices, chunk.choices[0], and chunk.choices[0].delta.content exist
+                if (
+                    hasattr(chunk, "choices") and chunk.choices and
+                    hasattr(chunk.choices[0], "delta") and chunk.choices[0].delta and
+                    hasattr(chunk.choices[0].delta, "content") and chunk.choices[0].delta.content
+                ):
                     full_response += chunk.choices[0].delta.content
                     response_placeholder.markdown(full_response)
+                else:
+                 # Skip incomplete chunks
+                 continue
+
+            # If no response was generated, provide a fallback message
+            if not full_response.strip():
+                full_response = "I'm sorry, but I couldn't find any relevant information to answer your question. I am trained on the taxonomy of bees, but I may not have access to the latest research or specific details about certain species, or your question might be out of the scope of my training."
+                response_placeholder.markdown(full_response)
             
             # Display sources information in an expander
             with st.expander("Sources of Information"):
@@ -117,7 +137,7 @@ if user_input:
             if matched_terms:
                 with st.expander("Glossary of Terms"):
                     for term in matched_terms:
-                        st.markdown(f"**{term.capitalize()}**: {GLOSSARY[term]}")
+                       st.markdown(f"**{term.capitalize()}**: {GLOSSARY[term]}")
                 
             # Display images (after text)    
             if images:
