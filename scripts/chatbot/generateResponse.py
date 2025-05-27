@@ -53,11 +53,6 @@ def generate_response(query, retrieval_results, history):
             # Only include the text content, not image references
             conversation_context += f"{role}: {msg['content']}\n"
 
-    # Check if there are no relevant contexts
-    if not contexts:
-        fallback_response = "I'm sorry, but I couldn't find any relevant information to answer your question. Please provide more details or consult a specialist for further assistance."
-        return images_to_render, fallback_response
-
     # Construct OpenAI Prompt
     prompt = f"""
     You are a scientific assistant helping to answer questions about bees using retrieved figure descriptions and text.

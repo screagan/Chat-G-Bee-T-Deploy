@@ -1,7 +1,7 @@
 import streamlit as st
 from scripts.chatbot.generateResponse import generate_response
 from scripts.chatbot.retrieveRelevantData import retrieve_relevant_data
-from scripts.chatbot.hymenoptera_glossary import GLOSSARY, extract_glossary_terms
+# from scripts.chatbot.hymenoptera_glossary import GLOSSARY, extract_glossary_terms
 
 import streamlit as st
 
@@ -48,8 +48,8 @@ def answer_user_question(input_text, history):
         sources_info.append(source_info)
             # If no relevant sources are found, pass an empty list to generate_response
     if not retrieval_results:
-        fallback_message = "I'm sorry, but I couldn't find any relevant information to answer your question."
-        return [], [{"choices": [{"delta": {"content": fallback_message}}]}], []
+        no_relevant_context = "I'm sorry, but I couldn't find any relevant information to answer your question."
+        return [], [{"choices": [{"delta": {"content": no_relevant_context}}]}], []
     
     # Generate answer considering history
     images, stream = generate_response(input_text, retrieval_results, formatted_history)
@@ -132,12 +132,12 @@ if user_input:
                     st.markdown(apa_citation)
             
             # Display Hymenoptera glossary
-            matched_terms = extract_glossary_terms(full_response, GLOSSARY)
+            # matched_terms = extract_glossary_terms(full_response, GLOSSARY)
             
-            if matched_terms:
-                with st.expander("Glossary of Terms"):
-                    for term in matched_terms:
-                       st.markdown(f"**{term.capitalize()}**: {GLOSSARY[term]}")
+            # if matched_terms:
+            #    with st.expander("Glossary of Terms"):
+            #        for term in matched_terms:
+            #           st.markdown(f"**{term.capitalize()}**: {GLOSSARY[term]}")
                 
             # Display images (after text)    
             if images:
