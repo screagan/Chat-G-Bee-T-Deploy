@@ -13,10 +13,13 @@ def retrieve_relevant_data(query):
     search_results = qdrant_client.search(
         collection_name=COLLECTION_NAME,
         query_vector=test_embedding,
-        limit=5
+        limit=10
     )
+
+    # Filter results with a similarity score below 0.8
+    filtered_results = [result for result in search_results if result.score >= 0.8]
     
-    for i, result in enumerate(search_results):
+    for i, result in enumerate(filtered_results):
         print(f"Result {i+1}:")
         content_type = result.payload.get("content_type")
         print(f"- Author: {result.payload.get('author')[:100]}...")
@@ -28,4 +31,4 @@ def retrieve_relevant_data(query):
         print(f"- Similarity score: {result.score}")
         print()
 
-    return search_results
+    return filtered_results

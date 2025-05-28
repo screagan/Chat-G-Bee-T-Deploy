@@ -70,6 +70,10 @@ def generate_response(query, retrieval_results, history):
     - Consider the previous conversation for context when crafting your response.
     - Maintain a coherent conversation flow by referring to previously discussed topics if relevant.
     - If specific figures are mentioned in the text, reference them properly.
+    - If the question is not answerable with the provided information, politely inform the user.
+    - If the question is outside your expertise, suggest consulting a specialist or provide a general answer.
+    - If the question is too vague, ask for clarification.
+    - If there are no sources available, inform the user that you cannot provide an answer.
     """
 
     client = ClientProvider.get_openai_client()
