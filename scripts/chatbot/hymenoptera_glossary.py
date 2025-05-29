@@ -58,20 +58,4 @@ with open("data/texts/hymenoptera_of_the_world_keywords.txt", "r", encoding="utf
 
 GLOSSARY = extract_terms_and_definitions(full_text)
 
-# Need to fix one keyword
-# 1. Extract and fix the original value
-original_1 = GLOSSARY['mesotrochantinal plate']
-fixed_1, new_def_1 = original_1.split("met-, meta-", 1)
-
-original_2 = GLOSSARY['malar space']
-fixed_2, new_def_2 = original_2.split("mes-, meso-", 1)
-
-# 2. Update the existing definition
-GLOSSARY['mesotrochantinal plate'] = fixed_1.strip()
-GLOSSARY['malar space'] = fixed_2.strip()
-
-# 3. Add the new correct key
-GLOSSARY['met-, meta-'] = "A Greek prefix meaning hind or posterior; used with Latin, latinized, or Greek words to indicate the posterior (usually third) part of a structure."
-GLOSSARY['mes- meso-'] = "A Greek prefix meaning middle or mid; used with Latin, latinized, or Greek words to indicate the middle (often second) part of a structure."
-
 print(len(GLOSSARY))

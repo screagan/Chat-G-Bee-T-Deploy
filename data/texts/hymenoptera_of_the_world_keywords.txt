@@ -261,7 +261,7 @@ maxilla, articulated to the stipes.
 malar space The shortest distance between the
 base of the mandible and the margin of the
 compound eye.
-mes-, meso- A Greek prefix meaning middle or
+meso- A Greek prefix meaning middle or
 mid; used with Latin, latinized, or Greek words
 to indicate the middle (often second) part of a
 structure.
@@ -277,6 +277,122 @@ mesepisternum The anterior subdivision of the
 mesopleuron, usually comprising most of the
 mesopleuron.
 mesonotum The dorsal part of the mesothorax.
+mesopleuron The lateral and ventral part of the
+mesothorax (see also mesosternum).
+mesoscutallobe See mesoscutum.
+mesoscutellar appendage In Symphyta, the
+posterior subdivision of the mesoscutellum,
+usually crescent-shaped and overhanging the
+postnotum of the mesothorax.
+mesoscutum The mesonotum excluding the
+scutellum; in groups with a transscutal
+articulation, the portion of the mesonotum
+anterior to the articulation; the mesoscutum is
+usually divided by the notauli into a medial part
+and two lateral lobes (see also scutum).
+mesosoma (pl., mesosomata; adj., mesosomal) In
+Apocrita, the thorax plus the propodeum
+(cf. thorax).
+mesosternum The sternum of the mesothorax,
+usually invaginated and not visible, but
+sometimes inappropriately used as a general
+term for the ventral surface of the mesothorax,
+such as when it is modified into a flattened
+plate with posteriorly projecting lobes (see also
+mesopleuron).
+mesothorax The second and largest of the three
+primary subdivisions of the thorax, bearing the
+middle pair of legs and, when present, the fore
+wings.
+mesotrochantinal plate The ventral part of the
+mesothorax inflected towards the metasternum
+beneath the base of the mesocoxae; visible only
+by removing the mesocoxae.
+meta- A Greek prefix meaning hind or
+posterior; used with Latin, latinized, or Greek
+words to indicate the posterior (usually third)
+part of a structure.
+metanotum The dorsal part of the metathorax.
+metapleuron The lateral and ventral part of the
+metathorax.
+metascutellum In Symphyta, the middle region of
+the metanotum.
+metasoma (pl., metasomata; adj., metasomal) In
+Apocrita, the apparent abdomen, consisting of
+the abdomen excluding the first segment or
+propodeum. In this publication the first
+metasomal segment which is often shortened,
+and narrowed, and not clearly visible, is
+numbered 1 (cf. abdomen).
+metasternum The sternum of the metathorax,
+usually invaginated and not visible but
+sometimes used as a general term for the
+ventral surface of the metathorax.
+metathorax The third of the three primary
+subdivisions of the thorax, bearing the hind pair
+of legs and, when present, the hind wings.
+metepimeron The posterior subdivision of the
+metapleuron.
+metepisternum The anterior subdivision of the
+metapleuron.
+mouthparts The appendages of the head used for
+feeding, including the labrum, hypopharynx,
+mandibles, maxillae, and labium.
+nebulous vein A wing vein that is uniformly
+pigmented (not darker on its margins), without
+a tubular structure; it can be seen with both
+reflected and transmitted light (cf. spectral,
+tubular veins).
+notaulus (pI., notauli) The usually oblique,
+longitudinal groove on the mesoscutum, often
+dividing the mesoscutum into medial and
+lateral parts.
+notopleural suture A groove separating the
+mesonotum from the mesopleuron.
+notum (pI., nota; adj., notal) A thoracic tergum,
+usually subdivided into a scutum and a
+scutellum.
+oblique scutal carina In Spheciformes, the ridge
+on the mesoscutum extending obliquely
+posteriorly and medially from the lateral
+margin near the posterior of the tegula.
+ocellus (pI., ocelli; adj., ocellar) A simple eye,
+consisting of a single, usually round or oval
+facet. Hymenoptera usually have three ocelli:
+one median (anterior) and two lateral
+(posterior) .
+occipital carina A ridge on the posterior surface
+of the head that separates the occiput from the
+vertex and gena; the ventral part of the ridge is
+sometimes called the genal carina.
+occiput (adj., occipital) The posterior part of the
+head behind the vertex dorsally and the genae
+laterally. If an occipital carina is present, the
+occiput is the area between it and the very
+narrow postocciput surrounding the foramen
+magnum (see also postgena).
+oral cavity The opening of the head from which
+the mouthparts are suspended.
+orbit The narrow border around the eye. The
+inner and outer orbits are those parts of the
+face plus the frons and the gena, respectively,
+immediately next to the eye.
+ovipositor In females, a slender, paired and
+interlocking, saw-like or tubular structure used
+for laying the eggs or, in Aculeata, for stinging
+or, in some Ichneumonoidea, for both; it may
+be concealed or may extend beyond the apex of
+the body and is protected by a pair of
+ovipositor sheaths.
+ovipositor sheath A paired, sclerotized structure
+enclosing the external part of the ovipositor.
+palpus (pI., palpi; adj., palpal) Paired sensory
+appendages of the maxilla and labium,
+consisting of one to six segments and one to
+four segments, respectively.
+paraglossa (pI., paraglossae) A paired, lateral
+lobe of the labium articulated basally with the
+prementum lateral to the base of the glossa.
 pedicel The second primary division or segment of
 the antenna; it articulates apically with the
 flagellum and basally with the scape.
