@@ -57,5 +57,3 @@ with open("data/texts/hymenoptera_of_the_world_keywords.txt", "r", encoding="utf
 
 
 GLOSSARY = extract_terms_and_definitions(full_text)
-
-print(len(GLOSSARY))
